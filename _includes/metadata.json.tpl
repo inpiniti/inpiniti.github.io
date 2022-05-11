@@ -22,7 +22,8 @@
             },
             "search": {},
             "sharing": {
-                "all": ["facebook", "google", "twitter", "weibo", "instapaper"],
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "react"],
+                "react": true,
                 "facebook": true,
                 "google": false,
                 "instapaper": false,
