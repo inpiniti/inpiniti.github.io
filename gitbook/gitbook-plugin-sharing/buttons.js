@@ -1,6 +1,6 @@
 require(['gitbook', 'jquery'], function(gitbook, $) {
     var SITES = {
-        'facebook': {
+        'react': {
             'label': 'React',
             'icon': 'fa-brands fa-react',
             'onClick': function(e) {
