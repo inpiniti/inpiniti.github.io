@@ -1,11 +1,11 @@
 require(['gitbook', 'jquery'], function(gitbook, $) {
     var SITES = {
-        'react': {
-            'label': 'React',
-            'icon': 'fa-brands fa-react',
+        'facebook': {
+            'label': 'Facebook',
+            'icon': 'fa fa-facebook',
             'onClick': function(e) {
                 e.preventDefault();
-                window.open('https://inpiniti.github.io/react/');
+                window.open('http://www.facebook.com/sharer/sharer.php?s=100&p[url]='+encodeURIComponent(location.href));
             }
         },
         'twitter': {

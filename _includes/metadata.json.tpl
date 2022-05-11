@@ -22,8 +22,7 @@
             },
             "search": {},
             "sharing": {
-                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "react"],
-                "react": true,
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper"],
                 "facebook": true,
                 "google": false,
                 "instapaper": false,
