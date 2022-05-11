@@ -7,10 +7,10 @@ description: >
   Build Jekyll site with the GitBook style.
 
 version:          1.0
-gitbook_version:  3.2.3
+gitbook_version:  1.0.0
 
 url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+baseurl:          ''
 rss:              RSS
 
 toc:
