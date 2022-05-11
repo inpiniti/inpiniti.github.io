@@ -10,7 +10,7 @@ version:          1.0
 gitbook_version:  1.0.0
 
 url:              'https://sighingnow.github.io'
-baseurl:          ''
+baseurl:          '/'
 rss:              RSS
 
 toc:
