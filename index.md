@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-index
+
 Make Jelly site have a GitBook look!
 
 ## Demo
@@ -102,6 +102,8 @@ You can add extra CSS or JavaScript references using configuration collections:
 This work is open sourced under the Apache License, Version 2.0.
 
 Copyright 2019 Tao He.
+
+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
 
 [1]: https://pages.github.com
 [2]: https://pages.github.com/themes
