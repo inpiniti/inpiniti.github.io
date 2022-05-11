@@ -1,6 +1,4 @@
----
-layout: home
----
+# Jekyll GitBook
 
 Make Jelly site have a GitBook look!
 
@@ -111,3 +109,4 @@ Copyright 2019 Tao He.
 [6]: https://github.com/rouge-ruby/rouge/tree/master/lib/rouge/themes
 [7]: https://analytics.google.com/analytics/web/
 [8]: https://www.cnzz.com/
+[9]: https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview
