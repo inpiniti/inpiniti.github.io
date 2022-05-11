@@ -1,4 +1,4 @@
-# Jekyll GitBook
+# Inpiniti
 
 Make Jelly site have a GitBook look!
 
