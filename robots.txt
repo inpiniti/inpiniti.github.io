@@ -2,3 +2,7 @@ User-agent: *
 Allow: /
 
 Sitemap: https://inpiniti.github.io/sitemap.xml
+Sitemap: https://inpiniti.github.io/jset/sitemap.xml
+Sitemap: https://inpiniti.github.io/nx/sitemap.xml
+Sitemap: https://inpiniti.github.io/storybook/sitemap.xml
+Sitemap: https://inpiniti.github.io/react/sitemap.xml
