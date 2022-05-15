@@ -10,7 +10,7 @@ layout: home
 
 ![email](https://img.shields.io/badge/email-younginpiti@gmail.com-blue.svg)
 
-[![site](https://img.shields.io/badge/site-inpiti-red.svg)](http://20.212.153.248)
+[![site](https://img.shields.io/badge/site-inpiti-red.svg)](http://20.212.153.248){:target="_blank"}
 
 [![portainer](https://img.shields.io/badge/site-portainer-red.svg)](http://20.212.153.248:9000/#/auth)
 
