@@ -2,7 +2,7 @@
 layout: home
 ---
 
-![writer](https://img.shields.io/badge/writer-jung_young_kyun-blue.svg)
+![writer](https://img.shields.io/badge/writer-inpiniti-blue.svg)
 
 ![blog_creation](https://img.shields.io/badge/blog_creation-2022_05_11-blue.svg)
 
