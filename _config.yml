@@ -5,6 +5,7 @@ author:           JUNG YoungKyun
 email:            younginpiniti@gmail.com
 description: >
   Build Jekyll site with the GitBook style.
+future: true
 
 version:          1.0
 gitbook_version:  1.0.0
