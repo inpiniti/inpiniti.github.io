@@ -12,6 +12,12 @@ layout: post
 
 그 경험을 공유하고자 합니다.
 
+굳이 글로 남기고자 함은 순탄적으로 진행이 된 것이 아니었기에 메모를 하는 것도 있습니다. 
+
+가장 큰 문제는 sitemap 등록이 잘 되지 않았습니다.
+
+당연히 구글에서 검색을 해봐도 조회가 되지 않았습니다. 
+
 # 사이트맵을 읽을 수 없음
 
 <img src="../images/google%20서치어드바이저%20사이트%20맵%20추가.png" alt="사이트 맵 추가" style="border-radius: 10px; border: 1px solid #eaeaea;"/>
