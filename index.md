@@ -27,40 +27,52 @@ layout: home
                         Create a wallet and stake Luna for rewards.
                     </p>
                 </div>
-                <a class="sd-stretched-link reference external" href="terra-station/README.html"></a></div>
+                <a class="sd-stretched-link reference external" href="terra-station/README.html"></a>
             </div>
-            <div class="sd-col sd-d-flex-row docutils">
-                <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
-                    <div class="sd-card-body docutils">
-                        <img alt="../../_images/icon_luna.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/icon_luna.svg">
-                        <p class="sd-card-text">
-                            <strong>What is Luna?</strong><br>
-                            Learn about Luna.
-                        </p>
-                    </div>
-                <a class="sd-stretched-link reference external" href="protocol.html"></a></div>
+        </div>
+        <div class="sd-col sd-d-flex-row docutils">
+            <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
+                <div class="sd-card-body docutils">
+                    <img alt="../../_images/icon_luna.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/icon_luna.svg">
+                    <p class="sd-card-text">
+                        <strong>What is Luna?</strong><br>
+                        Learn about Luna.
+                    </p>
+                </div>
+            <a class="sd-stretched-link reference external" href="protocol.html"></a></div>
+        </div>
+        <div class="sd-col sd-d-flex-row docutils">
+            <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
+                <div class="sd-card-body docutils">
+                    <img alt="../../_images/Staking.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/Staking.svg">
+                    <p class="sd-card-text">
+                        <strong>Validators and Staking</strong><br>
+                        Find out about validators, consensus, staking, and rewards.
+                    </p>
+                </div>
+                <a class="sd-stretched-link reference external" href="protocol.html#validators"></a>
             </div>
-                <div class="sd-col sd-d-flex-row docutils">
-                <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
+        </div>
+        <div class="sd-col sd-d-flex-row docutils">
+            <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
                 <div class="sd-card-body docutils">
-                <img alt="../../_images/Staking.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/Staking.svg"><p class="sd-card-text"><strong>Validators and Staking</strong><br>
-                Find out about validators, consensus, staking, and rewards.</p>
+                    <img alt="../../_images/Fees.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/Fees.svg">
+                    <p class="sd-card-text">
+                        <strong>How fees work</strong><br>
+                        Learn how fees become staking rewards.
+                    </p>
                 </div>
-                <a class="sd-stretched-link reference external" href="protocol.html#validators"></a></div>
-                </div>
-                <div class="sd-col sd-d-flex-row docutils">
-                <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
+                <a class="sd-stretched-link reference external" href="fees.html"></a>
+            </div>
+        </div>
+        <div class="sd-col sd-d-flex-row docutils">
+            <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
                 <div class="sd-card-body docutils">
-                <img alt="../../_images/Fees.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/Fees.svg"><p class="sd-card-text"><strong>How fees work</strong><br>
-                Learn how fees become staking rewards.</p>
-                </div>
-                <a class="sd-stretched-link reference external" href="fees.html"></a></div>
-                </div>
-                <div class="sd-col sd-d-flex-row docutils">
-                <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
-                <div class="sd-card-body docutils">
-                <img alt="../../_images/Glossary.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/Glossary.svg"><p class="sd-card-text"><strong>Glossary</strong><br>
-                Look up terms specific to Terra.</p>
+                    <img alt="../../_images/Glossary.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/Glossary.svg">
+                    <p class="sd-card-text">
+                        <strong>Glossary</strong><br>
+                        Look up terms specific to Terra.
+                    </p>
                 </div>
                 <a class="sd-stretched-link reference external" href="glossary.html"></a>
             </div>
