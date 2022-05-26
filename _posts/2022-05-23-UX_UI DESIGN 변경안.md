@@ -26,6 +26,10 @@ layout: post
 
 Azure 와 비교시 미세한 차이점은 있을지언정 어느게 훨씬 디자인이 잘되어 있다 라고 판단하기에도 어렵지 않나라고 생각이 듭니다.
 
+<img src="../images/ux 과거.png" alt="과거" style="border-radius: 10px; border: 1px solid #eaeaea;"/>
+
+솔직히 위 그림 정도의 디자인이었다면 옛날스럽다고 생각되었을 것 같긴합니다.
+
 # 리소스
 
 일단 전체적인 느낌은 넘어가기로 하고 다른 부분도 살펴보겠습니다.
