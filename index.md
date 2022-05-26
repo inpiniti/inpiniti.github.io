@@ -4,77 +4,77 @@ layout: home
 
 ![blog_creation](https://img.shields.io/badge/blog_creation-2022_05_11-blue.svg)
 
-<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
-    <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-3 sd-g-3 sd-g-xs-3 sd-g-sm-3 sd-g-md-3 sd-g-lg-3 docutils">
-        <div class="sd-col sd-d-flex-row docutils">
-            <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
-                <div class="sd-card-body docutils">
-                    <img alt="../../_images/icon_terra.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/icon_terra.svg">
+<div class="sd-container-fluid ">
+    <div class="docutils">
+        <div class="docutil">
+            <div class="sd-card">
+                <div class="sd-card-body">
+                    <img alt="../../_images/icon_terra.svg" class="sd-width-auto" src="../../_images/icon_terra.svg">
                     <p class="sd-card-text">
                         <strong>What is Terra?</strong><br>
                         Learn how Terra works.
                     </p>
                 </div>
-                <a class="sd-stretched-link reference external" href="protocol.html"></a>
+                <a class="sd-stretched-link" href="protocol.html"></a>
             </div>
         </div>
-        <div class="sd-col sd-d-flex-row docutils">
-            <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
-                <div class="sd-card-body docutils">
+        <div class="docutil">
+            <div class="sd-card">
+                <div class="sd-card-body">
                     <img alt="../../_images/wallets_station.png" class="sd-width-auto sd-pb-2 sd-animate-grow50-rot20" src="../../_images/wallets_station.png">
                     <p class="sd-card-text">
                         <strong>Get started with Station</strong><br>
                         Create a wallet and stake Luna for rewards.
                     </p>
                 </div>
-                <a class="sd-stretched-link reference external" href="terra-station/README.html"></a>
+                <a class="sd-stretched-link" href="terra-station/README.html"></a>
             </div>
         </div>
-        <div class="sd-col sd-d-flex-row docutils">
-            <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
-                <div class="sd-card-body docutils">
-                    <img alt="../../_images/icon_luna.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/icon_luna.svg">
+        <div class="docutil">
+            <div class="sd-card">
+                <div class="sd-card-body">
+                    <img alt="../../_images/icon_luna.svg" class="sd-width-auto" src="../../_images/icon_luna.svg">
                     <p class="sd-card-text">
                         <strong>What is Luna?</strong><br>
                         Learn about Luna.
                     </p>
                 </div>
-            <a class="sd-stretched-link reference external" href="protocol.html"></a></div>
+            <a class="sd-stretched-link" href="protocol.html"></a></div>
         </div>
-        <div class="sd-col sd-d-flex-row docutils">
-            <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
-                <div class="sd-card-body docutils">
-                    <img alt="../../_images/Staking.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/Staking.svg">
+        <div class="docutil">
+            <div class="sd-card">
+                <div class="sd-card-body">
+                    <img alt="../../_images/Staking.svg" class="sd-width-auto" src="../../_images/Staking.svg">
                     <p class="sd-card-text">
                         <strong>Validators and Staking</strong><br>
                         Find out about validators, consensus, staking, and rewards.
                     </p>
                 </div>
-                <a class="sd-stretched-link reference external" href="protocol.html#validators"></a>
+                <a class="sd-stretched-link" href="protocol.html#validators"></a>
             </div>
         </div>
-        <div class="sd-col sd-d-flex-row docutils">
-            <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
-                <div class="sd-card-body docutils">
-                    <img alt="../../_images/Fees.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/Fees.svg">
+        <div class="docutil">
+            <div class="sd-card">
+                <div class="sd-card-body">
+                    <img alt="../../_images/Fees.svg" class="sd-width-auto" src="../../_images/Fees.svg">
                     <p class="sd-card-text">
                         <strong>How fees work</strong><br>
                         Learn how fees become staking rewards.
                     </p>
                 </div>
-                <a class="sd-stretched-link reference external" href="fees.html"></a>
+                <a class="sd-stretched-link" href="fees.html"></a>
             </div>
         </div>
-        <div class="sd-col sd-d-flex-row docutils">
-            <div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover sd-text-center sd-shadow-md sd-rounded-3 docutils">
-                <div class="sd-card-body docutils">
-                    <img alt="../../_images/Glossary.svg" class="sd-width-auto sd-animate-grow50-rot20 sd-pb-2" src="../../_images/Glossary.svg">
+        <div class="docutil">
+            <div class="sd-card">
+                <div class="sd-card-body">
+                    <img alt="../../_images/Glossary.svg" class="sd-width-auto" src="../../_images/Glossary.svg">
                     <p class="sd-card-text">
                         <strong>Glossary</strong><br>
                         Look up terms specific to Terra.
                     </p>
                 </div>
-                <a class="sd-stretched-link reference external" href="glossary.html"></a>
+                <a class="sd-stretched-link" href="glossary.html"></a>
             </div>
         </div>
     </div>
