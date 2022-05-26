@@ -9,7 +9,7 @@ layout: home
         <div class="docutil">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="../../_images/icon_terra.svg" class="sd-width-auto" src="../../_images/icon_terra.svg">
+                    <img alt="https://docs.terra.money/docs/_images/icon_terra.svg" class="sd-width-auto" src="https://docs.terra.money/docs/_images/icon_terra.svg">
                     <p class="sd-card-text">
                         <strong>What is Terra?</strong><br>
                         Learn how Terra works.
@@ -21,7 +21,7 @@ layout: home
         <div class="docutil">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="../../_images/wallets_station.png" class="sd-width-auto sd-pb-2 sd-animate-grow50-rot20" src="../../_images/wallets_station.png">
+                    <img alt="https://docs.terra.money/docs/_images/wallets_station.png" class="sd-width-auto sd-pb-2 sd-animate-grow50-rot20" src="https://docs.terra.money/docs/_images/wallets_station.png">
                     <p class="sd-card-text">
                         <strong>Get started with Station</strong><br>
                         Create a wallet and stake Luna for rewards.
@@ -33,7 +33,7 @@ layout: home
         <div class="docutil">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="../../_images/icon_luna.svg" class="sd-width-auto" src="../../_images/icon_luna.svg">
+                    <img alt="https://docs.terra.money/docs/_images/icon_luna.svg" class="sd-width-auto" src="https://docs.terra.money/docs/_images/icon_luna.svg">
                     <p class="sd-card-text">
                         <strong>What is Luna?</strong><br>
                         Learn about Luna.
@@ -44,7 +44,7 @@ layout: home
         <div class="docutil">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="../../_images/Staking.svg" class="sd-width-auto" src="../../_images/Staking.svg">
+                    <img alt="https://docs.terra.money/docs/_images/Staking.svg" class="sd-width-auto" src="https://docs.terra.money/docs/_images/Staking.svg">
                     <p class="sd-card-text">
                         <strong>Validators and Staking</strong><br>
                         Find out about validators, consensus, staking, and rewards.
@@ -56,7 +56,7 @@ layout: home
         <div class="docutil">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="../../_images/Fees.svg" class="sd-width-auto" src="../../_images/Fees.svg">
+                    <img alt="https://docs.terra.money/docs/_images/Fees.svg" class="sd-width-auto" src="https://docs.terra.money/docs/_images/Fees.svg">
                     <p class="sd-card-text">
                         <strong>How fees work</strong><br>
                         Learn how fees become staking rewards.
@@ -68,7 +68,7 @@ layout: home
         <div class="docutil">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="../../_images/Glossary.svg" class="sd-width-auto" src="../../_images/Glossary.svg">
+                    <img alt="https://docs.terra.money/docs/_images/Glossary.svg" class="sd-width-auto" src="https://docs.terra.money/docs/_images/Glossary.svg">
                     <p class="sd-card-text">
                         <strong>Glossary</strong><br>
                         Look up terms specific to Terra.
