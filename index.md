@@ -6,7 +6,7 @@ layout: home
 
 <div class="sd-container-fluid ">
     <div class="docutils">
-        <div class="docutil">
+        <a class="docutil" href="protocol.html">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="https://docs.terra.money/_images/icon_terra.svg" class="sd-width-auto" src="https://docs.terra.money/_images/icon_terra.svg">
@@ -17,7 +17,7 @@ layout: home
                 </div>
                 <a class="sd-stretched-link" href="protocol.html"></a>
             </div>
-        </div>
+        </a>
         <div class="docutil">
             <div class="sd-card">
                 <div class="sd-card-body">
