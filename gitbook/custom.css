@@ -189,44 +189,30 @@
 }
 
 .sd-card-body {
-    text-align: center !important;
-    color: var(--sd-color-card-text);
-    word-wrap: break-word;
     flex: 1 1 auto;
     padding: 1rem 1rem;
     box-sizing: border-box;
 }
 
 .sd-width-auto {
-    text-align: center !important;
-    color: var(--sd-color-card-text);
-    word-wrap: break-word;
-    border: 0;
-    border-style: none;
-    vertical-align: middle;
-    max-width: 100%;
-    padding-bottom: .5rem !important;
-    animation: 1s ease-out 0s 1 normal none running sd-grow50-rot20;
-    box-sizing: border-box;
     max-height: 6.25rem!important;
-    margin: 1.25rem auto .625rem!important;
+    margin: 1.25rem auto 0.625rem!important;
+    box-sizing: border-box;
+    animation: 1s ease-out 0s 1 normal none running sd-grow50-rot20;
+    padding-bottom: 0.5rem !important;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
 }
 
 .sd-card-text {
-    text-align: center !important;
-    word-wrap: break-word;
-    color: var(--text-color)!important;
-    box-sizing: border-box;
-    font-size: .875rem;
-    margin-top: 0;
     margin-bottom: 0;
+    margin-top: 0;
+    font-size: .875rem;
+    box-sizing: border-box;
 }
 
 .sd-stretched-link {
-    text-align: center !important;
-    word-wrap: break-word;
-    background-color: transparent;
-    text-decoration: none;
-    box-sizing: border-box;
     color: #5493f7;
+    box-sizing: border-box;
 }
