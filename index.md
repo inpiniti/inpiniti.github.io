@@ -8,7 +8,7 @@ Discover how Terra works and learn about validators, staking, and governance. Us
 
 <div class="sd-container-fluid ">
     <div class="docutils">
-        <a class="docutil" href="protocol.html">
+        <a class="docutil" href="jest">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="https://docs.terra.money/_images/icon_terra.svg" class="sd-width-auto" src="https://docs.terra.money/_images/icon_terra.svg">
