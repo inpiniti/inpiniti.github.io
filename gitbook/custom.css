@@ -195,7 +195,7 @@
 }
 
 .sd-width-auto {
-    max-height: 6.25rem!important;
+    max-height: 7.25rem!important;
     margin: 1.25rem auto 0.625rem!important;
     box-sizing: border-box;
     animation: 1s ease-out 0s 1 normal none running sd-grow50-rot20;
@@ -208,7 +208,7 @@
 .sd-card-text {
     margin-bottom: 0;
     margin-top: 0;
-    font-size: .875rem;
+    font-size: 1.475rem;
     box-sizing: border-box;
 }
 
