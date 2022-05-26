@@ -15,7 +15,6 @@ layout: home
                         Learn how Terra works.
                     </p>
                 </div>
-                <a class="sd-stretched-link" href="protocol.html"></a>
             </div>
         </a>
         <div class="docutil">
