@@ -4,7 +4,7 @@ layout: home
 
 ![blog_creation](https://img.shields.io/badge/blog_creation-2022_05_11-blue.svg)
 
-Discover how Terra works and learn about validators, staking, and governance. Use Terra Station to create a wallet, stake Luna, send tokens, and participate in governance. Browse the glossary to look up helpful terms.
+Hello. I am a front developer. These are technical documents I wrote while studying.
 
 <div class="sd-container-fluid ">
     <div class="docutils">
