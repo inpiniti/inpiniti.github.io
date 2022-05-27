@@ -14,7 +14,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                     <img alt="jest" class="sd-width-auto" src="../images/logo jest-icon.png">
                     <p class="sd-card-text">
                         <strong>Jest</strong><br>
-                        Learn how Terra works.
+                        Learn how Jest works.
                     </p>
                 </div>
             </div>
@@ -25,7 +25,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                     <img alt="nx" class="sd-width-auto" src="../images/logo nx.png">
                     <p class="sd-card-text">
                         <strong>Nx</strong><br>
-                        Create a wallet and stake Luna for rewards.
+                        Learn how Nx works.
                     </p>
                 </div>
             </div>
@@ -36,7 +36,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                     <img alt="storybook" class="sd-width-auto" src="../images/logo storybook-icon.png">
                     <p class="sd-card-text">
                         <strong>Storybook</strong><br>
-                        Learn about Luna.
+                        Learn how Storybook works.
                     </p>
                 </div>
             </div>
@@ -47,7 +47,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                     <img alt="react" class="sd-width-auto" src="../images/logo react-icon.png">
                     <p class="sd-card-text">
                         <strong>React</strong><br>
-                        Find out about validators, consensus, staking, and rewards.
+                        Learn how React works.
                     </p>
                 </div>
             </div>
@@ -58,7 +58,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                     <img alt="javascript" class="sd-width-auto" src="../images/logo javascript.png">
                     <p class="sd-card-text">
                         <strong>Javascript</strong><br>
-                        Learn how fees become staking rewards.
+                        Learn how Javascript works.
                     </p>
                 </div>
             </div>
@@ -69,7 +69,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                     <img alt="standardization" class="sd-width-auto" src="../images/logo data-factory.png">
                     <p class="sd-card-text">
                         <strong>표준화</strong><br>
-                        Look up terms specific to Terra.
+                        Learn how Standardization works.
                     </p>
                 </div>
             </div>
