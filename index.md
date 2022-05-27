@@ -11,7 +11,7 @@ Discover how Terra works and learn about validators, staking, and governance. Us
         <a class="docutil" href="jest">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="https://docs.terra.money/_images/icon_terra.svg" class="sd-width-auto" src="https://docs.terra.money/_images/icon_terra.svg">
+                    <img alt="jest" class="sd-width-auto" src="../images/logo jest-icon.png">
                     <p class="sd-card-text">
                         <strong>Jest</strong><br>
                         Learn how Terra works.
@@ -19,64 +19,60 @@ Discover how Terra works and learn about validators, staking, and governance. Us
                 </div>
             </div>
         </a>
-        <div class="docutil">
+        <a class="docutil" href="nx">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="https://docs.terra.money/_images/wallets_station.png" class="sd-width-auto sd-pb-2 sd-animate-grow50-rot20" src="https://docs.terra.money/_images/wallets_station.png">
+                    <img alt="nx" class="sd-width-auto" src="../images/logo nx.png">
                     <p class="sd-card-text">
                         <strong>Nx</strong><br>
                         Create a wallet and stake Luna for rewards.
                     </p>
                 </div>
-                <a class="sd-stretched-link" href="terra-station/README.html"></a>
             </div>
-        </div>
-        <div class="docutil">
+        </a>
+        <a class="docutil" href="storybook">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="https://docs.terra.money/_images/icon_luna.svg" class="sd-width-auto" src="https://docs.terra.money/_images/icon_luna.svg">
+                    <img alt="storybook" class="sd-width-auto" src="../images/logo storybook-icon.png">
                     <p class="sd-card-text">
                         <strong>Storybook</strong><br>
                         Learn about Luna.
                     </p>
                 </div>
-            <a class="sd-stretched-link" href="protocol.html"></a></div>
-        </div>
-        <div class="docutil">
+            </div>
+        </a>
+        <a class="docutil" href="react">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="https://docs.terra.money/_images/Staking.svg" class="sd-width-auto" src="https://docs.terra.money/_images/Staking.svg">
+                    <img alt="react" class="sd-width-auto" src="../images/logo react-icon.png">
                     <p class="sd-card-text">
                         <strong>React</strong><br>
                         Find out about validators, consensus, staking, and rewards.
                     </p>
                 </div>
-                <a class="sd-stretched-link" href="protocol.html#validators"></a>
             </div>
-        </div>
-        <div class="docutil">
+        </a>
+        <a class="docutil" href="javascript">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="https://docs.terra.money/_images/Fees.svg" class="sd-width-auto" src="https://docs.terra.money/_images/Fees.svg">
+                    <img alt="javascript" class="sd-width-auto" src="../images/logo javascript.png">
                     <p class="sd-card-text">
                         <strong>Javascript</strong><br>
                         Learn how fees become staking rewards.
                     </p>
                 </div>
-                <a class="sd-stretched-link" href="fees.html"></a>
             </div>
-        </div>
-        <div class="docutil">
+        </a>
+        <a class="docutil" href="standardization">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="https://docs.terra.money/_images/Glossary.svg" class="sd-width-auto" src="https://docs.terra.money/_images/Glossary.svg">
+                    <img alt="standardization" class="sd-width-auto" src="../images/logo data-factory.png">
                     <p class="sd-card-text">
                         <strong>표준화</strong><br>
                         Look up terms specific to Terra.
                     </p>
                 </div>
-                <a class="sd-stretched-link" href="glossary.html"></a>
             </div>
-        </div>
+        </a>
     </div>
 </div>
