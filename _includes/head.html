@@ -6,7 +6,8 @@
 <meta name="Yeti" content="All"/>
 <meta name="Yeti" content="index,follow"/>
 
-<meta property="og:title" content="스타워즈: 깨어난 포스">
+<meta property="og:title" content="{{ page.title | escape }}">
+<meta property="og:description" content="{{ page.categories }}">
 
 {%- if page.title -%}
     <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
