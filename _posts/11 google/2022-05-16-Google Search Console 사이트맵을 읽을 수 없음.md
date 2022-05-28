@@ -2,7 +2,7 @@
 title: Google Search Console 사이트맵을 읽을 수 없음
 author: JUNG YoungKyun
 date: 2022-05-16
-category: google
+category: 11 google
 layout: post
 ---
 
