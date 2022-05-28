@@ -21,15 +21,19 @@
                 <li class="divider"></li>
                 {% assign _posts = category[0] %}
                 {% assign _post = _posts[0] %}
+                {% assign _url = _post.url %}
 
                 <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
-                    <a href="{{site.baseurl}}{{_post.url}}">
+                    <a href="{{site.baseurl}}{{_url}}">
                         {{category | first}}
                     </a>
                 </li>
 
                 {% for posts in category %}
-                    {% for post in posts %}
+
+                    {% assign reversed_posts = posts | reverse %}
+
+                    {% for post in reversed_posts %}
                         {% if post.url %}
                             {% if page.url == post.url %}
                             <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
