@@ -18,19 +18,23 @@
             </li>
 
             {% for category in site.categories %}
-            <h2 id="{{category | first}}">{{category | first}}</h2>
-            {% for posts in category %}
-            {% for post in posts %}
-            {% if post.url %}
-            <li>
-            <time>
-                    {{ post.date | date:"%F" }} {{ post.date | date: "%a" }}.
-                </time>
-                <a class="title" href="{{ post.url | prepend: site.url }}">{{ post.title }}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
-            {% endfor %}
+                <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}" id="{{category | first}}">
+                    {{category | first}}
+                </li>
+                {% for posts in category %}
+                    {% for post in posts %}
+                        {% if post.url %}
+                            {% if page.url == post.url %}
+                            <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
+                            {% else %}
+                            <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
+                            {% endif %}
+                            <li>
+                                <a class="title" href="{{site.baseurl}}{{post.url}}">{{ post.title | escape }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
             {% endfor %}
 
 
