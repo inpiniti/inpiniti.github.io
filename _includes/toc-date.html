@@ -23,11 +23,16 @@
                 {% assign _post = _posts[0] %}
                 {% assign _url = _post.url %}
 
+
                 <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
                     <a href="{{site.baseurl}}{{_url}}">
                         {{category | first}}
+
+                        {{category | first}}
                     </a>
                 </li>
+
+
 
                 {% for posts in category %}
 
