@@ -4,10 +4,6 @@ layout: home
 
 ![blog_creation](https://img.shields.io/badge/blog_creation-2022_05_11-blue.svg)
 
-© 2022 Youngkyun Jung.
-
-Powered by jekyll and gitbook.
-
 Hello. I am a front developer. These are technical documents I wrote while studying.
 
 <div class="sd-container-fluid ">
