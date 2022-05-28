@@ -22,11 +22,9 @@
 
                 <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
                     <a href="#">
-                    {{category | first}}
+                        {{category | first}}
                     </a>
                 </li>
-
-                <li class="divider"></li>
 
                 {% for posts in category %}
                     {% for post in posts %}
@@ -36,7 +34,6 @@
                             {% else %}
                             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
                             {% endif %}
-                            <li>
                                 <a class="title" href="{{site.baseurl}}{{post.url}}">
                                     {{ post.title | escape }}
                                 </a>
