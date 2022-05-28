@@ -17,7 +17,7 @@
                 </a>
             </li>
 
-            {% for category in site.categories %}
+            {% for category in site.categories | sort %}
                 <li class="divider"></li>
                 {% assign _posts = category.last %}
                 {% assign _post = _posts.last %}
