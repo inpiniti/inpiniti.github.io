@@ -17,9 +17,9 @@
                 </a>
             </li>
 
-            <li class="divider"></li>
-
             {% for category in site.categories %}
+                <li class="divider"></li>
+
                 <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
                     <a href="#">
                     {{category | first}}
