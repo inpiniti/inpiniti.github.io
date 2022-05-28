@@ -19,9 +19,11 @@
 
             {% for category in site.categories %}
                 <li class="divider"></li>
+                {% assign _posts = category[0] %}
+                {% assign _post = _posts[0] %}
 
                 <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
-                    <a href="{{site.baseurl}}{{category[0][0].url}}">
+                    <a href="{{site.baseurl}}{{_post.url}}">
                         {{category | first}}
                     </a>
                 </li>
