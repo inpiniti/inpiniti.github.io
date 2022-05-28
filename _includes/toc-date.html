@@ -17,22 +17,16 @@
                 </a>
             </li>
 
-            {% for category in site.categories %}
-                <h3 id="{{ category[0] }}-ref">{{ category | join: "/" }}</h3>
-                <ul>
-                    {% assign pages_list = category[1] %}
-                    {% assign pages_list = pages_list | sort:"weight" %}
-                    {% include JB/pages_list %}
-                </ul>
-            {% endfor %}
-
-
             {% for collection in site.collections %}
             <!-- <p>{{ collection.label }}</p> -->
             {% if collection.output %}
             {% assign reversed_posts = site[collection.label] | reverse %}
 
             {% for post in revreversed_postsersed_posts %}
+            <h3>aaa</h3>
+            <h3>{{page}}</h3>
+
+
             {% if page.url == post.url %}
             <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
                 {% else %}
