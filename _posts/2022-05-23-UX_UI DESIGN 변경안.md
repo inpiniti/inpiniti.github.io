@@ -2,7 +2,7 @@
 title: UX/UI DESIGN 변경안
 author: JUNG YoungKyun
 date: 2022-05-26
-category: inpiniti
+category: ux
 layout: post
 ---
 

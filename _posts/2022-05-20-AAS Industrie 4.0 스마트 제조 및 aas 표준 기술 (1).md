@@ -2,7 +2,7 @@
 title: Industrie 4.0 스마트 제조 및 as 표준 기술 (1)
 author: JUNG YoungKyun
 date: 2022-05-20
-category: inpiniti
+category: aas
 layout: post
 ---
 

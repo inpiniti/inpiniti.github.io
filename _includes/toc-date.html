@@ -23,14 +23,13 @@
             {% assign reversed_posts = site[collection.label] | reverse %}
 
             {% for post in reversed_posts %}
-<h1>{{post.toString()}}</h1>
             {% if page.url == post.url %}
             <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
                 {% else %}
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
                 {% endif %}
                 <a href="{{site.baseurl}}{{post.url}}">
-                    {{ post.title | escape }}
+                    {{ post.title | post.category | escape }}
                 </a>
                 {% if site.toc.enabled %}
                 {% if page.url == post.url %}
