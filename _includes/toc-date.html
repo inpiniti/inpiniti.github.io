@@ -39,9 +39,22 @@
                 {% if category_name == page_name %}
                     {% for posts in category %}
 
+            <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
+                <a href="{{site.baseurl}}{{_url}}">
+                    posts {{ posts | first }}
+                </a>
+            </li>
+
                         {% assign reversed_posts = posts | reverse %}
 
                         {% for post in reversed_posts %}
+
+            <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
+                <a href="{{site.baseurl}}{{_url}}">
+                    posts {{ post | first }}
+                </a>
+            </li>
+
                             {% if post.url %}
                                 {% if page.url == post.url %}
                                 <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
