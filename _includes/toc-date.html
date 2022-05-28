@@ -23,40 +23,44 @@
                 {% assign _post = _posts[0] %}
                 {% assign _url = _post.url %}
 
+                {% assign category_name = category | first %}
+                {% assign page_name = page.category | escape %}
+
 
                 <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
                     <a href="{{site.baseurl}}{{_url}}">
-                        {{category | first}}
+                        {{ category | first }}
 
-                        {{page.category}}
+                        {{ page.category | escape }}
                     </a>
                 </li>
 
 
+                {% if category_name == page_name %}
+                    {% for posts in category %}
 
-                {% for posts in category %}
+                        {% assign reversed_posts = posts | reverse %}
 
-                    {% assign reversed_posts = posts | reverse %}
-
-                    {% for post in reversed_posts %}
-                        {% if post.url %}
-                            {% if page.url == post.url %}
-                            <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
-                            {% else %}
-                            <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
-                            {% endif %}
-                                <a class="title" href="{{site.baseurl}}{{post.url}}">
-                                    {{ post.title | escape }}
-                                </a>
-                                {% if site.toc.enabled %}
+                        {% for post in reversed_posts %}
+                            {% if post.url %}
                                 {% if page.url == post.url %}
-                                {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max %}
+                                <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
+                                {% else %}
+                                <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
                                 {% endif %}
-                                {% endif %}
-                            </li>
-                        {% endif %}
+                                    <a class="title" href="{{site.baseurl}}{{post.url}}">
+                                        {{ post.title | escape }}
+                                    </a>
+                                    {% if site.toc.enabled %}
+                                    {% if page.url == post.url %}
+                                    {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max %}
+                                    {% endif %}
+                                    {% endif %}
+                                </li>
+                            {% endif %}
+                        {% endfor %}
                     {% endfor %}
-                {% endfor %}
+                {% endif %}
             {% endfor %}
 
 
