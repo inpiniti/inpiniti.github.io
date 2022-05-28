@@ -2,7 +2,7 @@
 title: AAS(2) Industrie 4.0 스마트 제조 및 aas 표준 기술
 author: JUNG YoungKyun
 date: 2022-05-20
-category: inpiniti
+category: 06 aas
 layout: post
 ---
 

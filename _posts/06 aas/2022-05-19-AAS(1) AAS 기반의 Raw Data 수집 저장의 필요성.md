@@ -2,7 +2,7 @@
 title: AAS(1) AAS 기반의 Raw Data 수집 저장의 필요성
 author: JUNG YoungKyun
 date: 2022-05-19
-category: inpiniti
+category: 06 aas
 layout: post
 ---
 
