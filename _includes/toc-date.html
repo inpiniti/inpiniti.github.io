@@ -41,7 +41,7 @@
 
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
                 <a href="{{site.baseurl}}{{_url}}">
-                    posts {{ posts | first }}
+                    posts {{ posts | escape }}
                 </a>
             </li>
 
@@ -51,7 +51,7 @@
 
             <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
                 <a href="{{site.baseurl}}{{_url}}">
-                    posts {{ post | first }}
+                    post {{ post | escape }}
                 </a>
             </li>
 
