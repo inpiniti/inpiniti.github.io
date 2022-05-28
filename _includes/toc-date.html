@@ -30,7 +30,7 @@
                 <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
                     <a href="{{site.baseurl}}{{_url}}">
                         {{ category | first }}
-
+                        {{ category | join }}
                         {{ _posts | escape }}
                         {{ _post | escape }}
                         {{ _url | escape }}
