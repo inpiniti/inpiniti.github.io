@@ -19,7 +19,7 @@
 
             {% for category in site.categories %}
                 <li class="divider"></li>
-                {% assign _posts = category.first %}
+                {% assign _posts = category.last %}
                 {% assign _post = _posts.first %}
                 {% assign _url = _post.url %}
 
@@ -30,8 +30,6 @@
                 <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
                     <a href="{{site.baseurl}}{{_url}}">
                         {{ category | first }}
-                        {{ category.size }}
-                        {{ category.url }}
                     </a>
                 </li>
 
