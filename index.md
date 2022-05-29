@@ -69,7 +69,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                     <img alt="standardization" class="sd-width-auto" src="../images/logo data-factory.png">
                     <p class="sd-card-text">
                         <strong>표준화</strong><br>
-                        Learn how Standardization works.
+                        Learn how Ass works.
                     </p>
                 </div>
             </div>
@@ -91,7 +91,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                     <img alt="React Native" class="sd-width-auto" src="../images/logo react-icon.png">
                     <p class="sd-card-text">
                         <strong>React Native</strong><br>
-                        Learn how React Native works.
+                        Learn how Native works.
                     </p>
                 </div>
             </div>
@@ -102,7 +102,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                     <img alt="Webpack" class="sd-width-auto" src="../images/logo webpack-icon.png">
                     <p class="sd-card-text">
                         <strong>Webpack</strong><br>
-                        Learn how React Webpack works.
+                        Learn how Webpack works.
                     </p>
                 </div>
             </div>
@@ -110,10 +110,10 @@ Hello. I am a front developer. These are technical documents I wrote while study
         <a class="docutil" href="10 azure/2022-05-10-azure-learn.html">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="azure" class="sd-width-auto" src="../images/logo webpack-icon.png">
+                    <img alt="azure" class="sd-width-auto" src="../images/logo microsoft-azure-icon.png">
                     <p class="sd-card-text">
                         <strong>Azure</strong><br>
-                        Learn how React Azure works.
+                        Learn how Azure works.
                     </p>
                 </div>
             </div>
