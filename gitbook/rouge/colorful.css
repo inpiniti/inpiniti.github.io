@@ -96,7 +96,7 @@
   color: #333;
 }
 .highlight .dl, .highlight .s2 {
-  color: #d9438d;
+  color: #d94343;
 }
 .highlight .sa {
   color: #080;
@@ -179,6 +179,5 @@
   color: #04D;
 }
 .highlight .err {
-  color: #F00;
-  background-color: #FAA;
+  color: #aaa;
 }
