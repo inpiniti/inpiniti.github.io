@@ -88,6 +88,15 @@
 .highlight .s, .highlight .sb, .highlight .dl, .highlight .s2, .highlight .sh, .highlight .s1 {
   background-color: #fff0f0;
 }
+.highlight .nx {
+  color: #88007b;
+}
+.highlight .p {
+  color: #333;
+}
+.highlight .dl, .highlight .s2 {
+  color: #d9438d;
+}
 .highlight .sa {
   color: #080;
   font-weight: bold;
