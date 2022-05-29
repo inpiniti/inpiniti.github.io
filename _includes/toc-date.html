@@ -30,6 +30,9 @@
 
                 <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
                     <a href="{{site.baseurl}}{{_url}}">
+                        {% if category_name == "react" %}
+                            <i class="fa-brands fa-react"></i>
+                        {% endif %}
                         <i class="fa fa-camera-retro fa-lg"></i> {{ category | first | upcase }}
                     </a>
                 </li>
