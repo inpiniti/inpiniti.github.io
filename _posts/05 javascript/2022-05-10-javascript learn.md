@@ -6,4 +6,6 @@ category: 05 javascript
 layout: post
 ---
 
+![javascript 로고](../images/logo javascript.png)
+
 작성중

@@ -6,4 +6,6 @@ category: 10 azure
 layout: post
 ---
 
+![azure 로고](../images/logo microsoft-azure-icon.png)
+
 작성중

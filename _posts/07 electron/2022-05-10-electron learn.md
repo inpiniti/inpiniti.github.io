@@ -6,4 +6,6 @@ category: 07 electron
 layout: post
 ---
 
+![electron 로고](../images/logo electron-icon.png)
+
 작성중

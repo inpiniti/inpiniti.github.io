@@ -6,4 +6,6 @@ category: 04 react
 layout: post
 ---
 
+![react 로고](../images/logo react-icon.png)
+
 작성중

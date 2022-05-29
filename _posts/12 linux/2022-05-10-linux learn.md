@@ -6,4 +6,6 @@ category: 12 linux
 layout: post
 ---
 
+![linux 로고](../images/logo linux-icon.png)
+
 작성중

@@ -6,4 +6,6 @@ category: 09 webpack
 layout: post
 ---
 
+![webpack 로고](../images/logo webpack-icon.png)
+
 작성중
