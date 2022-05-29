@@ -87,6 +87,7 @@
 }
 .highlight .s, .highlight .sb, .highlight .dl, .highlight .s2, .highlight .sh, .highlight .s1 {
   background-color: #fff0f0;
+  color: black;
 }
 .highlight .nx {
   color: #88007b;
