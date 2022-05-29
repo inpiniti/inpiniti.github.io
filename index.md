@@ -118,5 +118,38 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
+        <a class="docutil" href="11 search/2022-05-10-search.html">
+            <div class="sd-card">
+                <div class="sd-card-body">
+                    <img alt="azure" class="sd-width-auto" src="../images/logo search.png">
+                    <p class="sd-card-text">
+                        <strong>Search</strong><br>
+                        Learn how Search works.
+                    </p>
+                </div>
+            </div>
+        </a>
+        <a class="docutil" href="12 linux/2022-05-10-linux-learn.html">
+            <div class="sd-card">
+                <div class="sd-card-body">
+                    <img alt="azure" class="sd-width-auto" src="../images/logo linux-icon.png">
+                    <p class="sd-card-text">
+                        <strong>Linux</strong><br>
+                        Learn how Linux works.
+                    </p>
+                </div>
+            </div>
+        </a>
+        <a class="docutil" href="13 css/2022-05-10-css-learn.html">
+            <div class="sd-card">
+                <div class="sd-card-body">
+                    <img alt="azure" class="sd-width-auto" src="../images/logo css3.png">
+                    <p class="sd-card-text">
+                        <strong>Css</strong><br>
+                        Learn how Css works.
+                    </p>
+                </div>
+            </div>
+        </a>
     </div>
 </div>
