@@ -1,10 +1,12 @@
 ---
-title: Jest learn (1)
+title: jest learn (1)
 author: JUNG YoungKyun
 date: 2022-05-10
 category: 01 jest
 layout: post
 ---
+
+![jest 로고](../images/logo jest-icon.png)
 
 해당 문서는 [코딩앙마님의 Jest 강좌 유튜브](https://www.youtube.com/watch?v=g4MdUjxA-S4) 을 참고하여 만들어졌습니다.
 
