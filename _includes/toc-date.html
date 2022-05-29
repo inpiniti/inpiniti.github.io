@@ -34,7 +34,7 @@
                             <i class="fa fa-solid fa-flask-vial"></i>
                         {% elsif category_name == "02 nx" %}
                             <i class="fa fa-solid fa-sitemap"></i>
-                        {% elsif category_name == "03 stroybook" %}
+                        {% elsif category_name == "03 storybook" %}
                             <i class="fa-solid fa-flask-vial"></i>
                         {% elsif category_name == "04 react" %}
                             <i class="fa-brands fa-react"></i>
@@ -47,6 +47,7 @@
                         {% elsif category_name == "08 react native" %}
                             <i class="fa-brands fa-react"></i>
                         {% elsif category_name == "09 webpack" %}
+                            <i class="fa-solid fa-building"></i>
                         {% elsif category_name == "10 azure" %}
                             <i class="fa-brands fa-microsoft"></i>
                         {% elsif category_name == "11 search" %}
@@ -58,9 +59,7 @@
                         {% elsif category_name == "99 other" %}
                             <i class="fa-solid fa-feather-pointed"></i>
                         {% endif %}
-
-
-                        <i class="fa fa-camera-retro fa-lg"></i> {{ category | first | upcase }}
+                        {{ category | first | upcase }}
                     </a>
                 </li>
 
