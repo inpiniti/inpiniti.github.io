@@ -44,19 +44,11 @@
                                 {% else %}
                                 <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
                                 {% endif %}
-                                    <a class="title" href="{{site.baseurl}}{{post.url}}">
-                                        {{ post.title | escape }}
-                                    </a>
                                     <ul><li>
                                         <a class="title" href="{{site.baseurl}}{{post.url}}">
                                             {{ post.title | escape }}
                                         </a>
                                     </li></ul>
-                                    {% if site.toc.enabled %}
-                                    {% if page.url == post.url %}
-                                    {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max %}
-                                    {% endif %}
-                                    {% endif %}
                                 </li>
                             {% endif %}
                         {% endfor %}
