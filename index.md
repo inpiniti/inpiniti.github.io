@@ -66,7 +66,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
         <a class="docutil" href="06 aas/2022-05-10-aas-learn.html">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="standardization" class="sd-width-auto" src="../images/logo data-factory.png">
+                    <img alt="standardization" class="sd-width-auto" src="../images/logo aasx.png">
                     <p class="sd-card-text">
                         <strong>표준화</strong><br>
                         Learn how Ass works.
@@ -85,7 +85,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="08 react%20native/2022-05-10-react-native-learn.html">
+        <a class="docutil" href="08 react native/2022-05-10-react-native-learn.html">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="React Native" class="sd-width-auto" src="../images/logo react-icon.png">
