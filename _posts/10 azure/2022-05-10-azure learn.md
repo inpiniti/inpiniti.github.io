@@ -6,6 +6,17 @@ category: 10 azure
 layout: post
 ---
 
-![azure 로고](../images/logo microsoft-azure-icon.png)
+![azure 로고](../images/logo Microsoft_Azure.svg)
 
-작성중
+Azure 가입을 2022년 5월 5일에 하고 가상 머신을 만들었습니다.
+
+AWS를 기존에 사용 중이었는데, 무료 크래딧이 끝나 Azure로 넘어 왔는데, Azure의 무료 가상머신 생성에 진행은 조금 어려웠었습니다.
+
+그 부분에 대해서 [크기선택이 안될 때](https://inpiniti.github.io/10%20azure/2022-05-15-%ED%81%AC%EA%B8%B0%EC%84%A0%ED%83%9D%EC%9D%B4-%EC%95%88%EB%90%A0-%EB%95%8C.html)
+라는 제목으로 포스팅을 해두었습니다.
+
+해결이 되고 나서는 [Docker](https://www.docker.com/) 와 Docker 를 웹상에서 관리할 수 있게 도와주는 툴인 [portainer](http://20.214.141.2:9000/) 를 올려두었습니다.
+
+그 위에 클라이언트 역할을 하는 [react app](http://20.214.141.2/) 과, 서버 역할을 하는 [spring api](http://20.214.141.2:8080/) 를 올려두었습니다.
+
+아무래도 여기에서는 제 포트폴리오 관련 내용을 올리게 될 것 같습니다.

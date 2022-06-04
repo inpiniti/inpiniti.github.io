@@ -110,7 +110,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
         <a class="docutil" href="10 azure/2022-05-10-azure-learn.html">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="azure" class="sd-width-auto" src="../images/logo microsoft-azure-icon.png">
+                    <img alt="azure" class="sd-width-auto" src="../images/logo Microsoft_Azure.png">
                     <p class="sd-card-text">
                         <strong>Azure</strong><br>
                         Learn how Azure works.
