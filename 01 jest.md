@@ -1,5 +1,5 @@
 ---
-title: 01 jest
+title: JEST
 author: JUNG YoungKyun
 category: 01 jest
 layout: post
