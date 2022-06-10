@@ -1,4 +1,5 @@
 ---
+title: index
 layout: default
 permalink: '/01 jest'
 ---
