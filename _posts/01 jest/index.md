@@ -1,7 +1,5 @@
 ---
-title: index
 author: JUNG YoungKyun
-date: ''
 category: 01 jest
 layout: post
 ---
