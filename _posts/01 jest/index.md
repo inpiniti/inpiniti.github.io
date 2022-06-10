@@ -1,7 +1,9 @@
 ---
 title: index
-layout: default
-permalink: '/01 jest'
+author: JUNG YoungKyun
+date: ''
+category: 01 jest
+layout: post
 ---
 
 ![blog_creation](https://img.shields.io/badge/blog_creation-2022_05_11-blue.svg)
