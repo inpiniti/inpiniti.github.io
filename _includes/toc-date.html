@@ -29,7 +29,11 @@
                 {% assign page_name = page.category | escape %}
 
                 <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
-                    <a href="{{site.baseurl}}{{category_name}}">
+                    {% if category_name == page_name %}
+                    <a href="{{site.baseurl}}">
+                    {% else %}
+                      <a href="{{site.baseurl}}{{category_name}}">
+                    {% endif %}
                         {% if category_name == "01 jest" %}
                             <i class="fa fa-solid fa-flask-vial"></i>
                         {% elsif category_name == "02 nx" %}
