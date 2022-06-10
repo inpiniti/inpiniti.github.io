@@ -24,14 +24,12 @@
                 {% assign _posts = category.last %}
                 {% assign _post = _posts.last %}
                 {% assign _url = _post.url %}
-                {% assign _array = _url | split: "/" %}
-                {% assign _category = _array.first %}
 
                 {% assign category_name = category | first %}
                 {% assign page_name = page.category | escape %}
 
                 <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}">
-                    <a href="{{site.baseurl}}{{_category}}">
+                    <a href="{{site.baseurl}}{{category_name}}">
                         {% if category_name == "01 jest" %}
                             <i class="fa fa-solid fa-flask-vial"></i>
                         {% elsif category_name == "02 nx" %}
