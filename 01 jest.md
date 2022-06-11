@@ -7,42 +7,42 @@ layout: post
 
 ![blog_creation](https://img.shields.io/badge/blog_creation-2022_05_11-blue.svg)
 
-{% assign sorted_cats = site.categories | sort %}
-
-{% for category in sorted_cats %}
-    {% assign _posts = category.last %}
-    {% assign _post = _posts.last %}
-    {% assign _url = _post.url %}
-    {% assign category_name = category | first %}
-    {% assign page_name = page.category | escape %}
-    {% if category_name == page_name %}
-        {% for posts in category %}
-            {% assign reversed_posts = posts | reverse %}
-            {% for post in reversed_posts %}
-                {% if post.url %}
-                    <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
-                        <ul>
-                            {% if page.url == post.url %}
-                            <li class="active">
-                            {% else %}
-                            <li>
-                            {% endif %}
-                                <a class="title" href="{{site.baseurl}}{{post.url}}">
-                                    {{ post.title | escape }}
-                                </a>
-                                {% if site.toc.enabled %}
+    {% assign sorted_cats = site.categories | sort %}
+    
+    {% for category in sorted_cats %}
+        {% assign _posts = category.last %}
+        {% assign _post = _posts.last %}
+        {% assign _url = _post.url %}
+        {% assign category_name = category | first %}
+        {% assign page_name = page.category | escape %}
+        {% if category_name == page_name %}
+            {% for posts in category %}
+                {% assign reversed_posts = posts | reverse %}
+                {% for post in reversed_posts %}
+                    {% if post.url %}
+                        <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
+                            <ul>
                                 {% if page.url == post.url %}
-                                {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max %}
+                                <li class="active">
+                                {% else %}
+                                <li>
                                 {% endif %}
-                                {% endif %}
-                            </li>
-                        </ul>
-                    </li>
-                {% endif %}
+                                    <a class="title" href="{{site.baseurl}}{{post.url}}">
+                                        {{ post.title | escape }}
+                                    </a>
+                                    {% if site.toc.enabled %}
+                                    {% if page.url == post.url %}
+                                    {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max %}
+                                    {% endif %}
+                                    {% endif %}
+                                </li>
+                            </ul>
+                        </li>
+                    {% endif %}
+                {% endfor %}
             {% endfor %}
-        {% endfor %}
-    {% endif %}
-{% endfor %}
+        {% endif %}
+    {% endfor %}
 
 여기에는 나중엔 post 리스트가 나오면 좋을것 같음.
 
