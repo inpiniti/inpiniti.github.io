@@ -165,7 +165,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
         <a class="docutil" href="15 ai">
             <div class="sd-card">
                 <div class="sd-card-body">
-                    <img alt="azure" class="sd-width-auto" src="../images/logo git-icon.png">
+                    <img alt="azure" class="sd-width-auto" src="../images/ai/machine-learning.png">
                     <p class="sd-card-text">
                         <strong>AI</strong><br>
                         Learn how AI works.
