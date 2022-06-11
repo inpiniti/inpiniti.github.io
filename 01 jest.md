@@ -6,7 +6,8 @@ layout: post
 ---
 
 ![blog_creation](https://img.shields.io/badge/blog_creation-2022_05_11-blue.svg)
-<ul class="posts-list">
+<div class="sd-container-fluid ">
+    <div class="docutils">
     {% assign sorted_cats = site.categories | sort %}
     
     {% for category in sorted_cats %}
@@ -20,30 +21,24 @@ layout: post
                 {% assign reversed_posts = posts | reverse %}
                 {% for post in reversed_posts %}
                     {% if post.url %}
-                        <li class="chapter" data-level="1.1" data-path="{{site.baseurl}}{{post.url}}">
-                            <ul>
-                                {% if page.url == post.url %}
-                                <li class="active">
-                                {% else %}
-                                <li>
-                                {% endif %}
-                                    <a class="title" href="{{site.baseurl}}{{post.url}}">
+                        <a class="docutil" href="{{site.baseurl}}{{post.url}}">
+                            <div class="sd-card">
+                                <div class="sd-card-body">
+                                    <img alt="jest" class="sd-width-auto" src="../images/logo jest-icon.png">
+                                    <p class="sd-card-text">
+                                        <strong>Jest</strong><br>
                                         {{ post.title | escape }}
-                                    </a>
-                                    {% if site.toc.enabled %}
-                                    {% if page.url == post.url %}
-                                    {% include toc.html html=content h_min=site.toc.h_min h_max=site.toc.h_max %}
-                                    {% endif %}
-                                    {% endif %}
-                                </li>
-                            </ul>
-                        </li>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
                     {% endif %}
                 {% endfor %}
             {% endfor %}
         {% endif %}
     {% endfor %}
-</ul>
+    </div>
+</div>
 
 여기에는 나중엔 post 리스트가 나오면 좋을것 같음.
 
