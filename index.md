@@ -8,7 +8,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
 
 <div class="sd-container-fluid ">
     <div class="docutils">
-        <a class="docutil" href="01 jest/2022-05-10-jest-learn-(1).html">
+        <a class="docutil" href="01 jest">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="jest" class="sd-width-auto" src="../images/logo jest-icon.png">
@@ -19,7 +19,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="02 nx/2022-05-10-nx-learn.html">
+        <a class="docutil" href="02 nx">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="nx" class="sd-width-auto" src="../images/logo nx.png">
@@ -30,7 +30,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="03 storybook/2022-05-10-storybook-learn.html">
+        <a class="docutil" href="03 storybook">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="storybook" class="sd-width-auto" src="../images/logo storybook-icon.png">
@@ -41,7 +41,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="04 react/2022-05-10-react-learn.html">
+        <a class="docutil" href="04 react">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="react" class="sd-width-auto" src="../images/logo react-icon.png">
@@ -52,7 +52,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="05 javascript/2022-05-10-javascript-learn.html">
+        <a class="docutil" href="05 javascript">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="javascript" class="sd-width-auto" src="../images/logo javascript.png">
@@ -63,7 +63,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="06 aas/2022-05-10-aas-learn.html">
+        <a class="docutil" href="06 aas">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="standardization" class="sd-width-auto" src="../images/logo aasx.png">
@@ -74,7 +74,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="07 electron/2022-05-10-electron-learn.html">
+        <a class="docutil" href="07 electron">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="electron" class="sd-width-auto" src="../images/logo electron-icon.png">
@@ -85,7 +85,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="08 react native/2022-05-10-react-native-learn.html">
+        <a class="docutil" href="08 react native">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="React Native" class="sd-width-auto" src="../images/logo react-icon.png">
@@ -96,7 +96,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="09 webpack/2022-05-10-webpack-learn.html">
+        <a class="docutil" href="09 webpack">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="Webpack" class="sd-width-auto" src="../images/logo webpack-icon.png">
@@ -107,7 +107,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="10 azure/2022-05-10-azure-learn.html">
+        <a class="docutil" href="10 azure">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="azure" class="sd-width-auto" src="../images/logo Microsoft_Azure.svg">
@@ -118,7 +118,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="11 search/2022-05-10-search.html">
+        <a class="docutil" href="11 search">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="azure" class="sd-width-auto" src="../images/logo search.png">
@@ -129,7 +129,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="12 linux/2022-05-10-linux-learn.html">
+        <a class="docutil" href="12 linux">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="azure" class="sd-width-auto" src="../images/logo linux-icon.png">
@@ -140,7 +140,7 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="13 css/2022-05-10-css-learn.html">
+        <a class="docutil" href="13 css">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="azure" class="sd-width-auto" src="../images/logo css3.png">
@@ -151,13 +151,24 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="14 git/2022-05-31-git-learn.html">
+        <a class="docutil" href="14 git">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="azure" class="sd-width-auto" src="../images/logo git-icon.png">
                     <p class="sd-card-text">
                         <strong>Git</strong><br>
                         Learn how Git works.
+                    </p>
+                </div>
+            </div>
+        </a>
+        <a class="docutil" href="15 ai">
+            <div class="sd-card">
+                <div class="sd-card-body">
+                    <img alt="azure" class="sd-width-auto" src="../images/logo git-icon.png">
+                    <p class="sd-card-text">
+                        <strong>AI</strong><br>
+                        Learn how AI works.
                     </p>
                 </div>
             </div>
