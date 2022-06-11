@@ -28,7 +28,7 @@
                 {% assign category_name = category | first %}
                 {% assign page_name = page.category | escape %}
   
-                {% if category_name == page_name %}
+                {% if page_name != '' %}
                 <li class="chapter active" data-level="1.1" data-path="{{site.baseurl}}">
                     <a href="../../{{category_name}}">
                 {% else %}
