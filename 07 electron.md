@@ -1,5 +1,5 @@
 ---
-title: electron learn (1)
+title: ELECTRON
 author: JUNG YoungKyun
 date: 2022-05-10
 category: 07 electron

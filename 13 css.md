@@ -1,5 +1,5 @@
 ---
-title:  css learn (1)
+title: CSS
 author: JUNG YoungKyun
 date: 2022-05-10
 category: 13 css

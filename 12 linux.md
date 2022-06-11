@@ -1,5 +1,5 @@
 ---
-title: linux learn (1)
+title: LINUX
 author: JUNG YoungKyun
 date: 2022-05-10
 category: 12 linux

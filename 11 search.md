@@ -1,5 +1,5 @@
 ---
-title: search (1)
+title: SEARCH
 author: JUNG YoungKyun
 date: 2022-05-10
 category: 11 search

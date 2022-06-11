@@ -1,8 +1,8 @@
 ---
-title: react native learn (1)
+title: REACT
 author: JUNG YoungKyun
 date: 2022-05-10
-category: 08 react native
+category: 04 react
 layout: post
 ---
 

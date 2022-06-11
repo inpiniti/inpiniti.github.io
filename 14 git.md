@@ -1,5 +1,5 @@
 ---
-title:  git learn (1)
+title: GIT
 author: JUNG YoungKyun
 date: 2022-05-31
 category: 14 git

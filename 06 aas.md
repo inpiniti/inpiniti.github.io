@@ -1,5 +1,5 @@
 ---
-title: aas learn (1)
+title: AAS
 author: JUNG YoungKyun
 date: 2022-05-10
 category: 06 aas

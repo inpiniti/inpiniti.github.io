@@ -1,5 +1,5 @@
 ---
-title: azure learn (1)
+title: AZURE
 author: JUNG YoungKyun
 date: 2022-05-10
 category: 10 azure

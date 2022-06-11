@@ -1,5 +1,5 @@
 ---
-title: javascript learn (1)
+title: JAVASCRIPT
 author: JUNG YoungKyun
 date: 2022-05-10
 category: 05 javascript

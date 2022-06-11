@@ -1,5 +1,5 @@
 ---
-title: storybook learn (1)
+title: STORYBOOK
 author: JUNG YoungKyun
 date: 2022-05-10
 category: 03 storybook

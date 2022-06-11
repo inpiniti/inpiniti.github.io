@@ -1,5 +1,5 @@
 ---
-title: webpack learn (1)
+title: WEBPACK
 author: JUNG YoungKyun
 date: 2022-05-10
 category: 09 webpack
