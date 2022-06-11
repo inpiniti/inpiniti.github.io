@@ -6,7 +6,7 @@ layout: post
 ---
 
 ![blog_creation](https://img.shields.io/badge/blog_creation-2022_05_11-blue.svg)
-
+<ul class="posts-list">
     {% assign sorted_cats = site.categories | sort %}
     
     {% for category in sorted_cats %}
@@ -43,6 +43,7 @@ layout: post
             {% endfor %}
         {% endif %}
     {% endfor %}
+</ul>
 
 여기에는 나중엔 post 리스트가 나오면 좋을것 같음.
 
