@@ -6,7 +6,37 @@ category: 06 aas
 layout: post
 ---
 
-![aas 로고](../images/logo data-factory.png)
+<div class="sd-container-fluid ">
+    <div class="docutils">
+    {% assign sorted_cats = site.categories | sort %}
+
+    {% for category in sorted_cats %}
+        {% assign _posts = category.last %}
+        {% assign _post = _posts.last %}
+        {% assign _url = _post.url %}
+        {% assign category_name = category | first %}
+        {% assign page_name = page.category | escape %}
+        {% if category_name == page_name %}
+            {% for posts in category %}
+                {% assign reversed_posts = posts | reverse %}
+                {% for post in reversed_posts %}
+                    {% if post.url %}
+                        <a class="docutil" href="{{site.baseurl}}{{post.url}}">
+                            <div class="sd-card">
+                                <div class="sd-card-body">
+                                    <p class="sd-card-text">
+                                        <strong>{{ post.title | escape }}</strong><br>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+    </div>
+</div>
 
 중소벤처기업부에서 [스마트 제조혁신 기술개발 사업](https://www.smart-factory.kr/notice/read/60?page=6&bbsClCodeSe=00000013&bsnsClCodeSe=88888888) 을 시행하게 되었고,
 어쩌다보니 저도 참여하게 되었습니다.

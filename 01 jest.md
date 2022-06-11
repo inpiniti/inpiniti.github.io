@@ -5,7 +5,6 @@ category: 01 jest
 layout: post
 ---
 
-![blog_creation](https://img.shields.io/badge/blog_creation-2022_05_11-blue.svg)
 <div class="sd-container-fluid ">
     <div class="docutils">
     {% assign sorted_cats = site.categories | sort %}
@@ -24,10 +23,8 @@ layout: post
                         <a class="docutil" href="{{site.baseurl}}{{post.url}}">
                             <div class="sd-card">
                                 <div class="sd-card-body">
-                                    <img alt="jest" class="sd-width-auto" src="../images/logo jest-icon.png">
                                     <p class="sd-card-text">
-                                        <strong>Jest</strong><br>
-                                        {{ post.title | escape }}
+                                        <strong>{{ post.title | escape }}</strong><br>
                                     </p>
                                 </div>
                             </div>
