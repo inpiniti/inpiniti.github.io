@@ -47,6 +47,9 @@ Aasx PackEx 튜토리얼 10 사전 정의된 사전에서 SubmodelElement 생성
 ### 01.06.01 create empty and assign
 
 ![12 Property create empty and assign.png](../images/06.03_Aasx_PackEx_튜토리얼/09/12 Property create empty and assign.png)
+
+ConcepDescription 하나가 추가 된것을 확인 할 수 있습니다.
+
 ![13 Property create empty and assign.png](../images/06.03_Aasx_PackEx_튜토리얼/09/13 Property create empty and assign.png)
 
 ### 01.06.02 idShort Sync
