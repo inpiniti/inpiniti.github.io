@@ -63,12 +63,34 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="06 aas">
+        <a class="docutil" href="06.01 AAS 교육과정">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="standardization" class="sd-width-auto" src="../images/logo aasx.png">
                     <p class="sd-card-text">
-                        <strong>표준화</strong><br>
+                        <strong>AAS 교육과정</strong><br>
+                        Learn how Ass works.
+                    </p>
+                </div>
+            </div>
+        </a>
+        <a class="docutil" href="06.02 표준화 조사">
+            <div class="sd-card">
+                <div class="sd-card-body">
+                    <img alt="standardization" class="sd-width-auto" src="../images/logo aasx.png">
+                    <p class="sd-card-text">
+                        <strong>표준화 조사</strong><br>
+                        Learn how Ass works.
+                    </p>
+                </div>
+            </div>
+        </a>
+        <a class="docutil" href="06.03 Aasx PackEx 튜토리얼">
+            <div class="sd-card">
+                <div class="sd-card-body">
+                    <img alt="standardization" class="sd-width-auto" src="../images/logo aasx.png">
+                    <p class="sd-card-text">
+                        <strong>Aasx PackEx 튜토리얼</strong><br>
                         Learn how Ass works.
                     </p>
                 </div>
