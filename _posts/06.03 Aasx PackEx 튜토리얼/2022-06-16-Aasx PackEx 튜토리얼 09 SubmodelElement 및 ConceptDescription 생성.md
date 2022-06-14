@@ -1,5 +1,5 @@
 ---
-title: Aasx PackEx 튜토리얼 09 SubmodelElement 및 ConceptDescription 생성
+title: 09 SubmodelElement 및 ConceptDescription 생성
 author: JUNG YoungKyun
 date: 2022-06-16
 category: 06.03 Aasx PackEx 튜토리얼

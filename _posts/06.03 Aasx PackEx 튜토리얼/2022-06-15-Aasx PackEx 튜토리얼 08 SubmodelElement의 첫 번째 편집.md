@@ -1,5 +1,5 @@
 ---
-title: Aasx PackEx 튜토리얼 08 SubmodelElement의 첫 번째 편집
+title: 08 SubmodelElement의 첫 번째 편집
 author: JUNG YoungKyun
 date: 2022-06-15
 category: 06.03 Aasx PackEx 튜토리얼

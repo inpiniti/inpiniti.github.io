@@ -1,5 +1,5 @@
 ---
-title: Aasx PackEx 튜토리얼 04 AAS 콘텐츠 찾아보기
+title: 04 AAS 콘텐츠 찾아보기
 author: JUNG YoungKyun
 date: 2022-06-04
 category: 06.03 Aasx PackEx 튜토리얼

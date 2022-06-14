@@ -1,5 +1,5 @@
 ---
-title: Aasx PackEx 튜토리얼 06 AAS의 첫 번째 편집 단계
+title: 06 AAS의 첫 번째 편집 단계
 author: JUNG YoungKyun
 date: 2022-06-13
 category: 06.03 Aasx PackEx 튜토리얼

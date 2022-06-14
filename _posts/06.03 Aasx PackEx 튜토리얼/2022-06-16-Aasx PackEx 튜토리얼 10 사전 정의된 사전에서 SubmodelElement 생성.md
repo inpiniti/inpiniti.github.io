@@ -1,5 +1,5 @@
 ---
-title: Aasx PackEx 튜토리얼 10 사전 정의된 사전에서 SubmodelElement 생성
+title: 10 사전 정의된 사전에서 SubmodelElement 생성
 author: JUNG YoungKyun
 date: 2022-06-17
 category: 06.03 Aasx PackEx 튜토리얼
