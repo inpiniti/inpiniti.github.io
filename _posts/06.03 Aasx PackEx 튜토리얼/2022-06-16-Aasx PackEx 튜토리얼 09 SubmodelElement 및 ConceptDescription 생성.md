@@ -11,7 +11,6 @@ layout: post
 Aasx PackEx 튜토리얼 09 SubmodelElement 및 ConceptDescription 생성 (tfL4F7XeVa4)
 {% include youtube.html id="tfL4F7XeVa4" %}
 
-
 # 01 Add Property
 
 ![01 Add Property.png](../images/06.03_Aasx_PackEx_튜토리얼/09/01 Add Property.png)
@@ -47,6 +46,9 @@ Aasx PackEx 튜토리얼 09 SubmodelElement 및 ConceptDescription 생성 (tfL4F
 ### 01.06.01 create empty and assign
 
 ![12 Property create empty and assign.png](../images/06.03_Aasx_PackEx_튜토리얼/09/12 Property create empty and assign.png)
+
+ConcepDescription 하나가 추가 된것을 확인 할 수 있습니다.
+
 ![13 Property create empty and assign.png](../images/06.03_Aasx_PackEx_튜토리얼/09/13 Property create empty and assign.png)
 
 ### 01.06.02 idShort Sync
@@ -87,29 +89,29 @@ Aasx PackEx 튜토리얼 09 SubmodelElement 및 ConceptDescription 생성 (tfL4F
 
 ### 01.06.07 Data Specification Content
 
-### 01.06.07.01 preferredName
+#### 01.06.07.01 preferredName
 
 ![22 Specification preferredName.png](../images/06.03_Aasx_PackEx_튜토리얼/09/22 Specification preferredName.png)
 ![23 Specification preferredName.png](../images/06.03_Aasx_PackEx_튜토리얼/09/23 Specification preferredName.png)
 
-### 01.06.07.02 unit
+#### 01.06.07.02 unit
 
 ![24 Specification unit.png](../images/06.03_Aasx_PackEx_튜토리얼/09/24 Specification unit.png)
 ![25 Specification unit.png](../images/06.03_Aasx_PackEx_튜토리얼/09/25 Specification unit.png)
 
-### 01.06.07.03 valueFormat
+#### 01.06.07.03 valueFormat
 
 ![26 Specification valueFormat.png](../images/06.03_Aasx_PackEx_튜토리얼/09/26 Specification valueFormat.png)
 
-### 01.06.07.04 dataType
+#### 01.06.07.04 dataType
 
 ![27 Specification dataType.png](../images/06.03_Aasx_PackEx_튜토리얼/09/27 Specification dataType.png)
 
-### 01.06.07.05 definition
+#### 01.06.07.05 definition
 
 ![28 Specification definition.png](../images/06.03_Aasx_PackEx_튜토리얼/09/28 Specification definition.png)
 ![29 Specification definition.png](../images/06.03_Aasx_PackEx_튜토리얼/09/29 Specification definition.png)
 
-### 02 ConceptDescription
+# 02 ConceptDescription
 
 ![30 CD.png](../images/06.03_Aasx_PackEx_튜토리얼/09/30 CD.png)
