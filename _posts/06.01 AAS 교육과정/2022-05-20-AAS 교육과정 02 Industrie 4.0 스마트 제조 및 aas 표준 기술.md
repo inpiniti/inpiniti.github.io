@@ -1,8 +1,8 @@
 ---
-title: AAS(2) Industrie 4.0 스마트 제조 및 aas 표준 기술
+title: AAS 교육과정 02 Industrie 4.0 스마트 제조 및 aas 표준 기술
 author: JUNG YoungKyun
 date: 2022-05-20
-category: 06 aas
+category: 06.01 AAS 교육과정
 layout: post
 ---
 

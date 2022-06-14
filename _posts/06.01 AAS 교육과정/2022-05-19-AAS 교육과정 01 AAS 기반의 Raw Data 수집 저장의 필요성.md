@@ -1,8 +1,8 @@
 ---
-title: AAS(1) AAS 기반의 Raw Data 수집 저장의 필요성
+title: AAS 교육과정 01 AAS 기반의 Raw Data 수집 저장의 필요성
 author: JUNG YoungKyun
 date: 2022-05-19
-category: 06 aas
+category: 06.01 AAS 교육과정
 layout: post
 ---
 
