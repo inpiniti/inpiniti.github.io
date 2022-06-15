@@ -24,7 +24,6 @@
 
 .book-body .body-inner .page-wrapper .page-inner {
     padding-bottom: 20px;
-    max-width: none;
 }
 
 @media (max-width: 1240px) {
