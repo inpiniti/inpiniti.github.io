@@ -10,7 +10,7 @@
                         <h1 id="{{ page.id }}" style="margin-bottom: 0px">{{ site.title | escape }}</h1>
                     {% endif %}
   
-                    <p id="date" style="color: #999;"><i class="fa-solid fa-calendar-days"></i> {{ page.date | date: "%Y-%m-%d" }}</p>
+                    <p id="date" style="color: #999;"><i class="fa-solid fa-calendar-days"></i> {{ page.date | date: "%Y-%m-%d (%a)" }}</p>
 
                     {{ content }}
                 </section>
