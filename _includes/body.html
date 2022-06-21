@@ -9,6 +9,8 @@
                     {% else %}
                         <h1 id="{{ page.id }}">{{ site.title | escape }}</h1>
                     {% endif %}
+  
+                    <h3 id="date">{{ page.date | escape }}</h3>
 
                     {{ content }}
                 </section>
