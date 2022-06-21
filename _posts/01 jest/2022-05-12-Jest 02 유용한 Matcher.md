@@ -6,8 +6,6 @@ category: 01 jest
 layout: post
 ---
 
-![write date](https://img.shields.io/badge/write_date-2022_05_12-blue.svg)
-
 toBe같은 함수를 `Matcher` 라고 합니다.
 
 toBe는 숫자나 문자 등의 기본 타입값을 비교할때 사용합니다.

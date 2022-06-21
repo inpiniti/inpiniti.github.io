@@ -8,8 +8,6 @@ layout: post
 
 한양대 홍성호 교수의 [교육과정 1-2] Industrie 4.0 및 AAS 표준기술 글로벌 동향 소개를 참고로 만들었습니다.
 
-![AAS-2022.05.20-red](https://img.shields.io/badge/AAS-2022.05.20-red.svg)
-
 Industrie 4.0 스마트 제조 및 as 표준 기술에 대해서 이야기 해보도록 하겠습니다.
 
 # 미래의 제조 시스템

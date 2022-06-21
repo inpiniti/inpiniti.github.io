@@ -6,8 +6,6 @@ category: 06.03 Aasx PackEx 튜토리얼
 layout: post
 ---
 
-![azure](https://img.shields.io/badge/aasx-2022.06.04-red.svg)
-
 Aasx PackEx 튜토리얼 04 AAS 콘텐츠 찾아보기 (FzqKMWgrqRc)
 {% include youtube.html id="FzqKMWgrqRc" %}
 

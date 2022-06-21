@@ -6,8 +6,6 @@ category: 06.03 Aasx PackEx 튜토리얼
 layout: post
 ---
 
-![Aasx_PackEx_튜토리얼-2022.06.17-red](https://img.shields.io/badge/Aasx_PackEx_튜토리얼-2022.06.17-red.svg)
-
 Aasx PackEx 튜토리얼 11 보조 AAS에서 전체 하위 모델 복사 (thUpybDoLp4)
 {% include youtube.html id="thUpybDoLp4" %}
 

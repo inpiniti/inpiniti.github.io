@@ -6,8 +6,6 @@ category: 06.03 Aasx PackEx 튜토리얼
 layout: post
 ---
 
-![azure](https://img.shields.io/badge/Aasx_PackEx_튜토리얼-2022.06.15-red.svg)
-
 Aasx PackEx 튜토리얼 08 SubmodelElement의 첫 번째 편집 (NKu_ymN-7yY)
 {% include youtube.html id="NKu_ymN-7yY" %}
 

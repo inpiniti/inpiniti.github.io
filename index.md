@@ -3,8 +3,6 @@ date: 2022-05-11
 layout: home
 ---
 
-![blog_creation](https://img.shields.io/badge/blog_creation-2022_05_11-blue.svg)
-
 Hello. I am a front developer. These are technical documents I wrote while studying.
 
 <div class="sd-container-fluid ">

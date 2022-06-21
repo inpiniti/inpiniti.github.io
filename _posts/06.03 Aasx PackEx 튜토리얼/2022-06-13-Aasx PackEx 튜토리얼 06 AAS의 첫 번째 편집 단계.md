@@ -6,8 +6,6 @@ category: 06.03 Aasx PackEx 튜토리얼
 layout: post
 ---
 
-![azure](https://img.shields.io/badge/aasx-2022.06.13-red.svg)
-
 - add AAS 클릭
 
 ![aaset 에서 add AAS](../images/aas/2022-06-13/06_AAS의_첫_번째_편집_단계/20220613130755.png)

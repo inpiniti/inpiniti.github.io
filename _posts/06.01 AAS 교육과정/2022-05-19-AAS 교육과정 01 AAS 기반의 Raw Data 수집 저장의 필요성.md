@@ -8,8 +8,6 @@ layout: post
 
 [AAS 기반의 Raw Data 수집 저장의 필요성 - KOSMO 박한구 단장](https://www.youtube.com/watch?v=pwMaS-CFZd0&list=PLcFqBGHqcUDpgyH10GI_kiAtqLme88_Nh)
 
-![azure](https://img.shields.io/badge/AAS-2022.05.19-red.svg)
-
 이번 교육이 중요한 만큼 제가 특별히 부탁을 하기 위해서 필요성에 대해서 한번 공감대를 갖고자 했습니다 
 
 저는 제 1 20분에 한 30분정도 우리 뭘 배워서 어떻게 적용할지에 대한 설명을 해드리도록 하겠습니다 

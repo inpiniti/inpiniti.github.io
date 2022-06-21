@@ -6,8 +6,6 @@ category: 11 search
 layout: post
 ---
 
-![search console](https://img.shields.io/badge/search_console-2022.05.16-red.svg)
-
 블로그를 만들다보니 검색도 되면 좋겠다 싶어서 google 서치어드바이저에 등록을 시도했고,
 
 그 경험을 공유하고자 합니다.
