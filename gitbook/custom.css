@@ -94,6 +94,7 @@
 
 #book-search-input {
     display: block;
+    background-color: #fff;
 }
 #book-search-input-link {
     display: none;
@@ -105,6 +106,7 @@
     }
     #book-search-input-link {
         display: block;
+        background-color: #fff;
     }
 }
 
