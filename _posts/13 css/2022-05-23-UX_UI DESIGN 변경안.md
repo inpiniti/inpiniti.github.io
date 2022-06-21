@@ -100,7 +100,7 @@ Azure의 경우는 클릭한 리소스의 이름과 상세 정보를 보여주�
 
 <img src="../images/ux 기타 차트.png" alt="기타 차트" style="border-radius: 10px; border: 1px solid #eaeaea;"/>
 
-<img src="../images/ux 기타 차트2.png" alt="기타 차트" style="border-radius: 10px; border: 1px solid #eaeaea;"/>
+<img src="../images/ux 기타 차트2.png" alt="기타 차트2" style="border-radius: 10px; border: 1px solid #eaeaea;"/>
 
 차트를 완전히 갈아업는건 조금 어렵겠지만, 색상이나 폰트, 두깨 등을 변경해서 조금 더 세련되게 바꿀수 있지 않을까 생각이 됩니다.
 

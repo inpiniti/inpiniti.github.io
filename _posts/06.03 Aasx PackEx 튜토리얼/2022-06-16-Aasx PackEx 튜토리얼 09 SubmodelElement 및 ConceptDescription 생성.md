@@ -6,7 +6,7 @@ category: 06.03 Aasx PackEx 튜토리얼
 layout: post
 ---
 
-![azure](https://img.shields.io/badge/Aasx_PackEx_튜토리얼-2022.06.16-red.svg)
+![Aasx_PackEx_튜토리얼-2022.06.16-red](https://img.shields.io/badge/Aasx_PackEx_튜토리얼-2022.06.16-red.svg)
 
 Aasx PackEx 튜토리얼 09 SubmodelElement 및 ConceptDescription 생성 (tfL4F7XeVa4)
 {% include youtube.html id="tfL4F7XeVa4" %}
