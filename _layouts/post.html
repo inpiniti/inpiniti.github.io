@@ -21,9 +21,6 @@
   
   <div class="book-body">
     <div class="book-header" role="navigation">
-      <div class="btn pull-left js-toolbar-action" aria-label="">
-        2022 05 11
-      </div>
       <!-- Title -->
       <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
@@ -36,6 +33,9 @@
     </div>
     
     <div class="body-inner">
+      <!-- 포스팅 업데이트 날짜 포함시키기 -->
+      {% include page__date.html %}
+      
       {%- include body.html -%}
       
       {% if page.previous %}
