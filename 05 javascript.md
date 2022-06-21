@@ -48,3 +48,7 @@ layout: post
 
 [아토믹 디자인을 활용한 디자인 시스템 도입기](https://fe-developers.kakaoent.com/2022/220505-how-page-part-use-atomic-design-system/?fbclid=IwAR0p59AAcbIPJMv0u0Zolz79sz931qMn8hyDuO1sFz612icLNnN8FXDg86M)
 
+세미나 일정
+
+- 9월 프론트엔드 동향 (45분)
+- 10월 프론트엔드 아키텍쳐 동향 (45분)
