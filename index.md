@@ -184,13 +184,24 @@ Hello. I am a front developer. These are technical documents I wrote while study
                 </div>
             </div>
         </a>
-        <a class="docutil" href="15 ai">
+        <a class="docutil" href="15.01 ai">
             <div class="sd-card">
                 <div class="sd-card-body">
                     <img alt="azure" class="sd-width-auto" src="../images/ai/machine-learning.png">
                     <p class="sd-card-text">
                         <strong>AI</strong><br>
                         Learn how AI works.
+                    </p>
+                </div>
+            </div>
+        </a>
+        <a class="docutil" href="15.02 ai training">
+            <div class="sd-card">
+                <div class="sd-card-body">
+                    <img alt="azure" class="sd-width-auto" src="../images/ai/machine-learning.png">
+                    <p class="sd-card-text">
+                        <strong>AI Training</strong><br>
+                        Learn how AI training works.
                     </p>
                 </div>
             </div>
