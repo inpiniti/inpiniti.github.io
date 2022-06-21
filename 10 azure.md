@@ -1,7 +1,7 @@
 ---
 title: AZURE
 author: JUNG YoungKyun
-date: 2022-05-10
+date: 2022-05-29
 category: 10 azure
 layout: post
 ---

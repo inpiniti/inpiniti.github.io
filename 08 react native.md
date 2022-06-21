@@ -1,7 +1,7 @@
 ---
 title: REACT
 author: JUNG YoungKyun
-date: 2022-05-10
+date: 2022-05-29
 category: 08 react native
 layout: post
 ---

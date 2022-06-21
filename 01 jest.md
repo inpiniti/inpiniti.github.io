@@ -1,6 +1,7 @@
 ---
 title: JEST
 author: JUNG YoungKyun
+date: 2022-06-10
 category: 01 jest
 layout: post
 ---

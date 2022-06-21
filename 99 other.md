@@ -1,7 +1,7 @@
 ---
 title: OTHER
 author: JUNG YoungKyun
-date: 2022-06-08
+date: 2022-06-11
 category: 99 other
 layout: post
 ---
