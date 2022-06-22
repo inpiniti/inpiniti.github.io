@@ -3,7 +3,7 @@ require([
     'jquery'
 ], function(gitbook, $) {
     gitbook.events.on('page.change', function() {
-        var back_to_top_button = ['<div class="back-to-top"><i class="fa fa-arrow-up"></i></div>'].join("");
+        /*var back_to_top_button = ['<div class="back-to-top"><i class="fa fa-arrow-up"></i></div>'].join("");
         $(".page-wrapper").append(back_to_top_button)
     
         $(".back-to-top").hide();
@@ -27,6 +27,6 @@ require([
                 scrollTop: 0
             }, 800);
             return false;
-        });
+        });*/
     });
 });
