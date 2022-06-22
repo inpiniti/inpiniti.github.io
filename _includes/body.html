@@ -12,16 +12,16 @@
   
                     <p id="date" style="color: #999;"><i class="fa-solid fa-calendar-days"></i> {{ page.date | date: "%Y-%m-%d" }}</p>
   
-                    <div class="toc">
-                      <a href="#">&lt;맨 위로&gt;</a>
-                      {% include toc.html html=content %}
-                    </div>
-                  
                     {{ content }}
                 </section>
             </div>
 
             {%- include search.html -%}
+        </div>
+  
+        <div class="toc">
+            <a href="#">&lt;맨 위로&gt;</a>
+            {% include toc.html html=content %}
         </div>
     </div>
 </div>
