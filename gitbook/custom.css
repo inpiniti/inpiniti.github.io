@@ -291,7 +291,7 @@
 }
 
 .toc {
-    position: absolute;
+    position: fixed;
     right: 0px;
     width: 240px;
     color: #007bff;
@@ -309,7 +309,7 @@
 @media (min-width: 95em) {
     .toc {
         width: 360px;
-        calc((100% - 300px - min(100% - 300px, 800px)) / 2 + -360px);
+        right: calc((100% - 300px - min(100% - 300px, 800px)) / 2 + -360px);
         display: block;
     }
 }
