@@ -294,7 +294,7 @@
     position: absolute;
     right: 0px;
     width: 240px;
-    color: $default;
+    color: #007bff;
     overflow-y: auto;
     overflow-x: hidden;
     padding-left: 0.75rem;
@@ -304,45 +304,46 @@
     margin-right: 0px;
     font-size: 0.7rem;
     border-left: 2px solid #e0d9e7;
-
     display: none;
-    @media (min-width: 75em){
+}
+@media (min-width: 75em) {
+    .toc {
         width: 240px;
         display: block;
     }
-    @media (min-width: 85em){
+}
+@media (min-width: 85em) {
+    .toc {
         width: 300px;
         display: block;
     }
-    @media (min-width: 95em){
+}
+@media (min-width: 95em) {
+    .toc {
         width: 360px;
         display: block;
     }
-
-    a.toc-active {
-        font-weight: bold;
-        transition: all 0.125s ease-in 0s;
-        font-size: 0.75rem;
-        color: #9075aa;
-    }
-
-    ul {
-        list-style-type: none;
-        margin-bottom: 0.1rem;
-        padding-left: 0rem;
-        li {
-            padding-left: .5rem;
-        }
-    }
-
-    a {
-        color: $default;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color:$theme-color;
-    }
+}
+.toc a.toc-active {
+    font-weight: bold;
+    transition: all 0.125s ease-in 0s;
+    font-size: 0.75rem;
+    color: #9075aa;
+}
+.toc ul {
+    list-style-type: none;
+    margin-bottom: 0.1rem;
+    padding-left: 0rem;
+}
+.toc ul li {
+    padding-left: 0.5rem;
+}
+.toc a {
+    color: #007bff;
+    text-decoration: none;
+}
+.toc a:hover {
+    color: #17a2b8;
 }
 
 img + em {
