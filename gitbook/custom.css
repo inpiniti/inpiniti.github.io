@@ -308,7 +308,7 @@
     display: none;
     line-height: 23px;
 }
-@media (min-width: 95em) {
+@media (min-width: 120em) {
     .toc {
         width: 360px;
         right: calc((100% - 300px - min(100% - 300px, 800px)) / 2 + -360px);
