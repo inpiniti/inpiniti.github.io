@@ -343,3 +343,7 @@ img + em {
     font-size: .8rem;
     color: #5c636a;
 }
+.markdown-section code {
+    background-color: #dbdbdb;
+    border-radius: 6px;
+}
