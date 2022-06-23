@@ -295,7 +295,7 @@
     top: 50px;
     right: 0px;
     width: 240px;
-    color: #007bff;
+    color: #b3b3b3;
     overflow-y: auto;
     overflow-x: hidden;
     padding-left: 0.75rem;
@@ -303,9 +303,10 @@
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
     margin-right: 0px;
-    font-size: 0.7rem;
-    border-left: 2px solid #e0d9e7;
+    font-size: 1.4rem;
+    border-left: 5px solid #f1f1f1;
     display: none;
+    line-height: 23px;
 }
 @media (min-width: 95em) {
     .toc {
@@ -329,11 +330,11 @@
     padding-left: 0.5rem;
 }
 .toc a {
-    color: #007bff;
+    color: #b3b3b3;
     text-decoration: none;
 }
 .toc a:hover {
-    color: #17a2b8;
+    color: #767676;
 }
 
 img + em {
