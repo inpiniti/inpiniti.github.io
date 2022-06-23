@@ -344,6 +344,11 @@ img + em {
     color: #5c636a;
 }
 .markdown-section code {
-    background-color: #dbdbdb;
+    background-color: #008cff;
     border-radius: 6px;
+    color: #fff;
+}
+.markdown-section b, .markdown-section strong {
+    font-weight: 700;
+    color: #008cff;
 }
