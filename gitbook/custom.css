@@ -313,6 +313,7 @@
         width: 360px;
         right: calc((100% - 300px - min(100% - 300px, 800px)) / 2 + -360px);
         display: block;
+        height: calc(100% - 60px);
     }
 }
 .toc a.toc-active {
