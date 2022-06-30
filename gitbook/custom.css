@@ -353,3 +353,7 @@ img + em {
     font-weight: 700;
     color: #008cff;
 }
+
+.markdown-section pre>code {
+    color: black;
+}
