@@ -1,5 +1,5 @@
 ---
-title: 02 3주차 Data Wrangling
+title: 02 week3 workbook
 author: JUNG YoungKyun
 date: 2022-06-22
 category: 15.02 ai training
