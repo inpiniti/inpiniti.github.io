@@ -7,56 +7,59 @@ layout: post
 ---
 
 # 피처 엔지니어링 (Feature Engineering)
-## Read the material on related to ML Workflows (i.e., Feature Engineering section) on the Teams channel folder (**mandatory), and answer these following questions:
-## Teams 채널 폴더(**필수)에서 ML 워크플로 관련 자료(예: 기능 엔지니어링 섹션)를 읽고 다음 질문에 답하세요.
-- What is Feature Engineering? Feature engineering은 무엇인가요?
-- 피쳐 엔지니어링이란 무엇입니까? 피처 엔지니어링
-- Why do we need Feature Engineering? 왜 하는 가요? 
-- 기능 엔지니어링이 필요한 이유는 무엇입니까?
-- What is the goal of feature engineering? 목표는 무엇인가요?
-- 피쳐 엔지니어링의 목표는 무엇입니까
+1. Read the material on related to ML Workflows (i.e., Feature Engineering section) on the Teams channel folder (**mandatory), and answer these following questions:
+(Teams 채널 폴더(**필수)에서 ML 워크플로 관련 자료(예: 기능 엔지니어링 섹션)를 읽고 다음 질문에 답하세요.)
 
-## 특징 추출 (Feature Extraction)
-- Create a new column called “status” to categorize the status of passenger with the following conditions:
-- 다음 조건으로 승객의 상태를 분류하기 위해 "상태"라는 새 열을 만듭니다.
-    - If age > 65 , then passenger is “elderly”
-    - 연령 > 65인 경우 승객은 "고령자"입니다.
-    - If age >= 18 & age <= 65, then passenger is “adult”
-    - 연령 >= 18 & 연령 <= 65인 경우 승객은 "성인"입니다.
-    - The rest is “child” passenger
-    - 나머지는 "어린이" 승객입니다.
-- Create a new column called “title” to extract the title of passenger from “name” column
-- "이름" 열에서 승객의 직위를 추출하기 위해 "제목"이라는 새 열을 만듭니다.
-    - You might extract the title such as Mr, Miss, Lady, Master, etc
-    - Mr, Miss, Lady, Master 등과 같은 제목을 추출할 수 있습니다.
+    1. What is Feature Engineering? Feature engineering은 무엇인가요?
+    (피쳐 엔지니어링이란 무엇입니까? 피처 엔지니어링)
+        
+    2. Why do we need Feature Engineering? 왜 하는 가요? 
+    (기능 엔지니어링이 필요한 이유는 무엇입니까?)
+        
+    3. What is the goal of feature engineering? 목표는 무엇인가요?
+    (피쳐 엔지니어링의 목표는 무엇입니까)
 
-## 데이터 인코딩 (Data Encoding)
-- Encode value from “embarked” column into numerical value and save it as new column “embarked_enc”
-- "embarked" 열의 값을 숫자 값으로 인코딩하고 새 열 "embarked_enc"로 저장
-- For example: S -> 0, C -> 1
-- 예: S -> 0, C -> 1
+2. 특징 추출 (Feature Extraction)
+    1. Create a new column called “status” to categorize the status of passenger with the following conditions:
+    (다음 조건으로 승객의 상태를 분류하기 위해 "상태"라는 새 열을 만듭니다.)
+        1. If age > 65 , then passenger is “elderly”
+        (연령 > 65인 경우 승객은 "고령자"입니다.)
+        2. If age >= 18 & age <= 65, then passenger is “adult”
+        (연령 >= 18 & 연령 <= 65인 경우 승객은 "성인"입니다.)
+        3. The rest is “child” passenger
+        (나머지는 "어린이" 승객입니다.)
+    2. Create a new column called “title” to extract the title of passenger from “name” column
+    ("이름" 열에서 승객의 직위를 추출하기 위해 "제목"이라는 새 열을 만듭니다.)
+        1. You might extract the title such as Mr, Miss, Lady, Master, etc
+        (Mr, Miss, Lady, Master 등과 같은 제목을 추출할 수 있습니다.)
 
-# 데이터 구간화 (Data Binning)
-- Perform a data binning operation on the “fare” column (hint: use pandas cut/qcut function)
-- "fare" 열에 대한 데이터 비닝 작업 수행(힌트: pandas cut/qcut 기능 사용)
-- Cut the fare values into 3 categories: “economy”, “business”, and “president” (hint: you can define the fare range (범위) by yourself)
-- 요금 값을 "이코노미", "비즈니스", "대통령"의 3가지 범주로 나눕니다. (힌트: 요금 범위(도달)는 스스로 정의할 수 있습니다)
-- Make a new column “fare_type” to represent the fare categories
-- 요금 범주를 나타내는 새 열 "fare_type"을 만듭니다.
+3. 데이터 인코딩 (Data Encoding)
+    1. Encode value from “embarked” column into numerical value and save it as new column “embarked_enc”
+    ("embarked" 열의 값을 숫자 값으로 인코딩하고 새 열 "embarked_enc"로 저장)
+    2. For example: S -> 0, C -> 1
+    (예: S -> 0, C -> 1)
 
-# 상관 계수 (Correlation Analysis)
-- Perform a correlation analysis and show the result ! (hint : use the Spearman Rank Correlation)
-- 상관 분석을 수행하고 결과를 보여줍니다! (힌트 : Spearman Rank Correlation 사용)
-- (optional) Visualize the correlation analysis using heatmap (hint: you can use seaborn heatmap)
-- (선택사항) 히트맵을 사용하여 상관관계 분석 시각화(힌트: seaborn 히트맵을 사용할 수 있음)
+4. 데이터 구간화 (Data Binning)
+    1. Perform a data binning operation on the “fare” column (hint: use pandas cut/qcut function)
+    ("fare" 열에 대한 데이터 비닝 작업 수행(힌트: pandas cut/qcut 기능 사용))
+    2. Cut the fare values into 3 categories: “economy”, “business”, and “president” (hint: you can define the fare range (범위) by yourself)
+    (요금 값을 "이코노미", "비즈니스", "대통령"의 3가지 범주로 나눕니다. (힌트: 요금 범위(도달)는 스스로 정의할 수 있습니다))
+    3. Make a new column “fare_type” to represent the fare categories
+    (요금 범주를 나타내는 새 열 "fare_type"을 만듭니다.)
 
-# CSV 파일로 내보내기 (CSV file data export)
-- Please export the final data (i.e., preprocessed data) into a single .csv file ! (format : titanic_preprocessed_YOURNAME)
-- Save all the data into “dataset” folder at your directory (if you don’t have “dataset” folder, please make it in advance)
-- Upload all your results to server
-- 최종 데이터(즉, 전처리된 데이터)를 하나의 .csv 파일로 내보내십시오! (형식: titanic_preprocessed_YOURNAME)
-- 모든 데이터를 디렉토리의 "dataset" 폴더에 저장합니다. ("dataset" 폴더가 없다면 미리 만들어두세요)
-- 모든 결과를 서버에 업로드
+5. 상관 계수 (Correlation Analysis)
+    1. Perform a correlation analysis and show the result ! (hint : use the Spearman Rank Correlation)
+    (상관 분석을 수행하고 결과를 보여줍니다! (힌트 : Spearman Rank Correlation 사용))
+    2. (optional) Visualize the correlation analysis using heatmap (hint: you can use seaborn heatmap)
+    ((선택사항) 히트맵을 사용하여 상관관계 분석 시각화(힌트: seaborn 히트맵을 사용할 수 있음))
+
+6. CSV 파일로 내보내기 (CSV file data export)
+    1. Please export the final data (i.e., preprocessed data) into a single .csv file ! (format : titanic_preprocessed_YOURNAME)
+    (최종 데이터(즉, 전처리된 데이터)를 하나의 .csv 파일로 내보내십시오! (형식: titanic_preprocessed_YOURNAME))
+    2. Save all the data into “dataset” folder at your directory (if you don’t have “dataset” folder, please make it in advance)
+    (모든 데이터를 디렉토리의 "dataset" 폴더에 저장합니다. ("dataset" 폴더가 없다면 미리 만들어두세요))
+    3. Upload all your results to server
+    (모든 결과를 서버에 업로드)
 
 ## Teams 채널 폴더(**필수)에서 ML 워크플로 관련 자료(예: 기능 엔지니어링 섹션)를 읽고 다음 질문에 답하세요.
 - What is Feature Engineering? Feature engineering은 무엇인가요?
