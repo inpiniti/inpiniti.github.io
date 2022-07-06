@@ -14,6 +14,9 @@ url:              'https://inpiniti.github.io'
 baseurl:          '/'
 rss:              RSS
 
+feed:
+  posts_limit: 500
+
 toc:
   enabled: true
   h_min: 1
