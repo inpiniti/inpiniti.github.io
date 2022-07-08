@@ -308,7 +308,7 @@
     display: none;
     line-height: 23px;
 }
-@media (min-width: 100em) {
+@media (min-width: 110em) {
     .toc {
         width: 300px;
         display: block;
@@ -316,10 +316,15 @@
     }
 
     .page-inner {
-        max-width: 1200px !important;
+        max-width: 1400px !important;
         padding: 20px 315px 40px 15px !important;
     }
 }
+
+.page-inner {
+    max-width: 1000px !important;
+}
+
 .toc a.toc-active {
     font-weight: bold;
     transition: all 0.125s ease-in 0s;
