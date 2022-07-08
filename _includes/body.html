@@ -5,9 +5,9 @@
                 <section class="normal markdown-section">
 
                     {% if page.title %}
-                        <h1 id="{{ page.id }}" style="margin-bottom: 0px">{{ page.title | escape }}</h1>
+                        <h1 id="{{ page.id }}" style="margin-bottom: 0px" class="post-title">{{ page.title | escape }}</h1>
                     {% else %}
-                        <h1 id="{{ page.id }}" style="margin-bottom: 0px">{{ site.title | escape }}</h1>
+                        <h1 id="{{ page.id }}" style="margin-bottom: 0px" class="post-title">{{ site.title | escape }}</h1>
                     {% endif %}
   
                     <p id="date" style="color: #999;"><i class="fa-solid fa-calendar-days"></i> {{ page.date | date: "%Y-%m-%d" }}</p>
@@ -44,7 +44,7 @@
     var title = document.getElementsByClassName("post-title")[0];
     var titleY = window.pageYOffset + title.getBoundingClientRect().top;
 
-    var article = document.getElementsByClassName("post-article")[0];
+    var article = document.getElementsByClassName("page-inner")[0];
     var articleY = window.pageYOffset + article.getBoundingClientRect().top;
 
     var toc = document.getElementsByClassName("toc")[0];
