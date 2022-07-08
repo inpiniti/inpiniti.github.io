@@ -315,7 +315,7 @@
     display: none;
     line-height: 23px;
 }
-@media (min-width: 120em) {
+@media (min-width: 100em) {
     .toc {
         width: 300px;
         display: block;
