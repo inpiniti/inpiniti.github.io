@@ -48,9 +48,18 @@
     var articleY = window.pageYOffset + article.getBoundingClientRect().top;
 
     var toc = document.getElementsByClassName("toc")[0];
+    
+    console.log('title : ' + title);
+    console.log('titleY : ' + titleY);
+    console.log('article : ' + article);
+    console.log('articleY : ' + articleY);
+    console.log('toc : ' + toc);
 
     var headerNodes = getHeaderNodes(article);
     var tocNodes = getTOCNodes(toc);
+
+    console.log('headerNodes : ' + headerNodes);
+    console.log('tocNodes : ' + tocNodes);
 
     var before = undefined;
 
