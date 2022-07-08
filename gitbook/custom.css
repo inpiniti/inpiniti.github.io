@@ -26,13 +26,6 @@
     padding-bottom: 20px;
 }
 
-@media (max-width: 1500px) {
-    .book-body .body-inner .page-wrapper .page-inner {
-        max-width: 1200px;
-        padding: 20px 315px 40px 15px;
-    }
-}
-
 @media (max-width: 1240px) {
     .book-body .body-inner .navigation {
         max-width: calc(50% - 3px);
@@ -320,6 +313,11 @@
         width: 300px;
         display: block;
         height: calc(100% - 60px);
+    }
+
+    .page-inner {
+        max-width: 1200px !important;
+        padding: 20px 315px 40px 15px !important;
     }
 }
 .toc a.toc-active {
