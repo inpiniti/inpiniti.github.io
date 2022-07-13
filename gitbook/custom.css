@@ -326,7 +326,7 @@
     .toc {
         width: 300px;
         display: block;
-        height: calc(100% - 60px);
+        height: calc(100% - 560px);
     }
 
     .page-inner {
