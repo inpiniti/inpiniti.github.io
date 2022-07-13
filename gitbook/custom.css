@@ -304,7 +304,7 @@
 .toc {
     position: fixed;
     top: 50px;
-    right: 0px;
+    right: 21px;
     width: 240px;
     color: #b3b3b3;
     overflow-y: auto;
@@ -315,9 +315,12 @@
     padding-bottom: 0.25rem;
     margin-right: 0px;
     font-size: 1.4rem;
-    border-left: 5px solid #f1f1f1;
     display: none;
     line-height: 23px;
+    box-shadow: 0 6px 3px rgb(0 0 0 / 5%), 0 0 3px rgb(0 0 0 / 10%);
+    color: #4a4a4a;
+    padding: 10px;
+    margin: 10px;
 }
 @media (min-width: 110em) {
     .toc {
