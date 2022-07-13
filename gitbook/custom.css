@@ -328,6 +328,8 @@
         width: 300px;
         display: block;
         height: calc(100% - 560px);
+        background-color: #fff;
+        border-radius: 17px;
     }
 
     .page-inner {
