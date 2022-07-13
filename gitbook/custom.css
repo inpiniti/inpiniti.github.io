@@ -386,7 +386,25 @@ img + em {
 
 #book-search-results {
     background-color: #fff;
-    padding: 33px 94px;
     border-radius: 20px;
     box-shadow: 0 6px 3px rgb(0 0 0 / 5%), 0 0 3px rgb(0 0 0 / 10%);
+}
+
+.markdown-section>:first-child{
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+    border-inline-start: 0;
+}
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6 {
+    /* margin-top: 1.275em; */
+    /* margin-bottom: 0.85em; */
+    /* font-weight: 700; */
+    margin-inline-start: -94px;
+    padding-inline-start: 69px;
+    border-inline-start: 4px solid #34495e;
+}
+
+.book.font-size-2 .book-body .page-inner section {
+    padding: 33px 94px;
 }
