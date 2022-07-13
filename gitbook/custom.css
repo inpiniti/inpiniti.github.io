@@ -304,7 +304,6 @@
 
 .toc {
     position: fixed;
-    top: 50px;
     right: 21px;
     width: 240px;
     color: #b3b3b3;
@@ -327,9 +326,10 @@
     .toc {
         width: 300px;
         display: block;
-        height: calc(100% - 560px);
+        max-height: calc(100% - 560px);
         background-color: #fff;
         border-radius: 17px;
+        top: 50px;
     }
 
     .page-inner {
