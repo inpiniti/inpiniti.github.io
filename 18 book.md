@@ -24,6 +24,12 @@ layout: post
                         <a class="docutil" href="{{site.baseurl}}{{post.url}}">
                             <div class="sd-card">
                                 <div class="sd-card-body">
+                                    {% if post.title | escape == "객체지향의 사실과 오해" %}
+                                        <img alt="jest" class="sd-width-auto" src="./images/18 book/01 객체지향의 사실과 오해/객체지향의 사실과 오해.png">
+                                    {% endif %}
+                                    {% if post.title | escape == "프로그래머의 뇌" %}
+                                        <img alt="jest" class="sd-width-auto" src="./images/18 book/02/프로그래머의뇌.jpg">
+                                    {% endif %}
                                     <p class="sd-card-text">
                                         <strong>{{ post.title | escape }}</strong><br>
                                     </p>
