@@ -23,7 +23,7 @@ layout: post
                     {% if post.url %}
                         <a class="docutil" href="{{site.baseurl}}{{post.url}}">
                             <div class="sd-card">
-                                <div class="sd-card-body">
+                                <div class="sd-card-body-book">
                                     {% if post.title == "객체지향의 사실과 오해" %}
                                         <img alt="jest" class="sd-width-auto" src="./images/18 book/01 객체지향의 사실과 오해/객체지향의 사실과 오해.png">
                                     {% endif %}
