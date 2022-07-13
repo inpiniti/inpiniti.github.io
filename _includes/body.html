@@ -29,7 +29,9 @@
         </div>
   
         <div class="toc">
-            <h3 class="menu-label">목차</h3>
+            {% if toc.html != null %}
+                <h3 class="menu-label">목차</h3>
+            {% endif %}
             {% include toc.html html=content %}
         </div>
     </div>
