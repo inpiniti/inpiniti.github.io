@@ -386,7 +386,7 @@ img + em {
 
 #book-search-results {
     background-color: #fff;
-    padding: 20px;
+    padding: 33px 94px;
     border-radius: 20px;
     box-shadow: 0 6px 3px rgb(0 0 0 / 5%), 0 0 3px rgb(0 0 0 / 10%);
 }
