@@ -326,7 +326,7 @@
     .toc {
         width: 300px;
         display: block;
-        max-height: calc(100% - 560px);
+        max-height: 500px;
         background-color: #fff;
         border-radius: 17px;
         top: 50px;
