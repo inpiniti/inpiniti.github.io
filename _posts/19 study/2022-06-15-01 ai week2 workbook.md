@@ -1,8 +1,8 @@
 ---
-title: 01 week2 workbook
+title: 01 ai week2 workbook
 author: JUNG YoungKyun
 date: 2022-06-15
-category: 15.02 ai training
+category: 19 study
 layout: post
 ---
 

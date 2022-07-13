@@ -1,8 +1,8 @@
 ---
-title: 03 week5 workbook
+title: 03 ai week5 workbook
 author: JUNG YoungKyun
 date: 2022-07-06
-category: 15.02 ai training
+category: 19 study
 layout: post
 ---
 
