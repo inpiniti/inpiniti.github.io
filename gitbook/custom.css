@@ -420,7 +420,7 @@ img + em {
     }
     #book-search-results {
         border-radius: 0;
-        box-shadow: 0;
+        box-shadow: none;
     }
     .book .book-body .book-header {
         background: #fff;
