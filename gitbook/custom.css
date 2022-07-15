@@ -333,13 +333,13 @@
     }
 
     .page-inner {
-        max-width: 1400px !important;
+        width: calc(100% - 65px);
         padding: 20px 315px 40px 15px !important;
     }
 }
 
 .page-inner {
-    max-width: 1300px !important;
+    max-width: none;
 }
 
 .toc a.toc-active {
