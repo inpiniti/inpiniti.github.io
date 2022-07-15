@@ -430,14 +430,3 @@ img + em {
     }
 
 }
-
-.code-sandbox a {
-    color: #4183c4;
-    text-decoration: none;
-    background: 0 0;
-}
-
-.code-sandbox img {
-    border: 0;
-    max-width: 100%;
-}
