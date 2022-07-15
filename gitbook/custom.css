@@ -430,3 +430,39 @@ img + em {
     }
 
 }
+
+@media (min-width: 988px) and (max-width: 1131px){
+    .docutil {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1132px) and (max-width: 1380px){
+    .docutil {
+        width: 20%;
+    }
+}
+
+@media (min-width: 1381px) and (max-width: 1569px){
+    .docutil {
+        width: 16.6666666666%;
+    }
+}
+
+@media (min-width: 1570px) and (max-width: 2126px){
+    .docutil {
+        width: 14.2857142857%;
+    }
+}
+
+@media (min-width: 2127px) and (max-width: 2336px){
+    .docutil {
+        width: 12.5%;
+    }
+}
+
+@media (min-width: 2337px){
+    .docutil {
+        width: 11.111111111%;
+    }
+}
