@@ -25,7 +25,7 @@ layout: post
                             <div class="sd-card">
                                 <div class="sd-card-body">
                                     {% if post.title == "카케구루이" %}
-                                        <img alt="jest" class="sd-width-auto-book" src="./images/20 comicbook/카게구루이/카게구루이1.png">
+                                        <img alt="jest" class="sd-width-auto-book" src="./images/20 comicbook/카케구루이/카케구루이1.png">
                                     {% endif %}
                                     <p class="sd-card-text">
                                         <strong>{{ post.title | escape }}</strong><br>
