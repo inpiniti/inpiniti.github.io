@@ -27,6 +27,9 @@ layout: post
                                     {% if post.title == "카케구루이" %}
                                         <img alt="jest" class="sd-width-auto-book" src="./images/20 comicbook/카케구루이/카케구루이1.png">
                                     {% endif %}
+                                    {% if post.title == "하이큐" %}
+                                        <img alt="jest" class="sd-width-auto-book" src="./images/20 comicbook/하이큐/하이큐1.jpeg">
+                                    {% endif %}
                                     <p class="sd-card-text">
                                         <strong>{{ post.title | escape }}</strong><br>
                                     </p>
