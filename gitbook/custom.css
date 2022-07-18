@@ -209,8 +209,7 @@
 }
 
 .sd-width-auto-book {
-    max-height: 22rem!important;
-    margin: 0.25rem auto 0.625rem!important;
+    max-height: 13rem!important;
     box-sizing: border-box;
     animation: 1s ease-out 0s 1 normal none running sd-grow50-rot20;
     padding-bottom: 0.5rem !important;
@@ -222,7 +221,10 @@
 .sd-card-text {
     margin-bottom: 0 !important;
     margin-top: 0 !important;
-    font-size: 1.475rem;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     box-sizing: border-box;
 }
 
