@@ -45,19 +45,19 @@ layout: post
     
     ![Number of features​​](../images/19 study/06/06 Number of features​.png)
     *Hint: features part*
-    
-​7. Update the script: Add data preprocessing or feature engineering
-- Previously, you learned about data preprocessing, such as:​
-    - Data imputation (i.e., fill the missing value)​
-    - Data filtering​
-    - Feature extraction (i.e., create a new feature)​
-    - Feature encoding ​
-    - Feature transformation (i.e., data standardization, normalization)​
-- In the existing python script, there is no any data preprocessing or feature engineering steps​
-- Please add any the data preprocessing or feature engineering steps on the script​
-    - You should add two processes at least, for example: fill the missing value and data standardization​
-- Then, run the code and get the result​
-    - The ultimate goal for this step is to increase the accuracy score
-    
+
+7. Update the script: Add data preprocessing or feature engineering
+    - Previously, you learned about data preprocessing, such as:​
+        - Data imputation (i.e., fill the missing value)​
+        - Data filtering​
+        - Feature extraction (i.e., create a new feature)​
+        - Feature encoding ​
+        - Feature transformation (i.e., data standardization, normalization)​
+    - In the existing python script, there is no any data preprocessing or feature engineering steps​
+        - Please add any the data preprocessing or feature engineering steps on the script​
+            - You should add two processes at least, for example: fill the missing value and data standardization​
+        - Then, run the code and get the result​
+            - The ultimate goal for this step is to increase the accuracy score
+            
 8. 기타
     - [1분 파이썬 강좌](https://www.youtube.com/watch?v=sj4vexbygKA&list=PLMsa_0kAjjrcxiSJnHNfzBN71D3zpYtkX&ab_channel=%EB%82%98%EB%8F%84%EC%BD%94%EB%94%A9)
