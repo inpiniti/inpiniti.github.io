@@ -470,3 +470,8 @@ img + em {
         width: 11.111111111%;
     }
 }
+
+.center {
+  display: block;
+  margin: auto;
+}
