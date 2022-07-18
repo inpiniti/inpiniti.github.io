@@ -35,7 +35,7 @@ layout: post
     - Add one more classifiers on the script​
     - Please add DecisionTreeRegressor as an additional classifier. So, we will have 3 classifiers in total !​
     
-    ![Add more classifiers](../images/19 study/06/05 Add more classifiers​​.png)
+    ![Add more classifiers](../images/19 study/06/05 Add more classifiers​.png)
     *Hint: classifiers part*
     
 6. Update the script: Number of features​
@@ -43,7 +43,7 @@ layout: post
     - Try to add one or two more features on the features​
     - Run, and see the difference with the previous result (i.e., with 2 features) !​
     
-    ![Number of features​​](../images/19 study/06/06 Number of features​​.png)
+    ![Number of features​​](../images/19 study/06/06 Number of features​.png)
     *Hint: features part*
     
 ​7. Update the script: Add data preprocessing or feature engineering
