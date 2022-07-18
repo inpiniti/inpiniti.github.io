@@ -1,5 +1,5 @@
 ---
-title: 01 ai week2 workbook
+title: week2 workbook
 author: JUNG YoungKyun
 date: 2022-06-15
 category: 19 study

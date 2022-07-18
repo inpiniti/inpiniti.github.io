@@ -1,5 +1,5 @@
 ---
-title: 03 ai week5 workbook
+title: week5 workbook
 author: JUNG YoungKyun
 date: 2022-07-06
 category: 19 study
