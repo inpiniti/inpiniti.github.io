@@ -24,11 +24,8 @@ layout: post
                         <a class="docutil" href="{{site.baseurl}}{{post.url}}">
                             <div class="sd-card">
                                 <div class="sd-card-body">
-                                    {% if post.title == "객체지향의 사실과 오해" %}
-                                        <img alt="jest" class="sd-width-auto-book" src="./images/18 book/01 객체지향의 사실과 오해/객체지향의 사실과 오해.png">
-                                    {% endif %}
-                                    {% if post.title == "프로그래머의 뇌" %}
-                                        <img alt="jest" class="sd-width-auto-book" src="./images/18 book/02/프로그래머의뇌.jpg">
+                                    {% if post.title == "카케구루이" %}
+                                        <img alt="jest" class="sd-width-auto-book" src="./images/20 comicbook/카게구루이/카게구루이1.png">
                                     {% endif %}
                                     <p class="sd-card-text">
                                         <strong>{{ post.title | escape }}</strong><br>
