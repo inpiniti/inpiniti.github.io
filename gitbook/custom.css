@@ -503,3 +503,9 @@ img + em {
     line-height: 0;
     color: #1e1e1e;
 }
+
+.menu-label {
+    font-size: 12px;
+    font-weight: 100;
+    color: #9d9d9d;
+}
