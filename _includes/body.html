@@ -38,11 +38,16 @@
                 {% for post in site.posts %}
                 <div>
                     <p class="date">
-                        <time>{{ post.date | date_to_rfc822 }}</time>
+                        <time>{{ post.date | date: "%F" }}</time>
                     </p>
                     <p class="title">
                         <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-                            {{ post.title | xml_escape }}
+                            {% for tag in post.tags %}
+                            {{ tag | xml_escape }} / {{ post.title | xml_escape }}
+                            {% endfor %}
+                            {% for cat in post.categories %}
+                            {{ cat | xml_escape }} / {{ post.title | xml_escape }}
+                            {% endfor %}
                         </a>
                     </p>
                 </div>
