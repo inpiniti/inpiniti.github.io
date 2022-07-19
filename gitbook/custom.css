@@ -502,6 +502,9 @@ img + em {
 .title a {
     line-height: 0;
     color: #1e1e1e;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .menu-label {
