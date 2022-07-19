@@ -33,6 +33,9 @@ layout: post
                                     {% if post.title == "개발자에서 아키텍트로" %}
                                         <img alt="개발자에서 아키텍트로" class="sd-width-auto-book" src="./images/18 book/03 개발자에서 아키텍트로/개발자에서 아키텍트로.jpg">
                                     {% endif %}
+                                    {% if post.title == "헤드 퍼스트 디자인 패턴" %}
+                                        <img alt="개발자에서 아키텍트로" class="sd-width-auto-book" src="./images/18 book/04 헤드 퍼스트 디자인 패턴/헤드퍼스트 디자인패턴.jpg">
+                                    {% endif %}
                                     <p class="sd-card-text">
                                         <strong>{{ post.title | escape }}</strong><br>
                                     </p>
