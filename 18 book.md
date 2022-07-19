@@ -25,10 +25,13 @@ layout: post
                             <div class="sd-card">
                                 <div class="sd-card-body">
                                     {% if post.title == "객체지향의 사실과 오해" %}
-                                        <img alt="jest" class="sd-width-auto-book" src="./images/18 book/01 객체지향의 사실과 오해/객체지향의 사실과 오해.png">
+                                        <img alt="객체지향의 사실과 오해" class="sd-width-auto-book" src="./images/18 book/01 객체지향의 사실과 오해/객체지향의 사실과 오해.png">
                                     {% endif %}
                                     {% if post.title == "프로그래머의 뇌" %}
-                                        <img alt="jest" class="sd-width-auto-book" src="./images/18 book/02/프로그래머의뇌.jpg">
+                                        <img alt="프로그래머의 뇌" class="sd-width-auto-book" src="./images/18 book/02/프로그래머의뇌.jpg">
+                                    {% endif %}
+                                    {% if post.title == "개발자에서 아키텍트로" %}
+                                        <img alt="개발자에서 아키텍트로" class="sd-width-auto-book" src="./images/18 book/03 개발자에서 아키텍트로/개발자에서 아키텍트로.jpg">
                                     {% endif %}
                                     <p class="sd-card-text">
                                         <strong>{{ post.title | escape }}</strong><br>
