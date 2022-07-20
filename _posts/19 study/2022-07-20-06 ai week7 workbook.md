@@ -195,3 +195,91 @@ if __name__ == '__main__':
     model_instance.encoding('abc')
     model_instance.dataFrame()
 ```
+
+terminal
+```
+[10.28327687]
+Accuracy:  0.051332330496865475
+Formatted Date                0
+Summary                       0
+Precip Type                 517
+Temperature (C)               0
+Apparent Temperature (C)      0
+Humidity                      0
+Wind Speed (km/h)             0
+Wind Bearing (degrees)        0
+Visibility (km)               0
+Loud Cover                    0
+Pressure (millibars)          0
+Daily Summary                 0
+dtype: int64
+Formatted Date              0
+Summary                     0
+Precip Type                 0
+Temperature (C)             0
+Apparent Temperature (C)    0
+Humidity                    0
+Wind Speed (km/h)           0
+Wind Bearing (degrees)      0
+Visibility (km)             0
+Loud Cover                  0
+Pressure (millibars)        0
+Daily Summary               0
+dtype: int64
+                      Formatted Date        Summary Precip Type  Temperature (C)  Apparent Temperature (C)  Humidity  Wind Speed (km/h)  Wind Bearing (degrees)  Visibility (km)  Loud Cover  Pressure (millibars)                           Daily Summary
+0      2006-04-01 00:00:00.000 +0200  Partly Cloudy        rain         9.472222                  7.388889      0.89            14.1197                   251.0          15.8263         0.0               1015.13       Partly cloudy throughout the day.
+1      2006-04-01 01:00:00.000 +0200  Partly Cloudy        rain         9.355556                  7.227778      0.86            14.2646                   259.0          15.8263         0.0               1015.63       Partly cloudy throughout the day.
+2      2006-04-01 02:00:00.000 +0200  Mostly Cloudy        rain         9.377778                  9.377778      0.89             3.9284                   204.0          14.9569         0.0               1015.94       Partly cloudy throughout the day.
+3      2006-04-01 03:00:00.000 +0200  Partly Cloudy        rain         8.288889                  5.944444      0.83            14.1036                   269.0          15.8263         0.0               1016.41       Partly cloudy throughout the day.
+4      2006-04-01 04:00:00.000 +0200  Mostly Cloudy        rain         8.755556                  6.977778      0.83            11.0446                   259.0          15.8263         0.0               1016.51       Partly cloudy throughout the day.
+...                              ...            ...         ...              ...                       ...       ...                ...                     ...              ...         ...                   ...                                     ...
+96448  2016-09-09 19:00:00.000 +0200  Partly Cloudy        rain        26.016667                 26.016667      0.43            10.9963                    31.0          16.1000         0.0               1014.36  Partly cloudy starting in the morning.
+96449  2016-09-09 20:00:00.000 +0200  Partly Cloudy        rain        24.583333                 24.583333      0.48            10.0947                    20.0          15.5526         0.0               1015.16  Partly cloudy starting in the morning.
+96450  2016-09-09 21:00:00.000 +0200  Partly Cloudy        rain        22.038889                 22.038889      0.56             8.9838                    30.0          16.1000         0.0               1015.66  Partly cloudy starting in the morning.
+96451  2016-09-09 22:00:00.000 +0200  Partly Cloudy        rain        21.522222                 21.522222      0.60            10.5294                    20.0          16.1000         0.0               1015.95  Partly cloudy starting in the morning.
+96452  2016-09-09 23:00:00.000 +0200  Partly Cloudy        rain        20.438889                 20.438889      0.61             5.8765                    39.0          15.5204         0.0               1016.16  Partly cloudy starting in the morning.
+
+[96453 rows x 12 columns]
+                      Formatted Date        Summary Precip Type  Temperature (C)  Apparent Temperature (C)  Humidity  Wind Speed (km/h)  Wind Bearing (degrees)  Visibility (km)  Loud Cover  Pressure (millibars)
+0      2006-04-01 00:00:00.000 +0200  Partly Cloudy        rain         9.472222                  7.388889      0.89            14.1197                   251.0          15.8263         0.0               1015.13
+1      2006-04-01 01:00:00.000 +0200  Partly Cloudy        rain         9.355556                  7.227778      0.86            14.2646                   259.0          15.8263         0.0               1015.63
+2      2006-04-01 02:00:00.000 +0200  Mostly Cloudy        rain         9.377778                  9.377778      0.89             3.9284                   204.0          14.9569         0.0               1015.94
+3      2006-04-01 03:00:00.000 +0200  Partly Cloudy        rain         8.288889                  5.944444      0.83            14.1036                   269.0          15.8263         0.0               1016.41
+4      2006-04-01 04:00:00.000 +0200  Mostly Cloudy        rain         8.755556                  6.977778      0.83            11.0446                   259.0          15.8263         0.0               1016.51
+...                              ...            ...         ...              ...                       ...       ...                ...                     ...              ...         ...                   ...
+96448  2016-09-09 19:00:00.000 +0200  Partly Cloudy        rain        26.016667                 26.016667      0.43            10.9963                    31.0          16.1000         0.0               1014.36
+96449  2016-09-09 20:00:00.000 +0200  Partly Cloudy        rain        24.583333                 24.583333      0.48            10.0947                    20.0          15.5526         0.0               1015.16
+96450  2016-09-09 21:00:00.000 +0200  Partly Cloudy        rain        22.038889                 22.038889      0.56             8.9838                    30.0          16.1000         0.0               1015.66
+96451  2016-09-09 22:00:00.000 +0200  Partly Cloudy        rain        21.522222                 21.522222      0.60            10.5294                    20.0          16.1000         0.0               1015.95
+96452  2016-09-09 23:00:00.000 +0200  Partly Cloudy        rain        20.438889                 20.438889      0.61             5.8765                    39.0          15.5204         0.0               1016.16
+
+[96453 rows x 11 columns]
+                      Formatted Date        Summary Precip Type  Temperature (C)  Apparent Temperature (C)  Humidity  Wind Speed (km/h)  Wind Bearing (degrees)  Visibility (km)  Loud Cover  Pressure (millibars)   abc
+0      2006-04-01 00:00:00.000 +0200  Partly Cloudy        rain         9.472222                  7.388889      0.89            14.1197                   251.0          15.8263         0.0               1015.13   차가움
+1      2006-04-01 01:00:00.000 +0200  Partly Cloudy        rain         9.355556                  7.227778      0.86            14.2646                   259.0          15.8263         0.0               1015.63   차가움
+2      2006-04-01 02:00:00.000 +0200  Mostly Cloudy        rain         9.377778                  9.377778      0.89             3.9284                   204.0          14.9569         0.0               1015.94   차가움
+3      2006-04-01 03:00:00.000 +0200  Partly Cloudy        rain         8.288889                  5.944444      0.83            14.1036                   269.0          15.8263         0.0               1016.41   차가움
+4      2006-04-01 04:00:00.000 +0200  Mostly Cloudy        rain         8.755556                  6.977778      0.83            11.0446                   259.0          15.8263         0.0               1016.51   차가움
+...                              ...            ...         ...              ...                       ...       ...                ...                     ...              ...         ...                   ...   ...
+96448  2016-09-09 19:00:00.000 +0200  Partly Cloudy        rain        26.016667                 26.016667      0.43            10.9963                    31.0          16.1000         0.0               1014.36  미지근함
+96449  2016-09-09 20:00:00.000 +0200  Partly Cloudy        rain        24.583333                 24.583333      0.48            10.0947                    20.0          15.5526         0.0               1015.16  미지근함
+96450  2016-09-09 21:00:00.000 +0200  Partly Cloudy        rain        22.038889                 22.038889      0.56             8.9838                    30.0          16.1000         0.0               1015.66  미지근함
+96451  2016-09-09 22:00:00.000 +0200  Partly Cloudy        rain        21.522222                 21.522222      0.60            10.5294                    20.0          16.1000         0.0               1015.95  미지근함
+96452  2016-09-09 23:00:00.000 +0200  Partly Cloudy        rain        20.438889                 20.438889      0.61             5.8765                    39.0          15.5204         0.0               1016.16  미지근함
+
+[96453 rows x 12 columns]
+                      Formatted Date        Summary Precip Type  Temperature (C)  Apparent Temperature (C)  Humidity  Wind Speed (km/h)  Wind Bearing (degrees)  Visibility (km)  Loud Cover  Pressure (millibars)  abc
+0      2006-04-01 00:00:00.000 +0200  Partly Cloudy        rain         9.472222                  7.388889      0.89            14.1197                   251.0          15.8263         0.0               1015.13    3
+1      2006-04-01 01:00:00.000 +0200  Partly Cloudy        rain         9.355556                  7.227778      0.86            14.2646                   259.0          15.8263         0.0               1015.63    3
+2      2006-04-01 02:00:00.000 +0200  Mostly Cloudy        rain         9.377778                  9.377778      0.89             3.9284                   204.0          14.9569         0.0               1015.94    3
+3      2006-04-01 03:00:00.000 +0200  Partly Cloudy        rain         8.288889                  5.944444      0.83            14.1036                   269.0          15.8263         0.0               1016.41    3
+4      2006-04-01 04:00:00.000 +0200  Mostly Cloudy        rain         8.755556                  6.977778      0.83            11.0446                   259.0          15.8263         0.0               1016.51    3
+...                              ...            ...         ...              ...                       ...       ...                ...                     ...              ...         ...                   ...  ...
+96448  2016-09-09 19:00:00.000 +0200  Partly Cloudy        rain        26.016667                 26.016667      0.43            10.9963                    31.0          16.1000         0.0               1014.36    1
+96449  2016-09-09 20:00:00.000 +0200  Partly Cloudy        rain        24.583333                 24.583333      0.48            10.0947                    20.0          15.5526         0.0               1015.16    1
+96450  2016-09-09 21:00:00.000 +0200  Partly Cloudy        rain        22.038889                 22.038889      0.56             8.9838                    30.0          16.1000         0.0               1015.66    1
+96451  2016-09-09 22:00:00.000 +0200  Partly Cloudy        rain        21.522222                 21.522222      0.60            10.5294                    20.0          16.1000         0.0               1015.95    1
+96452  2016-09-09 23:00:00.000 +0200  Partly Cloudy        rain        20.438889                 20.438889      0.61             5.8765                    39.0          15.5204         0.0               1016.16    1
+
+[96453 rows x 12 columns]
+```
