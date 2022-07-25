@@ -1,8 +1,8 @@
 ---
-title: 내돈내산
+title: 여행
 author: JUNG YoungKyun
 date: 2022-07-18
-category: 24 product
+category: 26 travel
 layout: post
 ---
 

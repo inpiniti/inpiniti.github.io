@@ -2,7 +2,7 @@
 title: 코딩 테스트
 author: JUNG YoungKyun
 date: 2022-07-18
-category: 24 product
+category: 27 coding test
 layout: post
 ---
 
