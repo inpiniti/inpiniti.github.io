@@ -96,6 +96,9 @@
     var before = undefined;
 
     document.getElementsByClassName("page-wrapper")[0].addEventListener('scroll', function(e) {
+        
+        console.log(e);
+        
         if (window.scrollY >= articleY-60) {
             toc.style.cssText = "position: fixed; top: 60px;";
         }
