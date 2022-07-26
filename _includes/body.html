@@ -94,8 +94,11 @@
     console.log('tocNodes : ' + tocNodes);
 
     var before = undefined;
+    
+    var page_wrapper = document.getElementsByClassName("page-wrapper")[0];
+    console.log('page-wrapper : ' + page_wrapper);
 
-    document.getElementsByClassName("page-wrapper")[0].addEventListener('scroll', function(e) {
+    page_wrapper.addEventListener('scroll', function(e) {
         
         console.log(e);
         
