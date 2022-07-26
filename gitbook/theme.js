@@ -3235,8 +3235,13 @@
         }
 
         function c(e) {
-            var t = e.children("a"), n = t.attr("href").split("#")[1];
-            return n && (n = "#" + n), n ? n : ""
+            var t = e.children("a");
+            if(t == undefined) {
+                return '';
+            } else {
+                var n = t.attr("href").split("#")[1];
+                return n && (n = "#" + n), n ? n : ""
+            }
         }
 
         function f() {
