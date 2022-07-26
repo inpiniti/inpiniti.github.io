@@ -15,18 +15,21 @@ layout: post
 ### 4. Switch
 ### 5. Link, NavLink
 ### 6. Hooks
----
+
 > 리액트 라우터 v5 공식문서 <br> https://v5.reactrouter.com/web/guides/quick-start
----
+
 # **1. react-router-dom 설치 및 세팅**
 - ### 리액트 라우터를 사용하기 위해 라이브러리 설치
+
 ```bash
 npm install react-router-dom
 yarn add react-router-dom
 ```
+
 - ### 최상단 컴포넌트를 BrowserRouter로 감싸기
   - BrowserRouter : HTML5의 history API를 활용하여 UI 업데이트
   - HashRouter : URL의 해시를 활용한 라우터
+  
 ```jsx
 // index.js
 import React from 'react';
@@ -40,8 +43,10 @@ root.render(
   </BrowserRouter>
 );
 ```
+
 - ### `basename`: string
   - 모든 라우터의 base URL을 지정함
+  
 ```jsx
 <BrowserRouter basename="/calendar">
   <Link to="/today"/> // <a href="/calendar/today">
@@ -49,8 +54,10 @@ root.render(
   ...
 </BrowserRouter>
 ```
+
 - ### `getUserConfirmation`: function
   - window confirm 메세지를 띄우고 창을 전환할 때 사용
+  
 ```jsx
 <BrowserRouter
   getUserConfirmation={(message, callback) => {
@@ -60,6 +67,7 @@ root.render(
 >
 </BrowserRouter>
 ```
+
 - ### `forceRefresh`: boolean
   - true 값을 줄 시 페이지 라우팅 시 전체 페이지가 리로딩 됨
 ```jsx
