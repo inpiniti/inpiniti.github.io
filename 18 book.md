@@ -24,19 +24,17 @@ layout: post
                         <a class="docutil" href="{{site.baseurl}}{{post.url}}">
                             <div class="sd-card">
                                 <div class="sd-card-body">
-                                    {% if post.title == "객체지향의 사실과 오해" %}
+                                    {% if post.title == "파이썬 머신러닝 완벽가이드" %}
+                                        <img alt="객체지향의 사실과 오해" class="sd-width-auto-book" src="./images/ai/index/파이썬 머신러닝 완벽가이드 책.jpg">
+                                    {% elsif post.title == "객체지향의 사실과 오해" %}
                                         <img alt="객체지향의 사실과 오해" class="sd-width-auto-book" src="./images/18 book/01 객체지향의 사실과 오해/객체지향의 사실과 오해.png">
-                                    {% endif %}
-                                    {% if post.title == "프로그래머의 뇌" %}
+                                    {% elsif post.title == "프로그래머의 뇌" %}
                                         <img alt="프로그래머의 뇌" class="sd-width-auto-book" src="./images/18 book/02/프로그래머의뇌.jpg">
-                                    {% endif %}
-                                    {% if post.title == "개발자에서 아키텍트로" %}
+                                    {% elsif post.title == "개발자에서 아키텍트로" %}
                                         <img alt="개발자에서 아키텍트로" class="sd-width-auto-book" src="./images/18 book/03 개발자에서 아키텍트로/개발자에서 아키텍트로.jpg">
-                                    {% endif %}
-                                    {% if post.title == "헤드 퍼스트 디자인 패턴" %}
+                                    {% elsif post.title == "헤드 퍼스트 디자인 패턴" %}
                                         <img alt="헤드 퍼스트 디자인 패턴" class="sd-width-auto-book" src="./images/18 book/04 헤드 퍼스트 디자인 패턴/헤드퍼스트 디자인패턴.jpg">
-                                    {% endif %}
-                                    {% if post.title == "오브젝트" %}
+                                    {% elsif post.title == "오브젝트" %}
                                         <img alt="오브젝트" class="sd-width-auto-book" src="./images/18 book/05 오브젝트/오브젝트 표지.jpg">
                                     {% endif %}
                                     

@@ -26,8 +26,7 @@ layout: post
                                 <div class="sd-card-body">
                                     {% if post.title == "객체지향의 사실과 오해" %}
                                         <img alt="jest" class="sd-width-auto-book" src="./images/18 book/01 객체지향의 사실과 오해/객체지향의 사실과 오해.png">
-                                    {% endif %}
-                                    {% if post.title == "프로그래머의 뇌" %}
+                                    {% elsif post.title == "프로그래머의 뇌" %}
                                         <img alt="jest" class="sd-width-auto-book" src="./images/18 book/02/프로그래머의뇌.jpg">
                                     {% endif %}
                                     <p class="sd-card-text">
