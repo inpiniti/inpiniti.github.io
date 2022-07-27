@@ -1,5 +1,5 @@
 ---
-title: Python Modularity
+title: Python Modularity2
 author: JUNG YoungKyun
 date: 2022-07-20
 category: 19 study
