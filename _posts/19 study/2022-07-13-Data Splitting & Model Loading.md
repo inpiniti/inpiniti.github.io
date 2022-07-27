@@ -1,5 +1,5 @@
 ---
-title: week6 workbook
+title: Data Splitting & Model Loading
 author: JUNG YoungKyun
 date: 2022-07-13
 category: 19 study

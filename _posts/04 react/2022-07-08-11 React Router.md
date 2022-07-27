@@ -1,5 +1,5 @@
 ---
-title: 11 React Router
+title: React Router
 author: 최유진
 date: 2022-07-11
 category: 04 react

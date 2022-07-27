@@ -1,5 +1,5 @@
 ---
-title: week3 workbook
+title: Data Wrangling
 author: JUNG YoungKyun
 date: 2022-06-22
 category: 19 study

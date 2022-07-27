@@ -1,5 +1,5 @@
 ---
-title: week2 workbook
+title: Data loading
 author: JUNG YoungKyun
 date: 2022-06-15
 category: 19 study
