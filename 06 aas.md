@@ -40,6 +40,7 @@ layout: post
 
 |참고 사이트|링크|
 |---|---|
-|cdd|[링크](https://cdd.iec.ch/)|
-|독일의 제조분야 디지털 트랜스포메이션|[링크](https://zdnet.co.kr/view/?no=20191227090925)|
-|스마트 제조혁신 기술개발 사업|[링크](https://www.smart-factory.kr/notice/read/60?page=6&bbsClCodeSe=00000013&bsnsClCodeSe=88888888)|
+|cdd|[link](https://cdd.iec.ch/){:target="_blank"}|
+|독일의 제조분야 디지털 트랜스포메이션|[link](https://zdnet.co.kr/view/?no=20191227090925){:target="_blank"}|
+|스마트 제조혁신 기술개발 사업|[link](https://www.smart-factory.kr/notice/read/60?page=6&bbsClCodeSe=00000013&bsnsClCodeSe=88888888){:target="_blank"}|
+|admin-shell-io by IDTA|[link](https://github.com/admin-shell-io){:target="_blank"}|
