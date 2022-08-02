@@ -44,3 +44,4 @@ layout: post
 |독일의 제조분야 디지털 트랜스포메이션|[link](https://zdnet.co.kr/view/?no=20191227090925){:target="_blank"}|
 |스마트 제조혁신 기술개발 사업|[link](https://www.smart-factory.kr/notice/read/60?page=6&bbsClCodeSe=00000013&bsnsClCodeSe=88888888){:target="_blank"}|
 |admin-shell-io by IDTA|[link](https://github.com/admin-shell-io){:target="_blank"}|
+|aasx-package-explorer download|[link](https://github.com/admin-shell-io/aasx-package-explorer/releases){:target="_blank"}|

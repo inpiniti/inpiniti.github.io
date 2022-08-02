@@ -101,3 +101,16 @@ Task:
 >In the current script, you MAY NOT found **if __name__ == ‘__main__’** function.
 Please add main function on the script (HINT: you may change some parts into the main function, so the structure of the code will be changed)
 Please refer to this [page](https://github.com/tamanna18/Titanic-Survival-prediction/tree/01a8ae07e5e64da11e7188734fda2645d662dff9) as your reference.
+
+3. Update the script: Add data preprocessing or feature engineering 
+    - Previously, you learned about data preprocessing, such as:
+        - Data imputation (i.e., fill the missing value)
+        - Data filtering
+        - Feature extraction (i.e., create a new feature)
+        - Feature encoding 
+        - Feature transformation (i.e., data standardization, normalization)
+    - In the existing python script, there is no any data preprocessing or feature engineering steps
+    - Please add any the data preprocessing or feature engineering steps on the script
+        - You should add two processes at least, for example: fill the missing value and data standardization
+    - Then, run the code and get the result
+        - The ultimate goal for this step is to increase the accuracy score 
