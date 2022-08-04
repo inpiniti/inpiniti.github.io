@@ -123,7 +123,7 @@ Property 에서 크게 벗어나는 값은 없을것 같기도 합니다.
 
 # AAS로 모델링 작업
 
-![AAS 모델링](images/06 aas/220804 MINERAL WOOL 조립작업 구현/AAS 모델링.png){: .center}
+![AAS 모델링](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/AAS 모델링.png){: .center}
 *AAS 모델링*
 
 # cdd 적용
