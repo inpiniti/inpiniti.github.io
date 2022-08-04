@@ -1,10 +1,19 @@
 ---
-title: UML 수정
+title: MINERAL WOOL 조립작업 구현
 Author: JUNG YoungKyun
 date: 2022-08-04
 category: 06 aas
 layout: post
 ---
+
+# AASX Package Explorer 를 이용하여 MINERAL WOOL 조립작업 구현
+
+![구현된 aasx](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/구현된 aasx.png)
+*구현된 aasx*
+
+Package Tool 을 이용하여 MINERAL WOOL 조립작업을 구현해 보았습니다.
+
+해당문서는 각 과정을 담고 있습니다.
 
 # BOM
 
@@ -41,6 +50,11 @@ BOM은 설계부터 생산, AS까지 약속된 코드 체계이지만, **다양�
 ![다양한 BOM 예시](https://www.researchgate.net/profile/Erdal-Tekin-6/publication/273847269/figure/fig2/AS:671507600654342@1537111296655/Reconciliation-of-EBOM-MBOM-and-ABOM.png)
 *BOM 예시*
 
+아래는 직접 제조 단계인 MBOM을 간단하게 구현한 이미지 입니다.
+
+![MINERAL WOOL 조립 작업 MBOM](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/MINERAL WOOL 조립 작업 MBOM.png)
+*MINERAL WOOL 조립 작업 MBOM*
+
 # MES
 
 MES는 **수주에서 완제품 출하에 이르는 생산활동**을 최적화 할 수 있는 정보를 제공....
@@ -57,6 +71,14 @@ MES는 **수주에서 완제품 출하에 이르는 생산활동**을 최적화 
 - 작업자활동
 - 설비가동
 - 생산 현장의 각종 정보
+
+아래는 OperationData Submodel 을 이용하여 MES의 정보들을 나타낸 것이며,
+생산실적, 설비가동, 부품 소요량 등을 나타내고 있습니다.
+
+OPCUA 프로토콜을 이용하여 통신하게 되며, 각 데이터는 실시간으로 화면에 출력하게 됩니다.
+
+![MES를 OperationData로 표현](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/MES를 OperationData로 표현.png)
+*MES를 OperationData로 표현*
 
 ![MES 3계층 구조](https://mblogthumb-phinf.pstatic.net/20150908_21/computermate_1441690440247FOXXk_JPEG/MES_%BB%FD%BB%EA%B0%FC%B8%AE%BD%C3%BD%BA%C5%DB_%BB%FD%BB%EA%BC%F6%C7%E0%BD%C3%BD%BA%C5%DB_%BD%BA%B8%B6%C6%AE%B0%F8%C0%E5_%BD%BA%B8%B6%C6%AE%C6%D1%C5%E4%B8%AE_%C4%C4%C7%BB%C5%CD%B8%DE%C0%CC%C6%AE_%B0%E8%C3%FE%B1%B8%C1%B6_02.jpg?type=w2)
 
@@ -83,9 +105,26 @@ Submodel 하위에 올수 있는 Element 들 (22.06.16 Aasx PackEx 사용방법�
 위 Element를 사용하여 조금 더 상세히 표현할 수 있으나,
 Property 에서 크게 벗어나는 값은 없을것 같기도 합니다.
 
-# 입고 검사라도 완성
+# Submodel 정리
 
+1. AASX Package Explorer 기본 Submodel
 
+    ![기본 Submodel](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/기본 Submodel.png)
+    *기본 Submodel*
+
+2. AAS Samples 의 Festo Demo Box에서 추출
+
+    [AAS Samples](http://www.admin-shell-io.com/samples/) 에 있는 예제들중 Festo Demo Box의 Submodel 에서 BOM, OperationData를 export 하였습니다.
+
+    ![Submodel Plugin export](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/Submodel Plugin export.png)
+    *Submodel Plugin export*
+
+기타 Submodel을 구현하고자 하실 경우에는 Create new Submodel of kind Instance 버튼으로 직접 만들어야 합니다.
+
+# AAS로 모델링 작업
+
+![AAS 모델링](images/06 aas/220804 MINERAL WOOL 조립작업 구현/AAS 모델링.png)
+*AAS 모델링*
 
 # cdd 적용
 
