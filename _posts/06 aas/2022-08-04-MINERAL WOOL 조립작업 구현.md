@@ -8,7 +8,7 @@ layout: post
 
 # AASX Package Explorer 를 이용하여 MINERAL WOOL 조립작업 구현
 
-![구현된 aasx](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/구현된 aasx.png)
+![구현된 aasx](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/구현된 aasx.png){: .center}
 *구현된 aasx*
 
 Package Tool 을 이용하여 MINERAL WOOL 조립작업을 구현해 보았습니다.
@@ -32,7 +32,7 @@ BOM은 **제품 생산에서 가장 중요한 정보**입니다.
 
 아이폰이나 갤럭시 스마트폰의 제조원가가 얼마라는 기사를 보신 적 있을 거예요. 이런 제조원가를 따질 때도 BOM이 필요합니다.
 
-![애플 아이폰 7의 BOM](https://blog.rocketpunch.com/wp-content/uploads/2018/07/apples_supply_chain_cost_of_making_the_iphone_7_bog-684x1024.jpg)
+![애플 아이폰 7의 BOM](https://blog.rocketpunch.com/wp-content/uploads/2018/07/apples_supply_chain_cost_of_making_the_iphone_7_bog-684x1024.jpg){: .center}
 *애플 아이폰 7의 BOM*
 
 BOM은 설계부터 생산, AS까지 약속된 코드 체계이지만, **다양한 버전이 존재**합니다.
@@ -42,24 +42,24 @@ BOM은 설계부터 생산, AS까지 약속된 코드 체계이지만, **다양�
 - 세일즈의 SBOM
 - 유통/재고 관리의 XBOM
 
-![다양한 BOM](https://blog.rocketpunch.com/wp-content/uploads/2018/07/bom.jpg)
+![다양한 BOM](https://blog.rocketpunch.com/wp-content/uploads/2018/07/bom.jpg){: .center}
 *다양한 BOM*
 
 아래는 BOM의 예시인데, BOM_Aggregate로 충분히 그릴수 있는 도면으로 생각이 됩니다.
 
-![다양한 BOM 예시](https://www.researchgate.net/profile/Erdal-Tekin-6/publication/273847269/figure/fig2/AS:671507600654342@1537111296655/Reconciliation-of-EBOM-MBOM-and-ABOM.png)
+![다양한 BOM 예시](https://www.researchgate.net/profile/Erdal-Tekin-6/publication/273847269/figure/fig2/AS:671507600654342@1537111296655/Reconciliation-of-EBOM-MBOM-and-ABOM.png){: .center}
 *BOM 예시*
 
 아래는 직접 제조 단계인 MBOM을 간단하게 구현한 이미지 입니다.
 
-![MINERAL WOOL 조립 작업 MBOM](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/MINERAL WOOL 조립 작업 MBOM.png)
+![MINERAL WOOL 조립 작업 MBOM](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/MINERAL WOOL 조립 작업 MBOM.png){: .center}
 *MINERAL WOOL 조립 작업 MBOM*
 
 # MES
 
 MES는 **수주에서 완제품 출하에 이르는 생산활동**을 최적화 할 수 있는 정보를 제공....
 
-![MES 정의 그림](https://mblogthumb-phinf.pstatic.net/20150908_26/computermate_1441689462998SKHoO_JPEG/MES_%BB%FD%BB%EA%B0%FC%B8%AE%BD%C3%BD%BA%C5%DB_%BB%FD%BB%EA%BC%F6%C7%E0%BD%C3%BD%BA%C5%DB_%BD%BA%B8%B6%C6%AE%B0%F8%C0%E5_%BD%BA%B8%B6%C6%AE%C6%D1%C5%E4%B8%AE_%C4%C4%C7%BB%C5%CD%B8%DE%C0%CC%C6%AE_MES%B0%B3%B3%E4.jpg?type=w2)
+![MES 정의 그림](https://mblogthumb-phinf.pstatic.net/20150908_26/computermate_1441689462998SKHoO_JPEG/MES_%BB%FD%BB%EA%B0%FC%B8%AE%BD%C3%BD%BA%C5%DB_%BB%FD%BB%EA%BC%F6%C7%E0%BD%C3%BD%BA%C5%DB_%BD%BA%B8%B6%C6%AE%B0%F8%C0%E5_%BD%BA%B8%B6%C6%AE%C6%D1%C5%E4%B8%AE_%C4%C4%C7%BB%C5%CD%B8%DE%C0%CC%C6%AE_MES%B0%B3%B3%E4.jpg?type=w2){: .center}
 *MES 정의 그림*
 
 일반적으로 MES는 **제품주문에 의한 착수에서 완성품의 품질검사까지 전 생산활동을 관리하는 시스템**으로 
@@ -77,10 +77,10 @@ MES는 **수주에서 완제품 출하에 이르는 생산활동**을 최적화 
 
 OPCUA 프로토콜을 이용하여 통신하게 되며, 각 데이터는 실시간으로 화면에 출력하게 됩니다.
 
-![MES를 OperationData로 표현](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/MES를 OperationData로 표현.png)
+![MES를 OperationData로 표현](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/MES를 OperationData로 표현.png){: .center}
 *MES를 OperationData로 표현*
 
-![MES 3계층 구조](https://mblogthumb-phinf.pstatic.net/20150908_21/computermate_1441690440247FOXXk_JPEG/MES_%BB%FD%BB%EA%B0%FC%B8%AE%BD%C3%BD%BA%C5%DB_%BB%FD%BB%EA%BC%F6%C7%E0%BD%C3%BD%BA%C5%DB_%BD%BA%B8%B6%C6%AE%B0%F8%C0%E5_%BD%BA%B8%B6%C6%AE%C6%D1%C5%E4%B8%AE_%C4%C4%C7%BB%C5%CD%B8%DE%C0%CC%C6%AE_%B0%E8%C3%FE%B1%B8%C1%B6_02.jpg?type=w2)
+![MES 3계층 구조](https://mblogthumb-phinf.pstatic.net/20150908_21/computermate_1441690440247FOXXk_JPEG/MES_%BB%FD%BB%EA%B0%FC%B8%AE%BD%C3%BD%BA%C5%DB_%BB%FD%BB%EA%BC%F6%C7%E0%BD%C3%BD%BA%C5%DB_%BD%BA%B8%B6%C6%AE%B0%F8%C0%E5_%BD%BA%B8%B6%C6%AE%C6%D1%C5%E4%B8%AE_%C4%C4%C7%BB%C5%CD%B8%DE%C0%CC%C6%AE_%B0%E8%C3%FE%B1%B8%C1%B6_02.jpg?type=w2){: .center}
 
 # 스팩 (조금 더 상세히 표현)
 
@@ -109,21 +109,21 @@ Property 에서 크게 벗어나는 값은 없을것 같기도 합니다.
 
 1. AASX Package Explorer 기본 Submodel
 
-    ![기본 Submodel](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/기본 Submodel.png)
+    ![기본 Submodel](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/기본 Submodel.png){: .center}
     *기본 Submodel*
 
 2. AAS Samples 의 Festo Demo Box에서 추출
 
     [AAS Samples](http://www.admin-shell-io.com/samples/) 에 있는 예제들중 Festo Demo Box의 Submodel 에서 BOM, OperationData를 export 하였습니다.
 
-    ![Submodel Plugin export](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/Submodel Plugin export.png)
+    ![Submodel Plugin export](../images/06 aas/220804 MINERAL WOOL 조립작업 구현/Submodel Plugin export.png){: .center}
     *Submodel Plugin export*
 
 기타 Submodel을 구현하고자 하실 경우에는 Create new Submodel of kind Instance 버튼으로 직접 만들어야 합니다.
 
 # AAS로 모델링 작업
 
-![AAS 모델링](images/06 aas/220804 MINERAL WOOL 조립작업 구현/AAS 모델링.png)
+![AAS 모델링](images/06 aas/220804 MINERAL WOOL 조립작업 구현/AAS 모델링.png){: .center}
 *AAS 모델링*
 
 # cdd 적용
