@@ -18,7 +18,9 @@ layout: post
         - You are allowed to improve the code based on your creativity !​
         - Please upload all your works into the server (Jupyter Hub)​
 - For your reference:​
-    - ML with Iris dataset:
-        {% include youtube.html id="MxJnR1DMmsY" %}
     - Other projects: [link​](https://niceman.tistory.com/192){:target="_blank"}
+    - ML with Iris dataset:
+    
+{% include youtube.html id="MxJnR1DMmsY" %}
+
 2. Share or discuss anything with other members based on your experiment
