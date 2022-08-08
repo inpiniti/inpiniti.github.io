@@ -1,7 +1,7 @@
 ---
 title: Python Modularity2
 author: JUNG YoungKyun
-date: 2022-07-20
+date: 2022-08-03
 category: 19 study
 layout: post
 ---
