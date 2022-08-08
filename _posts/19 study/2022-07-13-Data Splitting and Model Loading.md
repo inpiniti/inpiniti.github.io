@@ -1,5 +1,5 @@
 ---
-title: Data Splitting & Model Loading
+title: Data Splitting and Model Loading
 author: JUNG YoungKyun
 date: 2022-07-13
 category: 19 study
