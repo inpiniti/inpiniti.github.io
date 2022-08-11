@@ -512,3 +512,11 @@ img + em {
     font-weight: 100;
     color: #9d9d9d;
 }
+
+.markdown-section table {
+    margin-top: 0.85em;
+}
+
+.markdown-section ol > li {
+    margin-bottom: 0.85em;
+}
