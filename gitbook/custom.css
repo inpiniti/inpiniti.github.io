@@ -520,3 +520,9 @@ img + em {
 .markdown-section ol > li {
     margin-bottom: 0.85em;
 }
+
+table img {
+    width: 400px;
+    height: 150px;
+    object-fit: cover;
+}
