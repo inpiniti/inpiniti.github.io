@@ -72,3 +72,9 @@ The solution (workaround) was that I additionally included werkzeug in the versi
 ```
 werkzeug==2.1.2
 ```
+
+azure 데이터 베이스 연결 에러
+
+```
+UserWarning: pandas only support SQLAlchemy connectable(engine/connection) ordatabase string URI or sqlite3 DBAPI2 connectionother DBAPI2 objects are not tested, please consider using SQLAlchemy
+```
