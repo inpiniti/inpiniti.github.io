@@ -1,8 +1,8 @@
 ---
-title: vue
+title: typescript
 author: JUNG YoungKyun
 date: 2022-08-08
-category: 30 vue
+category: 31 typescript
 layout: post
 ---
 
