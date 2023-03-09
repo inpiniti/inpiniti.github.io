@@ -1,8 +1,8 @@
 ---
-title: cli
+title: error
 author: JUNG YoungKyun
 date: 2023-03-08
-category: 34 cli
+category: 35 error
 layout: post
 ---
 
