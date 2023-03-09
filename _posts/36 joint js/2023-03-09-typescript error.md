@@ -1,8 +1,8 @@
 ---
-title: joint js
+title: joint js 정렬
 author: JUNG YoungKyun
 date: 2023-03-09
-category: 36 joint js 정렬
+category: 36 joint js
 layout: post
 ---
 
