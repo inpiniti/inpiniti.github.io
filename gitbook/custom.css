@@ -301,8 +301,15 @@
     vertical-align: middle;
 }
 
+.aside {
+  top: 42px;
+  width: 320px;
+  position: fixed;
+  height: calc(100% - 50px);
+  right: 21px;
+}
+
 .toc {
-    position: fixed;
     right: 21px;
     width: 240px;
     color: #b3b3b3;
