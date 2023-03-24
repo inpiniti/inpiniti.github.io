@@ -193,8 +193,131 @@ In this first lecture, Wil will introduce you to the fundamentals of Process Min
 
 By now, you should have learned the definition, history, and importance of Process Mining for different businesses. You should also be familiar with the overview and the different focus areas that the field holds: From Process Discovery to action-oriented Process Mining. Now, let's see how you can apply Process Mining in practice together with Celonis - for this, join the hands-on Lecture by Celonis.
 
-## Lecture 1: Celonis Hands-On
+#### Lecture 1: Celonis Hands-On
 
 "There are a few important ingredients that provide function and methodology in the world of Process Mining".
 
-## Lecture 1: Knowledge Check
+##### Introduction
+
+Welcome to your first applied lecture within “Process Mining from Theory to Execution”. Wil has already given you an overview of what Process Mining is and how it helps to make vast amounts of process-related data visible and interpretable. 
+
+The purpose of these hands-on exercises and illustrations in Celonis is to show you how academic concepts come into practice in real-life scenarios. There is hardly any other field where academia and industry inspired each other as much as in Process Mining. Techniques for process discovery, conformance checking, and performance analysis emerged from research and were made accessible for a large audience through the Celonis software. In return, large-scale applications of these techniques triggered new research questions. The purpose of this course is to bridge the gap between the two worlds and to show academic concepts in their application in real life. For today we will focus on illustrating some very basic terms and concepts that are important for any Process Mining Analysis. We introduce basic concepts such as event, case, activity, timestamp and event log.
+
+Data can be enormous. Just imagine going back in time the past year to manually collect data about each step you took, when you took it, and where. And what you did next after each step. How would you get it done, and how long would it take you? Luckily, Process Mining can analyze event log data to do just that. There are some fixed terminologies for the analysis of an event log that we want to illustrate today.
+
+##### Demo Data for this Lecture
+
+You might be curious about what you have learned in this practical lecture. The illustrations in this lecture have all been constructed around the Purchase-to-Pay process in a random organisation. Purchase-to-Pay processes are among the most frequently studied processes in organisations since they are error-prone due to huge volumes of transactions, many departments involved and tight deadlines. 
+
+You are encoured to study the demo data yourself in the Celonis Demo below!
+
+You are encoured to study the demo data yourself in Celonis. View the example from the Lecture video here!
+
+[DEMO NOW!](https://content.training.celonis.cloud/process-mining/public/6cdb3291-b77d-4a0a-bb5a-13a20c028feb/#/frontend/documents/6cd[%E2%80%A6]-bb5a-13a20c028feb/view)
+
+{% include youtube.html id="d6AZCtVLn1Y" %}
+
+In this first chapter you will have gotten a first feeling of what Process Mining and how big its momentum is at the moment. Both in research and industry Process Mining is a blooming field with lots of opportunities. 
+
+After this First Lecture you should now be familiar with basic concepts and terminologies such as Process, Event Data and Process Model as well as the concepts of activities, events and cases. 
+
+Check your knowledge in the exercise section and see if you have understood both the theory and hands-on aspects of this lecture!
+
+#### Lecture 1: Knowledge Check
+
+##### Check your Knowledge!
+
+Let's see how much you have taken away from your lecture so far! Take a look at the questions below and try to figure out what the right answer might be. These questions are designed to be slight brainteaser so you can apply your theoretical knowledge in a real world setting and transfer your knowledge to other use cases. You must complete all Knowledge Check sections in order to obtain your certificate!
+
+##### Task 1: Analyse Variants of Traces.
+
+Have a look at the event log snippet below. Here you can see various purchase orders requested and created by Celonis employees recently. Answer the following questions:
+
+###### Task 1.1. How many different variants can you identify in the event log?
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/cd285ed6-d8c6-4e1e-8ca2-c1b82875bc64/1/scormcontent/assets/LBevsLSUTTqTeDJu_TgvJU54wRunoWDto.png)
+
+[] 3
+[v] 4 (o)
+[] 5
+
+##### Task 1.2. How does the most frequent variant in the event log look like? (Hint: It occurs in two cases). Bring the activities into the right chronological order based on the timestamps.
+
+[1] Create Purchase Order
+
+[2] Print and send Purchase Order
+
+[3] Goods receipt
+
+[4] Book Invoice
+
+#### Task 2: Analyse the Purchase To Pay Process.
+
+Now let's look at larger event log that has already been connected to the Process Mining engine of the Celonis Execution Management System. Go back to the Purchase to Pay (P2P) analysis from the Celonis Video and answer the questions below. You can access the P2P example here: https://content.training.celonis.cloud/process-mining/public/6cdb3291-b77d-4a0a-bb5a-13a20c028feb/#/frontend/documents/6cdb3291-b77d-4a0a-bb5a-13a20c028feb/view/sheets/333dbdf2-94e5-41d2-95dc-0e26b97b6738
+
+##### How frequently does each of the listed process variants occur in the Purchase to Pay process?
+
+##### How many activities does the happy path (most frequent process variant) consist of?
+
+[] 4
+
+[v] 6
+
+[] 9
+
+##### Tick the right statements.
+
+[] An activity only ever shows up in one single processes.
+
+[v] Process activities are actions that initiate or terminate a process, or take place during it.
+
+[v] The Procurement process covers activities of requesting, purchasing, receiving, and paying for goods and services.
+
+[] Typically, undesired Procurement activities are: Change Price, Create Purchase Requisition, Book Invoice.
+
+##### Task 3: Distinguish 3 Basic Concepts.
+      
+Match these three basic concepts and terminologies in Process Mining to their right definition.
+
+Match the right definition for...
+
+[3] Event Log
+
+[2] Process Model
+
+[1] Process
+
+1 Series of linked activities, taken in order to achieve a particular goal
+
+2 Describes a process and is based on the corresponding event data
+
+3 List of events related to the process
+
+# 03. Process Discovery and Directly-Follows Graphs
+
+Process Discovery: Directly-Follows Graphs
+
+![](https://d3i9g4671ronu3.cloudfront.net/thoughtindustries-eu/image/upload/a_exif,c_fill,w_600/v1/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/ltafth0u0eav-skill-area_Conceptualize_catalogue.jpg)
+
+Course | 1h 30min
+
+Understand process discovery and how to get from data to the graph.
+
+WHAT'S INCLUDED
+
+Self-paced learning. Take courses at your own speed.
+
+Learn when it suits you with round-the-clock access.
+
+Get enabled fast with laser-focused, goal-based training.
+
+## Personal Training Environment Required
+
+This course contains hands-on exercises that require a personal EMS Training Environment, also called an "EMS Team".
+
+Not sure if you have one? Click below and we'll either create one for you or show you how to access your existing Team if you have one. Please make sure to disable adblockers on this page if the button is not working for you.
+
+Thank you for your request! Your personal environment should be created within 10-15 minutes. Please check your inbox for an activation link from the sender "no-reply@celonis.cloud". Note that in very high traffic times the creation can take up to 1.5 hour.
+
+Once activated, you can always access your team by logging in to Celonis ID - This is a central login that shows you all of the EMS Teams you have access to. You can also simply bookmark the link your personal training team since you will be asked to repeatedly use it in a multitude of Celonis courses. Feel free to continue with your training now.
+
