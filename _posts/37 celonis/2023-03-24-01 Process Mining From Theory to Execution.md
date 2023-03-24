@@ -6,7 +6,9 @@ category: 37 celonis
 layout: post
 ---
 
-# Welcome from Professor Wil van der Aalst
+# 01. Welcome from Professor Wil van der Aalst
+
+## Welcome from Professor Wil van der Aalst
 
 Hello and Welcome to "Process Mining: From Theory to Execution"! 
 
@@ -14,7 +16,7 @@ We are happy to welcome you to this joint class by RWTH Aachen and Celonis toget
 
 Below you can find all the relevant information that will help you navigate through this class and earn your learner's badge at the end! After this you can directly go back to the main navigation page and get started with Lecture 1!
 
-## Topics and Structure
+### Topics and Structure
 
 The "Process Mining: From Theory to Execution" class is brought to you by RWTH Aachen and Celonis and led by the Godfather of Process Mining Prof.dr.ir. Wil van der Aalst.
 
@@ -24,7 +26,7 @@ Let's meet your instructors Prof.dr.ir. Wil van der Aalst (you can call him Wil 
 
 {% include youtube.html id="W4_U6erE4kM" %}
 
-### Course Structure
+#### Course Structure
 
 The "Process Mining: From Theory to Execution" class consists of 7 lectures. Each lecture gives you a holistic overview of the topic consisting of three different learning items:
 
@@ -34,7 +36,7 @@ The "Process Mining: From Theory to Execution" class consists of 7 lectures. Eac
 
 3. Knowledge-Check - each lecture ends with a small quiz to test your knowledge
 
-### What's Next?
+#### What's Next?
 
 After successfully completing the class, you will receive your learner's badge for this class! We work together with Credly to issue internationally recognized learner's certifications.
 
@@ -44,9 +46,9 @@ This badge is issued in the name of RWTH Aachen and Celonis. You may add this di
 
 Good luck!
 
-## Meet your Professor
+### Meet your Professor
 
-### The Godfather of Process Mining
+#### The Godfather of Process Mining
 
 Prof.dr.ir. Wil van der Aalst is a full professor at RWTH Aachen University leading the Process and Data Science (PADS) group. He is also part-time affiliated with the Fraunhofer-Institut für Angewandte Informationstechnik (FIT) where he leads FIT’s Process Mining group and the Technische Universiteit Eindhoven (TU/e). His research interests include Process Mining, Petri Nets, business process management, workflow management, process modeling, and process analysis.
 
@@ -54,9 +56,9 @@ As an academic, Wil is passionate about sharing his knowledge of Process Mining 
 
 We call Wil van der Aalst the Godfather of Process Mining - and there is a good reason for that! Wil has been researching Process Mining for many years in the academic area. Thanks to his work Process Mining found its way into business and built a solid foundation for companies such as Celonis, where Wil holds a position as the Chief Scientific Advisor.
 
-## Meet Celonis
+### Meet Celonis
 
-### Who or what is Celonis?
+#### Who or what is Celonis?
 
 Celonis is the marketleader for Process Mining and Execution Management Technology facilitating smooth operations for over 2000 enterprises worldwide including 50% of Fortune 500 companies. Celonis has won multiple awards for its outstanding technology including The EY Entrepreneur of the Year Award, the Bain Game Changers Award 2019, 2016 and the German President's Award 2019. By now Celonis is the most valuable start up company in Germany and New York being valued at 11bn US Dollars having earned the rare Decacorn status.
 
@@ -64,7 +66,7 @@ Celonis was founded in 2011 as a student project of three students from the Tech
 
 If you want to learn more about Celonis as a Company Check out this article in Forbes telling the story behind the once-in-a-generation company (Forbes, June 2021: https://www.forbes.com/sites/alexkonrad/2021/06/02/celonis-process-mining-raises-at-11-billion-valuation/?sh=a35a6232acd3(opens in a new tab))
 
-### The Celonis Execution Management System
+#### The Celonis Execution Management System
     
 The Celonis Software is also known as the Celonis Execution Management System (short EMS). The Celonis EMS has Process Mining technology at its core. Just like the field of Process Mining the Celonis EMS has developed from an historical analytical tool towards an action-oriented operational backbone in enterprises. The Celonis EMS now also integrates prediction capabilities as well as action flows and automation capabilities to prevent bottlenecks from happening in real time. 
 
@@ -72,9 +74,9 @@ The Celonis Software includes the chance to upload data from scratch or build di
 
 Throughout the course of the lecture we will get to know all of these features in more detail!
 
-## Resources
+### Resources
 
-### Useful Material
+#### Useful Material
 
 In this section you can find all the useful material that will help you successfully complete this course. Mainly you will need the following:
 
@@ -88,7 +90,7 @@ In addition you might also be interested in
 1. Wil's Book "Process Mining: Data Science in Action"
 2. Advanced Celonis Software Trainings.
 
-#### LECTURE SLIDES
+##### LECTURE SLIDES
 
 [Lecture1_Introduction_to_PM.pdf](../images\37 celonis\230324\Lecture1_Introduction_to_PM.pdf){:target="_blank"}
 
@@ -102,13 +104,13 @@ In addition you might also be interested in
 
 [Lecture6_Comparative_and_Predictive_PM.pdf](../images\37 celonis\230324\Lecture6_Comparative_and_Predictive_PM.pdf){:target="_blank"}
 
-#### CELONIS EMS TRAINING LICENSE & ACCESS INSTRUCTIONS
+##### CELONIS EMS TRAINING LICENSE & ACCESS INSTRUCTIONS
      
 Throughout this class you'll have the opportunity to explore Process Mining hands-on in the Celonis software and solve some of the questions from the knowledge checks with it. For this, you need your own EMS Trainining License. Follow the steps in this guide to get access to your free Training Environment:
 
 [Accessing your Celonis Training Team.pdf](../images\37 celonis\230324\Accessing your Celonis Training Team.pdf){:target="_blank"}
 
-#### DEMO DATA SETS
+##### DEMO DATA SETS
 
 As soon as your Training Environment is all set, you are ready to conduct your own Process Mining analyses! For this, we've created a few datasets that you will work with during the lectures:
 
@@ -119,11 +121,11 @@ As soon as your Training Environment is all set, you are ready to conduct your o
 [P2P-Activities.pdf](../images\37 celonis\230324\P2P-Activities.pdf){:target="_blank"}
 [P2P-Cases.pdf](../images\37 celonis\230324\P2P-Cases.pdf){:target="_blank"}
 
-#### LEARN HOW TO GET YOUR DATA INTO THE DATA MODEL
+##### LEARN HOW TO GET YOUR DATA INTO THE DATA MODEL
 
 {% include youtube.html id="Tt9Yrcj5XK4" %}
 
-#### FURTHER ACADEMIC READING - THE PROCESS MINING BIBLE
+##### FURTHER ACADEMIC READING - THE PROCESS MINING BIBLE
 
 ![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/92c1a6ce-c4e8-48f8-9961-b8e343d0912d/7/scormcontent/assets/NUWv5JkJhEM7ZU1I__lCmkBSCkMN45U3P.jpg)
 
@@ -137,16 +139,18 @@ As a learner on this course you are eligible to a 50% discount on the e-book ver
 
 If you want to get a hard copy of the book, follow this link: https://bit.ly/2NptaqQ(opens in a new tab). For a 20% discount use the following code: vyErXDACaXwmq4Sb.
 
-#### ADVANCED CELONIS SOFTWARE TRAINING
+##### ADVANCED CELONIS SOFTWARE TRAINING
 
-##### Basic Coding with PQL
+###### Basic Coding with PQL
 
 Do you want to learn more about the coding language used in Celonis? PQL (Process Query Language) forms the foundation of analysis building in Celonis.
 
 [GO TO COURSE](https://academy.celonis.com/courses/basic-coding-with-pql)
 
-##### Action Flows Training
+###### Action Flows Training
       
 Process Mining and Automation just fit together. Learn about how to create automatic action flows with Celonis.
 
 [GO TO COURSE](https://academy.celonis.com/courses/introduction-to-action-flows)
+
+# 02. Overview of the Field and Basic Concepts
