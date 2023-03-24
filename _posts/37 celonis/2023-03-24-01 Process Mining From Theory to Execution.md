@@ -90,14 +90,63 @@ In addition you might also be interested in
 
 #### LECTURE SLIDES
 
+[Lecture1_Introduction_to_PM.pdf](../images\37 celonis\230324\Lecture1_Introduction_to_PM.pdf){:target="_blank"}
+
+[Lecture2_Process_Discovery1.pdf](../images\37 celonis\230324\Lecture2_Process_Discovery1.pdf){:target="_blank"}
+
+[Lecture3_Process_Discovery2.pdf](../images\37 celonis\230324\Lecture3_Process_Discovery2.pdf){:target="_blank"}
+
+[Lecture4_Conformance_Checking.pdf](../images\37 celonis\230324\Lecture4_Conformance_Checking.pdf){:target="_blank"}
+
+[Lecture5_Getting_The_Data.pdf](../images\37 celonis\230324\Lecture5_Getting_The_Data.pdf){:target="_blank"}
+
+[Lecture6_Comparative_and_Predictive_PM.pdf](../images\37 celonis\230324\Lecture6_Comparative_and_Predictive_PM.pdf){:target="_blank"}
+
 #### CELONIS EMS TRAINING LICENSE & ACCESS INSTRUCTIONS
      
 Throughout this class you'll have the opportunity to explore Process Mining hands-on in the Celonis software and solve some of the questions from the knowledge checks with it. For this, you need your own EMS Trainining License. Follow the steps in this guide to get access to your free Training Environment:
+
+[Accessing your Celonis Training Team.pdf](../images\37 celonis\230324\Accessing your Celonis Training Team.pdf){:target="_blank"}
 
 #### DEMO DATA SETS
 
 As soon as your Training Environment is all set, you are ready to conduct your own Process Mining analyses! For this, we've created a few datasets that you will work with during the lectures:
 
+[concurrency-matters.pdf](../images\37 celonis\230324\concurrency-matters.pdf){:target="_blank"}
+[concurrency_matters_dev.pdf](../images\37 celonis\230324\concurrency_matters_dev.pdf){:target="_blank"}
+[concurrency-matters-skips.pdf](../images\37 celonis\230324\concurrency-matters-skips.pdf){:target="_blank"}
+[event_log-12666-orders-simplified.pdf](../images\37 celonis\230324\event_log-12666-orders-simplified.pdf){:target="_blank"}
+[P2P-Activities.pdf](../images\37 celonis\230324\P2P-Activities.pdf){:target="_blank"}
+[P2P-Cases.pdf](../images\37 celonis\230324\P2P-Cases.pdf){:target="_blank"}
+
 #### LEARN HOW TO GET YOUR DATA INTO THE DATA MODEL
 
 {% include youtube.html id="Tt9Yrcj5XK4" %}
+
+#### FURTHER ACADEMIC READING - THE PROCESS MINING BIBLE
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/92c1a6ce-c4e8-48f8-9961-b8e343d0912d/7/scormcontent/assets/NUWv5JkJhEM7ZU1I__lCmkBSCkMN45U3P.jpg)
+
+Get the "Process Mining bible" for a deeper dive into academic Process Mining theory.
+
+"PROCESS MINING: DATA SCIENCE IN ACTION" BOOK BY WIL VAN DER AALST
+
+Wil van der Aalst is the author of the so-called Process Mining bible:  "Process Mining: Data Science in Action".
+
+As a learner on this course you are eligible to a 50% discount on the e-book version of this book. You can find the book under the following link: https://bit.ly/2Sgd9UM(opens in a new tab). Use the following code to get the discount: zDddBawnhsmuAUpD.
+
+If you want to get a hard copy of the book, follow this link: https://bit.ly/2NptaqQ(opens in a new tab). For a 20% discount use the following code: vyErXDACaXwmq4Sb.
+
+#### ADVANCED CELONIS SOFTWARE TRAINING
+
+##### Basic Coding with PQL
+
+Do you want to learn more about the coding language used in Celonis? PQL (Process Query Language) forms the foundation of analysis building in Celonis.
+
+[GO TO COURSE](https://academy.celonis.com/courses/basic-coding-with-pql)
+
+##### Action Flows Training
+      
+Process Mining and Automation just fit together. Learn about how to create automatic action flows with Celonis.
+
+[GO TO COURSE](https://academy.celonis.com/courses/introduction-to-action-flows)
