@@ -1,5 +1,5 @@
 ---
-title: Process Mining: From Theory to Execution
+title: Process Mining From Theory to Execution
 author: JUNG YoungKyun
 date: 2023-03-24
 category: 37 celonis
