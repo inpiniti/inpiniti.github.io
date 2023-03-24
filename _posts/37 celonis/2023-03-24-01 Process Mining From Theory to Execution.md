@@ -120,17 +120,17 @@ Throughout this class you'll have the opportunity to explore Process Mining hand
 
 As soon as your Training Environment is all set, you are ready to conduct your own Process Mining analyses! For this, we've created a few datasets that you will work with during the lectures:
 
-[concurrency-matters.pdf](../images\37 celonis\230324\concurrency-matters.pdf){:target="_blank"}
+[concurrency-matters.xlsx](../images\37 celonis\230324\concurrency-matters.xlsx){:target="_blank"}
 
-[concurrency_matters_dev.pdf](../images\37 celonis\230324\concurrency_matters_dev.pdf){:target="_blank"}
+[concurrency_matters_dev.xlsx](../images\37 celonis\230324\concurrency_matters_dev.xlsx){:target="_blank"}
 
-[concurrency-matters-skips.pdf](../images\37 celonis\230324\concurrency-matters-skips.pdf){:target="_blank"}
+[concurrency-matters-skips.xlsx](../images\37 celonis\230324\concurrency-matters-skips.xlsx){:target="_blank"}
 
-[event_log-12666-orders-simplified.pdf](../images\37 celonis\230324\event_log-12666-orders-simplified.pdf){:target="_blank"}
+[event_log-12666-orders-simplified.csv](../images\37 celonis\230324\event_log-12666-orders-simplified.csv){:target="_blank"}
 
-[P2P-Activities.pdf](../images\37 celonis\230324\P2P-Activities.pdf){:target="_blank"}
+[P2P-Activities.csv](../images\37 celonis\230324\P2P-Activities.csv){:target="_blank"}
 
-[P2P-Cases.pdf](../images\37 celonis\230324\P2P-Cases.pdf){:target="_blank"}
+[P2P-Cases.csv](../images\37 celonis\230324\P2P-Cases.csv){:target="_blank"}
 
 ##### LEARN HOW TO GET YOUR DATA INTO THE DATA MODEL
 
