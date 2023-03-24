@@ -8,6 +8,12 @@ layout: post
 
 # 01. Welcome from Professor Wil van der Aalst
 
+Welcome From Professor Wil van der Aalst
+
+Course | 25min
+
+Welcome from your hosts, Professor Wil van der Aalst and Rosie from Celonis.
+
 ## Welcome from Professor Wil van der Aalst
 
 Hello and Welcome to "Process Mining: From Theory to Execution"! 
@@ -115,10 +121,15 @@ Throughout this class you'll have the opportunity to explore Process Mining hand
 As soon as your Training Environment is all set, you are ready to conduct your own Process Mining analyses! For this, we've created a few datasets that you will work with during the lectures:
 
 [concurrency-matters.pdf](../images\37 celonis\230324\concurrency-matters.pdf){:target="_blank"}
+
 [concurrency_matters_dev.pdf](../images\37 celonis\230324\concurrency_matters_dev.pdf){:target="_blank"}
+
 [concurrency-matters-skips.pdf](../images\37 celonis\230324\concurrency-matters-skips.pdf){:target="_blank"}
+
 [event_log-12666-orders-simplified.pdf](../images\37 celonis\230324\event_log-12666-orders-simplified.pdf){:target="_blank"}
+
 [P2P-Activities.pdf](../images\37 celonis\230324\P2P-Activities.pdf){:target="_blank"}
+
 [P2P-Cases.pdf](../images\37 celonis\230324\P2P-Cases.pdf){:target="_blank"}
 
 ##### LEARN HOW TO GET YOUR DATA INTO THE DATA MODEL
@@ -154,3 +165,36 @@ Process Mining and Automation just fit together. Learn about how to create autom
 [GO TO COURSE](https://academy.celonis.com/courses/introduction-to-action-flows)
 
 # 02. Overview of the Field and Basic Concepts
+
+Introduction: Process Mining From Theory to Execution
+
+Course | 1h 30min
+
+Introduction to Process Mining and its multiple facets.
+
+Welcome to your first lecture of "Process Mining: From Theory to Execution". In this first Lecture we will start with an Introduction to the main themes currently relevant in Process Mining. The aim of this first lecture unit is to give you an overview of what Process Mining entails and where it currently stands as well as to introduce you to some basic terminologies and concepts that are important for the field.
+
+Just like all of the other lectures this lecture unit contains a theory lecture from Wil, hands-on illustrations in Celonis as well as a knowledge check quiz! Start your Process Mining journey now!
+
+## Lecture 1: Introduction to Themes
+
+
+"Process Mining is a complex and continually expanding field of study. From its conception as a research topic in the late 90’s it has grown into a globally applied science touching the likes of more than half of fortune 500 companies. "
+
+### Introduction to Themes
+
+Wil van der Aalst pioneered the field of Process Mining in the 1990s. He was the first to investigate the missing link between process and data science. In the first part of this course he will give you an overview of the field and introduce you to important concepts and terminologies.
+
+In this first lecture, Wil will introduce you to the fundamentals of Process Mining and a top-down overview of its structure. You will learn about different tasks in Process Mining and what is needed to accomplish them. Furthermore, after watching this lecture, you will get familiar with the most important attributes of data required for Process Mining: Case, Activity, and Timestamp. By using these types of data, you will not only get valuable insights into the as-is processes, but also will be able to make predictions to optimize processes in the future.
+
+`Hint`: We recommend taking notes and listening actively since there will be quiz questions testing your knowledge!
+
+{% include youtube.html id="N--RTU-IvAQ" %}
+
+By now, you should have learned the definition, history, and importance of Process Mining for different businesses. You should also be familiar with the overview and the different focus areas that the field holds: From Process Discovery to action-oriented Process Mining. Now, let's see how you can apply Process Mining in practice together with Celonis - for this, join the hands-on Lecture by Celonis.
+
+## Lecture 1: Celonis Hands-On
+
+"There are a few important ingredients that provide function and methodology in the world of Process Mining".
+
+## Lecture 1: Knowledge Check
