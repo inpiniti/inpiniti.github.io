@@ -195,7 +195,9 @@ By now, you should have learned the definition, history, and importance of Proce
 
 #### Lecture 1: Celonis Hands-On
 
+```
 "There are a few important ingredients that provide function and methodology in the world of Process Mining".
+```
 
 ##### Introduction
 
@@ -321,3 +323,44 @@ Thank you for your request! Your personal environment should be created within 1
 
 Once activated, you can always access your team by logging in to Celonis ID - This is a central login that shows you all of the EMS Teams you have access to. You can also simply bookmark the link your personal training team since you will be asked to repeatedly use it in a multitude of Celonis courses. Feel free to continue with your training now.
 
+## Lecture 2: Process Discovery (1/2) - Learning Directly-Follows Graphs
+
+Welcome to the first part of the Process Discovery chapter and the second Lecture of "Process Mining: From Theory to Execution". In this lecture unit we will take a step further to discover basic process models. We will focus on Directly-Follows Graphs. The aim of this lecture unit is to give you an overview of the basic process models, how to use them and when to apply different filtering techniques to get a clearer view of your model.
+
+Just like all of the other lectures this lecture unit contains a theory lecture from Wil, hands-on illustrations in Celonis as well as a knowledge check quiz! Let's take our second step in the Process Mining Journey now!
+
+### Lecture 2: Process Discovery (1/2) - Learning Directly-Follows Graphs
+
+```
+"Directly-Follows Graphs are an extremely scalable way to showing process flows. If you have hundreds of millions of events these can be analyzed without a problem"
+```
+
+#### Let's look at Directly-Follows Graphs!
+
+The second lecture is dedicated to a fundamental concept for Process Discovery- Directly-Follows Graphs (DFG). Representing the processes in a very straightforward way, DFGs are a powerful tool to get insights from raw event data. After watching this lecture you will be able to define what a DFG is, understand its basic features, and apply different filtering techniques.
+
+More specifically, you will learn:
+
+how activities and connections complement each other to give you an overview of a process
+
+- what is the difference between a frequency view and a time view
+- how DFGs can help you spot bottlenecks in your processes
+- how to differentiate between and combine three filtering types to focus on what is important for you.
+
+Hint: We recommend taking notes and listening actively since there will be quiz questions testing your knowledge!
+
+{% include youtube.html id="EyCrJ-Y6BUU" %}
+
+In this lecture you have learnt that DFG is a very powerful tool to show frequencies and spot bottlenecks in processes. In fact DFGs are one of the most frequently used process representations also in industry. They are very intuitive and also allow for a story-telling element as we see the different process variants unfold as the process really happened based on variant frequencies.
+
+Now, it is time to see how DFGs are realized in the Celonis software! Let's move on to the next Practical Lecture by Celonis to explore the power of process models with our example dataset and build your own DFG model!
+
+### Lecture 2: Celonis Hands-On
+
+```
+"By looking at all process variants we can see that processes quickly get complex. Filtering methods help to get a better overview of the relevant process variants."
+```
+
+
+
+Lecture 2: Knowledge Check
