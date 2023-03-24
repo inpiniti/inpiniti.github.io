@@ -6,7 +6,17 @@ category: 37 celonis
 layout: post
 ---
 
+![](https://d3i9g4671ronu3.cloudfront.net/thoughtindus…5ad/jq12q60i69ez-course_Change_catalog800x385.png)
+
+Process Mining: From Theory to Execution
+
+Training Track | 10h 30min
+
+Discover the science behind the technology. Perform real-life applications.
+
 # 01. Welcome from Professor Wil van der Aalst
+
+![](https://d3i9g4671ronu3.cloudfront.net/thoughtindus…iwrciw6cmst-skill-area_Introduction_catalogue.jpg)
 
 Welcome From Professor Wil van der Aalst
 
@@ -165,6 +175,8 @@ Process Mining and Automation just fit together. Learn about how to create autom
 [GO TO COURSE](https://academy.celonis.com/courses/introduction-to-action-flows)
 
 # 02. Overview of the Field and Basic Concepts
+
+![](https://d3i9g4671ronu3.cloudfront.net/thoughtindus…5ul1jey-skill-area_Learning-Tips_Q1_catalogue.jpg)
 
 Introduction: Process Mining From Theory to Execution
 
