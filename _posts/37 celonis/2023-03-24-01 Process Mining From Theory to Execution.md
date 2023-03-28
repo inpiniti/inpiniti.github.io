@@ -389,7 +389,7 @@ In this lecture, we will work with the following data set. Download it before wa
 
 [event_log-12666-orders-simplified.csv](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/f78abb4a-61c2-4cd2-8650-b3e34343f1e6/2/scormcontent/assets/kVIIWmjqQgl44711_H-wVEz8J4p7oYcG6-event_log-12666-orders-simplified.csv)
 
-{% include youtube.html id="igJAXgRIE5k"}
+{% include youtube.html id="igJAXgRIE5k" %}
 
 In this second chapter you got familiar with Directly-Follows Graphs. This model is a very powerful tool to visualize different steps in the as-is processes to get a whole picture and spot bottlenecks. 
 
@@ -504,13 +504,13 @@ This lecture consists of a main part dedicated to Petri Nets and BPMN models and
 
 Hint: We recommend taking notes and listening actively since there will be quiz questions testing your knowledge!
 
-{% include youtube.html id="4Hxkq_GTNG0"}
+{% include youtube.html id="4Hxkq_GTNG0" %}
 
 #### Additional Learning Material: What is  Inductive Mining?
 
 If you want to dive deeper into Process Discovery, have a look at the extra part of this lecture where Wil van der Aalst explains the basic principles behind inductive mining. Here you will learn more about different techniques to cut a DFG  that help to analyse different subblocks of the model.
 
-{% include youtube.html id="GhFMb-QogqU"}
+{% include youtube.html id="GhFMb-QogqU" %}
 
 The third lecture has given you a deeper insight into Process Discovery and other process representation tools. In the focus of this chapter were concurrencies and how different process models can deal with them. You are invited to practice working with more complex data sets within Celonis. Visit the Celonis hands-on illustrations now to visualize the comples data with concurrencies yourself!
 
@@ -555,7 +555,7 @@ In this lecture, we will work with the following data sets. Download them before
 
 [concurrency-matters-skips.xlsx](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/1ef2e6f8-b7c9-4f5c-be9b-cc7b1e8b26fd/2/scormcontent/assets/Wc5ilD8UTgOpGjCA_yNTR8iAuRPzHS1dg-concurrency-matters-skips.xlsx)
 
-{% include youtube.html id="-FmwcVT03t4"}
+{% include youtube.html id="-FmwcVT03t4" %}
 
 In the third chapter you have gotten familiar with different approaches of data visualization. Moreover, you have learned what a petri net is and how it can cope with concurrencies, choices, and loops. To test your knowledge on this topic, continue to the Knowledge check part of this chapter!
 
