@@ -627,4 +627,157 @@ Evaluate the “to-be” and “as-is” worlds.
     - Learn when it suits you with round-the-clock access.
     - Get enabled fast with laser-focused, goal-based training.
 
+## Lecture 4: Conformance Checking
+
+You are now half way through your Process Mining journey - congratulations! In this fourth lecture we turn to another important topic, Conformance Checking. It is a powerful methodology to see whether the real as-is process matches the desired behavior. Conformance Checking is of high importance for organisations that want to make sure that their processes are executed as planned.
+
+Just like all of the other lectures this lecture unit contains a theory lecture from Wil, hands-on illustrations in Celonis as well as a knowledge check quiz! Let's take our next step in the Process Mining Journey now!
+
+```
+"In conformance checking, we want to compare the model behavior with the observed behavior. This is highly relevant if an organisation wants to make sure that processes are executed as planned."
+```
+
+### Is the Process Executed as Planned?
+
+In real life, things don't always run according to plan. But for businesses and organizations it means losing control over processes and most importantly - money. If we look at the Directly-Follows Graphs and other process models, that we learned in the previous lectures, it can be very difficult to spot deviations at first glance. So far we have focused on Process Discovery. In Process Discovery you try to reconstruct the as-is process and spot first patterns all through your own research. With hundreds of process variants and tons of master data to analyze this can take a lot of time. Conformance Checking allows you to compare a normative process model, showing you the ideal process flow with your as-is process. It automatically detects violations that keep you from being in your ideal world.
+
+In this lecture, Wil van der Aalst will explain how Conformance Checking can help organizations to observe where a desired model and real data deviate from each other. After watching this lecture you will be able to compare reality with a normative  model with the help of three different approaches: Alignments, Footprint matrix and Token-based replay.
+
+You will learn:
+
+- the basics of Conformance Checking
+- how to compute alignments and what their drawbacks are
+- how to compare footprint matrices to spot deviations 
+- what a token-based replay is and how to analyse it.
+
+Hint: We recommend taking notes and listening actively since there will be quiz questions testing your knowledge!
+
+{% include youtube.html id="i1srFKbUii0" %}
+
+In this lecture you have learned that there are three different approaches in Conformance Checking: Alignments, comparing footprints and token-based replay. A nice analogy that tells the difference between token-replay and alignments is searching for a particular place (e.g., a restaurant) in a city: in token-replay, you decide the direction to take just by looking at what you see. With alignments, you take your mobile phone and look at Google Maps, which will tell the optimal route (but pays the price of connecting to a GPS, download the city map, etc. …) (Josep Carmona, Associate Professor at Universitat Politècnica de Catalunya ).
+
+By now you should be familiar with the drawbacks and advantages of all the methods and know how to create them.  Now, it is time to see how Conformance Cheking is realized in the Celonis software! Let's move on to the next practical lecture by Celonis to explore this is in application.
+
+## Lecture 4: Celonis Hands-On
+
+```
+"Maybe you stood in the mirror and practiced the perfect delivery of the question “tell me about yourself” or mapped out the expected direction of the talk. After the interview happened, you might have thought back to your original ideas of the conversation and considered whether the actual outcome met your expectations."
+```
+
+### Conformance Checking in Celonis
+
+In the past lectures we talked about different methods to turn process data into process models. The “Conformance Checking” allows you to design, mine or upload a normative process model in the form of a BPMN model, and automatically compare it to the as-is process discovered in the data. Subsequently, you will get an overview of all deviations from the should-be process flow. Conformance Checking also allows for an automated root cause analysis which will be a subsequent step in our journey. 
+
+Celonis allows for several ways to come up with your normative process model. You can design a standard process from scratch in Celonis using the integrated BPMN process modeller, select an existing BPMN model from the Celonis Process Repository, or even mine a process model directly from the variant explorer with the help of inductive mining techniques. 
+
+Process violations are automatically flagged by Celonis. We've already discovered this undesired activity of changing a price when we looked at the process in the form of a Directly-Follows Graph with the Variant Explorer. The conformance checker provides us with a whole list of violations that keep us from conforming with the should-be process and hence require action and attention. 
+
+In the background the event log is replayed on the Petri Net, to help compare the as-is and should-be model, understand potential root causes and identify correlations between a selected conformance violation and associated metadata of the corresponding purchase order items. Metadata can be a vendor name, a material group or a specific plant just to name a few. We will also talk about the influence of metadata on the process further in Lecture 6.
+
+Before jumping into the practical part by Celonis, make sure that your Training environment is all set up:
+
+[Accessing your Celonis Training Team.pdf](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/97b9514e-759d-4ffb-b1e4-e7c99c25cc9f/2/scormcontent/assets/0aER9400kjAH9L6J_jLY_KLRvYrlGxjlo-Accessing%20your%20Celonis%20Training%20Team.pdf)
+
+In this lecture, we will work with the following data set. Download it before watching the video:
+
+[concurrency_matters_dev.xlsx](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/97b9514e-759d-4ffb-b1e4-e7c99c25cc9f/2/scormcontent/assets/X1GIh3CJsB6hW8-z_CDWefQM_AhTb6-W5-concurrency_matters_dev.xlsx)
+
+{% include youtube.html id="aj-EgWRvofY" %}
+
+You are encouraged to study the demo data yourself in Celonis. View the example from the Lecture video here!
+
+[DEMO NOW!](https://content.training.celonis.cloud/process-mining/public/6cdb3291-b77d-4a0a-bb5a-13a20c028feb/#/frontend/documents/6cdb3291-b77d-4a0a-bb5a-13a20c028feb/view/sheets/333dbdf2-94e5-41d2-95dc-0e26b97b6738)
+
+Conformance Checking can be very handy in real world applications when Process Discovery can still require a lot of human interaction. Conformance Checking then comes in as a fast way to spot deviations. Together with Process Discovery and Enhancement it is an essential pillar of Process Mining theory and a key diagnostics tool.
+
+## Lecture 4: Knowledge Check
+
+### Check your Knowledge!
+
+Let's see how much you have taken away from your lecture so far! Take a look at the questions below and try to figure out what the right answer might be. These questions are designed to be slight brainteaser so you can apply your theoretical knowledge in an applied setting and transfer your knowledge to other use cases. You need to have completed all Knowledge Check sections in order to obtain your certificate!
+
+#### Task 1. Which techniques exist for Conformance Checking? Tick the right boxes.
+
+[v] Alignments
+
+[v] Footprint comparison
+
+[v] Token-based replay
+
+#### Task 2. Have a look at the Petri Net (model) on the left and the event log variants with frequencies (observed) on the right. How many cases are conformant with the model?
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/97b9514e-759d-4ffb-b1e4-e7c99c25cc9f/2/scormcontent/assets/5pcEU6K6IqPRbWGO_bH-B_psqd3MqMSiM.png)
+
+[v] 12,659
+
+[] 10,978
+
+[] 1,681
+
+#### Task 3. Have a look at the BPMN (model) on the left and the event log variants with frequencies (observed) on the right. How many cases are conformant with the model?
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/97b9514e-759d-4ffb-b1e4-e7c99c25cc9f/2/scormcontent/assets/Tum2JIfbFWZLk1yo_LZQWdLkXlFogLZSZ.png)
+
+[v] 12,659
+
+[] 10,978
+
+[] 1,681
+
+# 06. Analyze Process Data
+
+![](https://d3i9g4671ronu3.cloudfront.net/thoughtindustries-eu/image/upload/a_exif,c_fill,w_600/v1/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/9j892du4qwqo-skill-area_Management-Monitoring_catalogue.jpg)
+
+REQUIREDGetting the Data from Source Systems
+
+Course | 1h 30min
+
+Understand where process data comes from and potential complications.
+
+- WHAT'S INCLUDED
+    - Self-paced learning. Take courses at your own speed.
+    - Learn when it suits you with round-the-clock access.
+    - Get enabled fast with laser-focused, goal-based training.
+
+## Lecture 5: Getting the Data
+
+Process Mining allows for analysis of millions of cases, and therefore is a big data technology. However, huge amounts of data also leave room for errors and data issues are among the biggest threats to a successful Process Mining implementation. Incorrect time stamps, currency conversion problems, or gaps in the data can cause a headache for Process Miners. 
+
+The focus of this lecture is on understanding the data collection mechanism behind process mining and how to go from the raw data to a process model to an analysis.
+
+Just like all of the other lectures this lecture unit contains a theory lecture from Wil, hands-on illustrations in Celonis as well as a knowledge check quiz! Let's take our next step in the Process Mining Journey now!
+
+```
+
+"It is a big challenge to 
+
+extract data from the information systems, 
+
+and if you start Process 
+
+Mining from the very 
+
+beginning it might take 
+
+up to 80% of your time."
+```
+
+### Looking for Quality Data
+
+It is hard to understand Process Mining without first understanding Data Mining. The data underlying our Process Mining analysis is vital and so is the work around preparing the data. As the above quote from Wil rightfully points, out getting the data can be tricky. It takes up a lot of time and there are typical errors that can occur from switched timestamps to gaps in the data.
+
+Wil has dedicated this lecture to explaining the nitty-gritty work of mining and preparing our Process Mining data. More specifically, you will learn:
+
+- What are the challenges behind data extraction
+- How to build a case-identifier with a given dataset in different environments
+- The Transactional Model for Activities
+- Atomic activities versus activities with a duration
+- Possible problems from deficiency to convergence to divergence
+
+Hint: We recommend taking notes and listening actively since there will be quiz questions testing your knowledge!
+
+{% include youtube.html id="4CUOSyD7Ilw" %}
+
+In this lecture you have learned about a more refined view to work with data in Process Mining. Let's jump into practice! Join the next practical session by Celonis where you will learn how to upload data and build complex data models in Celonis.
+
 
