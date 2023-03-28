@@ -761,4 +761,66 @@ Hint: We recommend taking notes and listening actively since there will be quiz 
 
 In this lecture you have learned about a more refined view to work with data in Process Mining. Let's jump into practice! Join the next practical session by Celonis where you will learn how to upload data and build complex data models in Celonis.
 
+## Lecture 5: Celonis Hands-On
 
+> "Remember however that in practice data sets are normally astronomically large and have to be sourced from a number of different systems"
+
+### Data Upload and Building Data Models in Celonis
+
+We already took a look at Celonis’ interface in the previous lectures, but we’ve yet to examine how the data we are analyzing is uploaded into the system in the first place. In Wil’s lecture for this unit, you learned about basic principles of finding data and assigning case identifiers. Remember, however, that in practice these data sets are normally astronomically large and have to be sourced from a number of different systems. Now, we’re going to see how Celonis helps companies effortlessly find and extract data for simplified navigation. We’ll walk through how data files are uploaded and construct our very own dashboard from scratch.
+
+Before jumping into the practical part by Celonis, make sure that your Training environment is all set up:
+
+[Accessing your Celonis Training Team.pdf](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/07fd2357-977d-428e-bd93-2e4a26fd877b/2/scormcontent/assets/acNUIaGm-djAR-qW_7a6Y9ELf8fjiA0v2-Accessing%20your%20Celonis%20Training%20Team.pdf)
+
+In this lecture, we will work with the following data sets. Download them before watching the video:
+
+[P2P-Activities.csv](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/07fd2357-977d-428e-bd93-2e4a26fd877b/2/scormcontent/assets/xbUY_H9d4VfhIVPU_fVLdWJIYNOpQln_D-P2P-Activities.csv)
+
+[P2P-Cases.csv](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/07fd2357-977d-428e-bd93-2e4a26fd877b/2/scormcontent/assets/b2NAsjQjM1CNxsa__TjDmSkYXdMedIxrS-P2P-Cases.csv)
+
+{% include youtube.html id="9voFruOuLSU" %}
+
+You should be a pro in data-related questions by now! Data upload is no one-off task anymore. Instead of analyzing historical data only, Celonis allows for real-time data upload to monitor a process in real-time and also set preventive measures in real time. We will take this up further in lecture 6 when we will also address process prediction.
+
+Ready for the next test of your Process Mining knowledge? Then continue to the Knowledge Check we have prepared for you.
+
+## Lecture 5: Knowledge Check
+
+### Check your Knowledge!
+
+Let's see how much you have taken away from your lecture so far! Take a look at the questions below and try to figure out what the right answer might be. These questions are designed to be slight brainteaser so you can apply your theoretical knowledge in an applied setting and transfer your knowledge to other use cases. You need to have completed all Knowledge Check sections in order to obtain your certificate!
+
+#### Task 1. Looking at a more refined view of event data, we have 3 concepts: process, case and event. Events may have many attributes. Sort the information on top into the right attribute category.
+
+[problem paper link](https://academy.celonis.com/learn/course/getting-the-data-from-source-systems/getting-the-data-from-source-systems/course-outline?page=2)
+
+#### Task 2. What are the challenges when extracting event data? Tick the right boxes.
+
+[v] Finding the data
+
+[v] Extracting the data
+
+[v] Understand the data
+
+[] Migrating data to a repository
+
+[v] Quality problems
+
+[v] Scalability
+
+[v] Data security and regulations
+
+[] Too good record keeping at companies
+
+#### Task 3. One of the goals of the IEEE Task Force on Process Mining is to promote the use of Process Mining techniques and tools. An important aspect of that is the existence of common and widely-accepted standards, one of it being the data format for event logs.  XES is an XML-based format, and its name is an acronym for ________ _________ _______.
+
+Task 4. There are multiple problems that we encounter when we try to convert an object-centered event log into a conventional event log. Match the right term descriptions!
+
+[problem paper link](https://academy.celonis.com/learn/course/getting-the-data-from-source-systems/getting-the-data-from-source-systems/course-outline?page=2)
+
+Task 5. A data-driven perspective on business process management problems has huge advantages in terms of covering complexity as well as the effort and degree of detailedness for gathering information and evidence. Match these other frequently used techniques in Business Process Management and Consulting to gain insights into processes with their biggest shortcomings.
+
+[problem paper link](https://academy.celonis.com/learn/course/getting-the-data-from-source-systems/getting-the-data-from-source-systems/course-outline?page=2)
+
+ 
