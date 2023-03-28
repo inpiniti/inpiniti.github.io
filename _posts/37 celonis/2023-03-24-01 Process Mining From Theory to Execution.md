@@ -249,9 +249,9 @@ Have a look at the event log snippet below. Here you can see various purchase or
 
 ![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/cd285ed6-d8c6-4e1e-8ca2-c1b82875bc64/1/scormcontent/assets/LBevsLSUTTqTeDJu_TgvJU54wRunoWDto.png)
 
-[ ] 3
-[x] 4 (o)
-[ ] 5
+- [ ] 3
+- [x] 4 (o)
+- [ ] 5
 
 ##### Task 1.2. How does the most frequent variant in the event log look like? (Hint: It occurs in two cases). Bring the activities into the right chronological order based on the timestamps.
 
@@ -271,21 +271,21 @@ Now let's look at larger event log that has already been connected to the Proces
 
 ##### How many activities does the happy path (most frequent process variant) consist of?
 
-[ ] 4
+- [ ] 4
 
-[x] 6
+- [x] 6
 
-[ ] 9
+- [ ] 9
 
 ##### Tick the right statements.
 
-[ ] An activity only ever shows up in one single processes.
+- [ ] An activity only ever shows up in one single processes.
 
-[x] Process activities are actions that initiate or terminate a process, or take place during it.
+- [x] Process activities are actions that initiate or terminate a process, or take place during it.
 
-[x] The Procurement process covers activities of requesting, purchasing, receiving, and paying for goods and services.
+- [x] The Procurement process covers activities of requesting, purchasing, receiving, and paying for goods and services.
 
-[ ] Typically, undesired Procurement activities are: Change Price, Create Purchase Requisition, Book Invoice.
+- [ ] Typically, undesired Procurement activities are: Change Price, Create Purchase Requisition, Book Invoice.
 
 ##### Task 3: Distinguish 3 Basic Concepts.
       
@@ -405,13 +405,13 @@ You are given the same Purchase to Pay Event Log from Lecture 1 in fig. 1. This 
 
 ###### Task 1.1. Based on the event log above, showing variants and frecquencies, have a closer look at the two most common variants. Based on the two variants, create a DFG in your notebook or a piece of paper. Tick the right statements for the DFG based on the two variants.
 
-[x] The DFG starts with Create Purchase Order.
+- [x] The DFG starts with Create Purchase Order.
 
-[ ] The DFG starts with Create Purchase Requisition Item.
+- [ ] The DFG starts with Create Purchase Requisition Item.
 
-[x] Goods Receipt is followed by Scan Invoice in 2,962 cases.
+- [x] Goods Receipt is followed by Scan Invoice in 2,962 cases.
 
-[ ] Goods Receipt is followed by Scan Invoice in 10,978 cases.
+- [ ] Goods Receipt is followed by Scan Invoice in 10,978 cases.
 
 ###### Task 1.2. Based on the event log above, showing variants and frequencies, create a DFG in your notebook or a piece of paper. Match the activities sequence with the respective number of cases on the arc between the activities.
 
@@ -419,29 +419,29 @@ You are given the same Purchase to Pay Event Log from Lecture 1 in fig. 1. This 
 
 ###### Task 1.3. Look at the P2P analysis in Celonis. How many % of cases are described by how many % of all variants? 
 
-[x] 82% of all cases described by 1% of all variants
+- [x] 82% of all cases described by 1% of all variants
 
-[ ] 82% of all cases described by 7% of all variants
+- [ ] 82% of all cases described by 7% of all variants
 
-[ ] 82% of all cases described by 2% of all variants
+- [ ] 82% of all cases described by 2% of all variants
 
 ###### Which of the statements are true for arc-based filtering on DFGs?
 
-[ ] The final Directly- Follows Graph remains stable to any removal of activites. 
+- [ ] The final Directly- Follows Graph remains stable to any removal of activites. 
 
-[x] Hidden activities influence Directly-Follows frequency. 
+- [x] Hidden activities influence Directly-Follows frequency. 
 
-[x] Numbers do not need to add up after removing arcs.
+- [x] Numbers do not need to add up after removing arcs.
 
 ###### Task 1.4. Look at the BPMN model below in fig. 2. In your notebook or piece of paper, draw a DFG as close to the BPMN model as possible. How many traces are possible?
 
 ![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/f78abb4a-61c2-4cd2-8650-b3e34343f1e6/2/scormcontent/assets/r1UFBYSbSjOkctyt_hWMI9be_Xf17Rc2T.png)
 
-[ ] 3
+- [ ] 3
 
-[ ] 4
+- [ ] 4
 
-[x] 6
+- [x] 6
 
 # 04. Discover Sophisticated Process Models
 
@@ -574,31 +574,31 @@ Take a look at the Concurrency Matters dataset in the Celonis software. As you'v
 
 Which of the  BPMN models corresponds to the variant explorer of the Concurrency Matters dataset?
 
-[ ] 1
+- [ ] 1
 
-[x] 2
+- [x] 2
 
-[ ] 3
+- [ ] 3
 
 ##### Question 2: Understanding Higher level process models
 
 Why are Directly Follows Graphs (DFGs) incapable of capturing the complexity of some real world processes?
 
-[x] DFGs get tangled up very soon
+- [x] DFGs get tangled up very soon
  
-[x] DFGs cannot capture parallel activities
+- [x] DFGs cannot capture parallel activities
  
-[ ] DFGs cannot measure timestamps correctly
+- [ ] DFGs cannot measure timestamps correctly
 
 ##### Question 3: Apply your skills in Celonis
 
 Upload the Concurrency Matters data set into your own training license. If you need help on how to do this you can revisit Lecture 2. Look at the process both in the BPMN model and variant explorer. How many connections can you count for each of them looking at whole process? 
 
-[x] 12 in Variant Explorer (DFG) and 8 in BPMN Model
+- [x] 12 in Variant Explorer (DFG) and 8 in BPMN Model
 
-[ ] 15 in Variant Explorer (DFG) and 5 in BPMN Model
+- [ ] 15 in Variant Explorer (DFG) and 5 in BPMN Model
 
-[ ] 30 in Variant Explorer (DFG) and 10 in BPMN Model
+- [ ] 30 in Variant Explorer (DFG) and 10 in BPMN Model
 
 # 05. Experience the Power of Conformance Checking
 
@@ -692,21 +692,21 @@ Let's see how much you have taken away from your lecture so far! Take a look at 
 
 ![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/97b9514e-759d-4ffb-b1e4-e7c99c25cc9f/2/scormcontent/assets/5pcEU6K6IqPRbWGO_bH-B_psqd3MqMSiM.png)
 
-[x] 12,659
+- [x] 12,659
 
-[ ] 10,978
+- [ ] 10,978
 
-[ ] 1,681
+- [ ] 1,681
 
 #### Task 3. Have a look at the BPMN (model) on the left and the event log variants with frequencies (observed) on the right. How many cases are conformant with the model?
 
 ![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/97b9514e-759d-4ffb-b1e4-e7c99c25cc9f/2/scormcontent/assets/Tum2JIfbFWZLk1yo_LZQWdLkXlFogLZSZ.png)
 
-[x] 12,659
+- [x] 12,659
 
-[ ] 10,978
+- [ ] 10,978
 
-[ ] 1,681
+- [ ] 1,681
 
 # 06. Analyze Process Data
 
@@ -797,21 +797,21 @@ Let's see how much you have taken away from your lecture so far! Take a look at 
 
 #### Task 2. What are the challenges when extracting event data? Tick the right boxes.
 
-[x] Finding the data
+- [x] Finding the data
 
-[x] Extracting the data
+- [x] Extracting the data
 
-[x] Understand the data
+- [x] Understand the data
 
-[ ] Migrating data to a repository
+- [ ] Migrating data to a repository
 
-[x] Quality problems
+- [x] Quality problems
 
-[x] Scalability
+- [x] Scalability
 
-[x] Data security and regulations
+- [x] Data security and regulations
 
-[ ] Too good record keeping at companies
+- [ ] Too good record keeping at companies
 
 #### Task 3. One of the goals of the IEEE Task Force on Process Mining is to promote the use of Process Mining techniques and tools. An important aspect of that is the existence of common and widely-accepted standards, one of it being the data format for event logs.  XES is an XML-based format, and its name is an acronym for ________ _________ _______.
 
@@ -890,15 +890,15 @@ Let's see how much you have taken away from your lecture so far! Take a look at 
 
 ![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/2f900193-d2ed-480c-8c32-8bb29bc8d522/4/scormcontent/assets/W1fHRngP_JiPAgsI_Ns_X5IRBltgER4yZ.png)
 
-[x] The validation of information takes less time for business customers.
+- [x] The validation of information takes less time for business customers.
 
-[ ] The validation of informantion takes more time for business customers.
+- [ ] The validation of informantion takes more time for business customers.
 
-[ ] In the majority of cases business customers set up a new account.
+- [ ] In the majority of cases business customers set up a new account.
 
-[x] In the majority of cases private customers set up a new account.
+- [x] In the majority of cases private customers set up a new account.
 
-[x] Private customers need to reinitiate the process more often than business customers.
+- [x] Private customers need to reinitiate the process more often than business customers.
 
 ##### Task 2. With extended event data we can do different types of analyses to discover our process. Match the analysis type to the right question.
 
@@ -919,4 +919,74 @@ For a long time it was not very successful and classical techniques like decisio
 With the help of the results of the feature selection algorithm, we can select the features that we want to use for our model. We distinguish between two features types. ______ features do not change throughout a case and always remain the same. Examples could be Customer or Material Number. Dynamic features are features that change over time and need to be updated throughout a case. When building a training set they need to be treated differently since they should not have the last state of a case but the state at a given time in the process. Examples are counts of how often a certain activity already occurred in the process.
 
 [problem paper link](https://academy.celonis.com/learn/course/comparative-and-predictive-process-mining/comparative-and-predictive-process-mining/course-outline?page=2)
+
+# 08. Current Process Mining Trends
+
+![](https://d3i9g4671ronu3.cloudfront.net/thoughtindustries-eu/image/upload/a_exif,c_fill,w_600/v1/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/54celsli9fvu-skill-area_Comparison_catalogue.jpg)
+
+Wrap-up Process Mining from Theory to Execution
+
+Course | 1h 30min
+
+Process Mining Quo Vadis. Learning about RPA and other trends.
+
+- WHAT'S INCLUDED
+    - Self-paced learning. Take courses at your own speed.
+    - Learn when it suits you with round-the-clock access.
+    - Get enabled fast with laser-focused, goal-based training.
+
+## Lecture 7: Closing & Outlook
+
+Congratulations, you have made it to the last lecture of Process Mining: From Theory to Execution! In this lecture we are going to recap everything you have learned so far. Also, Wil will give us an outlook of how Process Mining has developed in the last years and current trends in the field of Process Mining & Automation. If you want to further expand your knowledge don't forget to check out our Resources chapter at the end of this course. It includes e.g. a discount code to Wil's world-famous book "Process Mining: Data Science in Action" (2016). 
+
+Just like all of the other lectures this lecture unit contains a theory lecture from Wil, hands-on illustrations in Celonis as well as a knowledge check quiz! Let's take our final step in the Process Mining Journey now!
+
+### Lecture 7: Closing
+
+> "If you are looking for an operational friction, focus on the things that are infrequent and that you don't want to happen."
+
+#### Wrapping Up
+
+It's time to recap everything we've learnt about Process Mining in the last six lectures! In the closing lecture, Wil will lead you once again through the different aspects of Process Mining and how they come into real world application. After this short overview, Wil will give you a quick outlook into Process & Automation which are said to be a match made in heaven. Process Mining helps to detect bottlenecks and monitor automation initiatives.
+
+Let's dive right into the last lecture with Wil!
+
+Hint: We recommend taking notes and listening actively since there will be quiz questions testing your knowledge!
+
+{% include youtube.html id="HBqK6XfoPMs" %}
+
+In this lecture you have repeated all the important topics of Process Mining and got a sneak peek into Automation. Now, you are ready for your last practical lecture with Celonis! 
+
+### Lecture 7: Celonis Hands-On
+
+> "In Celonis, we can easily see our team’s process - exactly as it is occurring in our systems - and identify areas in which we should improve."
+
+#### The last Stop of our Process Mining Journey
+
+Welcome to the final part of the Celonis illustrations of this theory to execution class. Today we want to spend some time talking about how Process Mining has advanced in the last few years and how Celonis has developed from its Process Mining core technology towards an Execution Management System. So far we have learned the ins and outs of Process Mining from Process Discovery to Process Conformance to Process Enhancement. In recent years, Process Enhancement has become increasingly important. Two key elements to implement lasting process improvements are automation and prediction. In Celonis these features are captured as part of the Celonis Studio, Execution Apps and Action Flows. These key features of Celonis also play a key role in the daily operations in the usage of the Execution Management System. The Celonis Studio and features that come with it are particularly important for the daily analysis of incoming real-time data. In order to act fast and prevent future bottlenecks, automation and prediction are essential tools. 
+
+We now want to look at these tools in more detail.
+
+{% include youtube.html id="WWVXVAuusH8" %}
+
+You have made it through 7 lecture units of this course now! It's time to wrap. This last session gave you an outlook into current trends in the field with a particular focus on Automation. We hope that you enjoyed your Process Mining journey together with us. Process Mining is a huge field spanning from Process Discovery, to Conformance Checking and Process Enhancement. We hope you now have a better of what this field entails and also the maths behind it. Wil has taken your into the maths and theory behind this powerful field and together with Celonis you will have seen how this applies in state-of-the-art technology! 
+
+Before ending this journey and getting your Process Mining badge, proceed to your last knowledge check!
+
+### Lecture 7: Knowledge Check
+
+#### Check your Knowledge!
+
+Let's see how much you have taken away from your lecture so far! Take a look at the questions below and try to figure out what the right answer might be. These questions are designed to be slight brainteaser so you can apply your theoretical knowledge in an applied setting and transfer your knowledge to other use cases. You need to have completed all Knowledge Check sections in order to obtain your certificate!
+
+Task 1. What does the Pareto distribution tell us in relation to processes? Tick the correct statements.
+
+- [ ] 20% of the cases, is explained by only 80% of variants. 
+
+- [x] 80% of the cases, is explained by only 20% of variants. 
+
+- [ ] Infrequent variants often correspond to the desired process. 
+
+- [x] Infrequent variants often correspond to problems in the process. 
+
 
