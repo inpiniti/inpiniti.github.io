@@ -469,19 +469,8 @@ Just like all of the other lectures this lecture unit contains a theory lecture 
 
 ### Lecture 3: Higher-Level Process Models
 
-> "If you are working 
-> 
-> with Process Mining tools, 
-> 
-> even if you don't see 
-> 
-> Petri Nets, whenever you 
-> 
-> look at a BPMN model 
-> 
-> - in the background 
-> 
-> the Petri Nets are there."
+> "If you are working with Process Mining tools, even if you don't see Petri Nets, whenever you look at a BPMN model  
+> - in the background the Petri Nets are there."
 
 #### Sometimes DFGs are not Enough!
 
@@ -507,21 +496,7 @@ The third lecture has given you a deeper insight into Process Discovery and othe
 
 ### Lecture 3: Celonis Hands-On
 
-> "BPMN is the industry 
->
-> standard for process 
->
-> modelling. The unique 
->
-> selling point behind 
->
-> BPMN is the possibility 
->
-> for gateways which 
->
-> can reflect or or and relationships for choices 
->
-> and concurrency respectively".
+> "BPMN is the industry standard for process modelling. The unique selling point behind BPMN is the possibility for gateways which can reflect or or and relationships for choices and concurrency respectively".
 
 #### Other Process Representations in Celonis
 
@@ -731,17 +706,7 @@ The focus of this lecture is on understanding the data collection mechanism behi
 
 Just like all of the other lectures this lecture unit contains a theory lecture from Wil, hands-on illustrations in Celonis as well as a knowledge check quiz! Let's take our next step in the Process Mining Journey now!
 
-> "It is a big challenge to 
->
-> extract data from the information systems, 
->
-> and if you start Process 
->
-> Mining from the very 
->
-> beginning it might take 
->
-> up to 80% of your time."
+> "It is a big challenge to extract data from the information systems, and if you start Process Mining from the very beginning it might take up to 80% of your time."
 
 ### Looking for Quality Data
 
