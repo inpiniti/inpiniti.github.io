@@ -373,6 +373,166 @@ Now, it is time to see how DFGs are realized in the Celonis software! Let's move
 "By looking at all process variants we can see that processes quickly get complex. Filtering methods help to get a better overview of the relevant process variants."
 ```
 
+#### Directly-Follows Graphs in Celonis
+
+The big challenge behind Process Mining is to go from an event log to a process graph. There are several methods to do this and we will learn all about them in the course of the lecture.
+
+One of the most straightforward ways to create a process graph, is to use Directly-Follows Graphs. In Celonis Directly-Follows Graphs are shown in the form of either the Celonis Variant or the Celonis Process Explorer. The Variant and Process Explorer allow you to visualize the as-is process flow. The process flow is based on the sequence of the activities and the activities themselves that have taken place. 
+
+We will look at the Variant and Process Explorer in more detail now. This will reveal how to get from the process data stored in the event log to a visual representation in a process graph. In the next step we will also discuss different types of filtering, namely activity and arc-based filtering. By learning about these filters we will understand how they affect our perspective on a process.
+
+Before jumping into the practical part by Celonis, make sure that your Training environment is all set up:
+
+[Accessing your Celonis Training Team.pdf](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/f78abb4a-61c2-4cd2-8650-b3e34343f1e6/2/scormcontent/assets/9-mYaYYpxLKCRqQg_e-51hQP1-Im-b0OU-Accessing%20your%20Celonis%20Training%20Team.pdf)
+
+In this lecture, we will work with the following data set. Download it before watching the video:
+
+[event_log-12666-orders-simplified.csv](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/f78abb4a-61c2-4cd2-8650-b3e34343f1e6/2/scormcontent/assets/kVIIWmjqQgl44711_H-wVEz8J4p7oYcG6-event_log-12666-orders-simplified.csv)
+
+{% include youtube.html id="igJAXgRIE5k"}
+
+In this second chapter you got familiar with Directly-Follows Graphs. This model is a very powerful tool to visualize different steps in the as-is processes to get a whole picture and spot bottlenecks. 
+
+After this second lecture you should now be familiar with structure and features of DFGs and how to create them in the Celonis EMS by uploading the data and customizing your view of the process. Furthermore, now you should be able to add different variants and apply filtering techniques.
+
+Check your knowledge in the exercise section and see if you have understood both the theory and hands-on aspects of this lecture!
+
+### Lecture 2: Knowledge Check
+
+#### Check your Knowledge!
+
+Let's see how much you have taken away from your lecture so far! Take a look at the questions below and try to figure out what the right answer might be. These questions are designed to be slight brainteaser so you can apply your theoretical knowledge in an applied setting and transfer your knowledge to other use cases. You need to have completed all Knowledge Check sections in order to obtain your certificate!
+
+##### Task 1: Create a Directly-Follows Graph.
+
+You are given the same Purchase to Pay Event Log from Lecture 1 in fig. 1. This time you are provided with more information on how often the different variants occur in the total event log (= 12,659 cases). 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/f78abb4a-61c2-4cd2-8650-b3e34343f1e6/2/scormcontent/assets/OojG2ZR_XvZ7TWvC_XyF97xHK49tZMp6v.png)
+
+###### Task 1.1. Based on the event log above, showing variants and frecquencies, have a closer look at the two most common variants. Based on the two variants, create a DFG in your notebook or a piece of paper. Tick the right statements for the DFG based on the two variants.
+
+[v] The DFG starts with Create Purchase Order.
+
+[] The DFG starts with Create Purchase Requisition Item.
+
+[v] Goods Receipt is followed by Scan Invoice in 2,962 cases.
+
+[] Goods Receipt is followed by Scan Invoice in 10,978 cases.
+
+###### Task 1.2. Based on the event log above, showing variants and frequencies, create a DFG in your notebook or a piece of paper. Match the activities sequence with the respective number of cases on the arc between the activities.
+
+[problem paper link](https://academy.celonis.com/learn/course/process-discovery-directly-follows-graphs/process-discovery-directly-follows-graphs/course-outline?client=public-panorama&page=2)
+
+###### Task 1.3. Look at the P2P analysis in Celonis. How many % of cases are described by how many % of all variants? 
+
+[v] 82% of all cases described by 1% of all variants
+
+[] 82% of all cases described by 7% of all variants
+
+[] 82% of all cases described by 2% of all variants
+
+###### Which of the statements are true for arc-based filtering on DFGs?
+
+[] The final Directly- Follows Graph remains stable to any removal of activites. 
+
+[v] Hidden activities influence Directly-Follows frequency. 
+
+[v] Numbers do not need to add up after removing arcs.
+
+###### Task 1.4. Look at the BPMN model below in fig. 2. In your notebook or piece of paper, draw a DFG as close to the BPMN model as possible. How many traces are possible?
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/f78abb4a-61c2-4cd2-8650-b3e34343f1e6/2/scormcontent/assets/r1UFBYSbSjOkctyt_hWMI9be_Xf17Rc2T.png)
+
+[] 3
+
+[] 4
+
+[v] 6
+
+# 04. Discover Sophisticated Process Models
+
+![](https://d3i9g4671ronu3.cloudfront.net/thoughtindustries-eu/image/upload/a_exif,c_fill,w_600/v1/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/bt8o1rs4ngyx-skill-area_Configure_catalogue.jpg)
+
+Process Discovery: Higher-Level Process Models
+
+Course | 1h 30min
+
+Gain a deeper understanding of more sophisticated process discovery.
+
+- WHAT'S INCLUDED
+
+    - Self-paced learning. Take courses at your own speed.
+    
+    - Learn when it suits you with round-the-clock access.
+    
+    - Get enabled fast with laser-focused, goal-based training.
+
+## Lecture 3: Process Discovery (2/2) - Learning Higher-Level Process Models
+
+Welcome to the third lecture unit and second part of the Process Discovery chapter, where we will explore more advanced Process Mining models. In the first part of this chapter you have learned that DFGs are a very powerful tool to show frequencies and reconstruct processes including bottlenecks. However, as you may have noticed, this process model also has some drawbacks, in particular when it comes to very messy data sets and tangled up process flows e.g. through concurrencies. And this is where higher-level process models come into play, and you will get familiar with them in this lecture!
+
+Just like all of the other lectures this lecture unit contains a theory lecture from Wil, hands-on illustrations in Celonis as well as a knowledge check quiz! Let's take our next step in your Process Mining journey now!
+
+### Lecture 3: Higher-Level Process Models
+
+```
+
+"If you are working 
+
+with Process Mining tools, 
+
+even if you don't see 
+
+Petri Nets, whenever you 
+
+look at a BPMN model 
+
+- in the background 
+
+the Petri Nets are there."
+```
+
+#### Sometimes DFGs are not Enough!
+
+The goal of the third lecture is to give you a better and deeper understanding of Process Discovery. As the data in the real world gets more complex, it is getting more difficult to represent it in a right way. In the focus of this lecture are Petri Nets and BPMN models, which are capable of dealing with concurrencies, choices, and loops. Using the real-world examples, Prof. Dr. Wil van der Aalst will also explain to you different ways to visualize the same data with different discovery models. 
+
+This lecture consists of a main part dedicated to Petri Nets and BPMN models and additional learning materials if you want to understand inductive mining at a deeper level. In the main lecture of this course you will learn:
+
+- what a concurrency is and why DFGs cannot capture it
+- what a Petri Net model is and how it functions
+- the difference between bottom-up and top-down discovery approaches.
+
+Hint: We recommend taking notes and listening actively since there will be quiz questions testing your knowledge!
+
+{% include youtube.html id="4Hxkq_GTNG0"}
+
+#### Additional Learning Material: What is  Inductive Mining?
+
+If you want to dive deeper into Process Discovery, have a look at the extra part of this lecture where Wil van der Aalst explains the basic principles behind inductive mining. Here you will learn more about different techniques to cut a DFG  that help to analyse different subblocks of the model.
+
+{% include youtube.html id="GhFMb-QogqU"}
+
+The third lecture has given you a deeper insight into Process Discovery and other process representation tools. In the focus of this chapter were concurrencies and how different process models can deal with them. You are invited to practice working with more complex data sets within Celonis. Visit the Celonis hands-on illustrations now to visualize the comples data with concurrencies yourself!
+
+### Lecture 3: Celonis Hands-On
+
+```
+
+"BPMN is the industry 
+
+standard for process 
+
+modelling. The unique 
+
+selling point behind 
+
+BPMN is the possibility 
+
+for gateways which 
+
+can reflect or or and relationships for choices 
+
+and concurrency respectively".
+```
 
 
-Lecture 2: Knowledge Check
