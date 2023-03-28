@@ -249,9 +249,9 @@ Have a look at the event log snippet below. Here you can see various purchase or
 
 ![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/cd285ed6-d8c6-4e1e-8ca2-c1b82875bc64/1/scormcontent/assets/LBevsLSUTTqTeDJu_TgvJU54wRunoWDto.png)
 
-[] 3
-[v] 4 (o)
-[] 5
+[ ] 3
+[x] 4 (o)
+[ ] 5
 
 ##### Task 1.2. How does the most frequent variant in the event log look like? (Hint: It occurs in two cases). Bring the activities into the right chronological order based on the timestamps.
 
@@ -271,21 +271,21 @@ Now let's look at larger event log that has already been connected to the Proces
 
 ##### How many activities does the happy path (most frequent process variant) consist of?
 
-[] 4
+[ ] 4
 
-[v] 6
+[x] 6
 
-[] 9
+[ ] 9
 
 ##### Tick the right statements.
 
-[] An activity only ever shows up in one single processes.
+[ ] An activity only ever shows up in one single processes.
 
-[v] Process activities are actions that initiate or terminate a process, or take place during it.
+[x] Process activities are actions that initiate or terminate a process, or take place during it.
 
-[v] The Procurement process covers activities of requesting, purchasing, receiving, and paying for goods and services.
+[x] The Procurement process covers activities of requesting, purchasing, receiving, and paying for goods and services.
 
-[] Typically, undesired Procurement activities are: Change Price, Create Purchase Requisition, Book Invoice.
+[ ] Typically, undesired Procurement activities are: Change Price, Create Purchase Requisition, Book Invoice.
 
 ##### Task 3: Distinguish 3 Basic Concepts.
       
@@ -405,13 +405,13 @@ You are given the same Purchase to Pay Event Log from Lecture 1 in fig. 1. This 
 
 ###### Task 1.1. Based on the event log above, showing variants and frecquencies, have a closer look at the two most common variants. Based on the two variants, create a DFG in your notebook or a piece of paper. Tick the right statements for the DFG based on the two variants.
 
-[v] The DFG starts with Create Purchase Order.
+[x] The DFG starts with Create Purchase Order.
 
-[] The DFG starts with Create Purchase Requisition Item.
+[ ] The DFG starts with Create Purchase Requisition Item.
 
-[v] Goods Receipt is followed by Scan Invoice in 2,962 cases.
+[x] Goods Receipt is followed by Scan Invoice in 2,962 cases.
 
-[] Goods Receipt is followed by Scan Invoice in 10,978 cases.
+[ ] Goods Receipt is followed by Scan Invoice in 10,978 cases.
 
 ###### Task 1.2. Based on the event log above, showing variants and frequencies, create a DFG in your notebook or a piece of paper. Match the activities sequence with the respective number of cases on the arc between the activities.
 
@@ -419,29 +419,29 @@ You are given the same Purchase to Pay Event Log from Lecture 1 in fig. 1. This 
 
 ###### Task 1.3. Look at the P2P analysis in Celonis. How many % of cases are described by how many % of all variants? 
 
-[v] 82% of all cases described by 1% of all variants
+[x] 82% of all cases described by 1% of all variants
 
-[] 82% of all cases described by 7% of all variants
+[ ] 82% of all cases described by 7% of all variants
 
-[] 82% of all cases described by 2% of all variants
+[ ] 82% of all cases described by 2% of all variants
 
 ###### Which of the statements are true for arc-based filtering on DFGs?
 
-[] The final Directly- Follows Graph remains stable to any removal of activites. 
+[ ] The final Directly- Follows Graph remains stable to any removal of activites. 
 
-[v] Hidden activities influence Directly-Follows frequency. 
+[x] Hidden activities influence Directly-Follows frequency. 
 
-[v] Numbers do not need to add up after removing arcs.
+[x] Numbers do not need to add up after removing arcs.
 
 ###### Task 1.4. Look at the BPMN model below in fig. 2. In your notebook or piece of paper, draw a DFG as close to the BPMN model as possible. How many traces are possible?
 
 ![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/f78abb4a-61c2-4cd2-8650-b3e34343f1e6/2/scormcontent/assets/r1UFBYSbSjOkctyt_hWMI9be_Xf17Rc2T.png)
 
-[] 3
+[ ] 3
 
-[] 4
+[ ] 4
 
-[v] 6
+[x] 6
 
 # 04. Discover Sophisticated Process Models
 
@@ -574,31 +574,31 @@ Take a look at the Concurrency Matters dataset in the Celonis software. As you'v
 
 Which of the  BPMN models corresponds to the variant explorer of the Concurrency Matters dataset?
 
-[] 1
+[ ] 1
 
-[v] 2
+[x] 2
 
-[] 3
+[ ] 3
 
 ##### Question 2: Understanding Higher level process models
 
 Why are Directly Follows Graphs (DFGs) incapable of capturing the complexity of some real world processes?
 
-[v] DFGs get tangled up very soon
+[x] DFGs get tangled up very soon
  
-[v] DFGs cannot capture parallel activities
+[x] DFGs cannot capture parallel activities
  
-[] DFGs cannot measure timestamps correctly
+[ ] DFGs cannot measure timestamps correctly
 
 ##### Question 3: Apply your skills in Celonis
 
 Upload the Concurrency Matters data set into your own training license. If you need help on how to do this you can revisit Lecture 2. Look at the process both in the BPMN model and variant explorer. How many connections can you count for each of them looking at whole process? 
 
-[v] 12 in Variant Explorer (DFG) and 8 in BPMN Model
+[x] 12 in Variant Explorer (DFG) and 8 in BPMN Model
 
-[] 15 in Variant Explorer (DFG) and 5 in BPMN Model
+[ ] 15 in Variant Explorer (DFG) and 5 in BPMN Model
 
-[] 30 in Variant Explorer (DFG) and 10 in BPMN Model
+[ ] 30 in Variant Explorer (DFG) and 10 in BPMN Model
 
 # 05. Experience the Power of Conformance Checking
 
@@ -682,31 +682,31 @@ Let's see how much you have taken away from your lecture so far! Take a look at 
 
 #### Task 1. Which techniques exist for Conformance Checking? Tick the right boxes.
 
-[v] Alignments
+[x] Alignments
 
-[v] Footprint comparison
+[x] Footprint comparison
 
-[v] Token-based replay
+[x] Token-based replay
 
 #### Task 2. Have a look at the Petri Net (model) on the left and the event log variants with frequencies (observed) on the right. How many cases are conformant with the model?
 
 ![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/97b9514e-759d-4ffb-b1e4-e7c99c25cc9f/2/scormcontent/assets/5pcEU6K6IqPRbWGO_bH-B_psqd3MqMSiM.png)
 
-[v] 12,659
+[x] 12,659
 
-[] 10,978
+[ ] 10,978
 
-[] 1,681
+[ ] 1,681
 
 #### Task 3. Have a look at the BPMN (model) on the left and the event log variants with frequencies (observed) on the right. How many cases are conformant with the model?
 
 ![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/97b9514e-759d-4ffb-b1e4-e7c99c25cc9f/2/scormcontent/assets/Tum2JIfbFWZLk1yo_LZQWdLkXlFogLZSZ.png)
 
-[v] 12,659
+[x] 12,659
 
-[] 10,978
+[ ] 10,978
 
-[] 1,681
+[ ] 1,681
 
 # 06. Analyze Process Data
 
@@ -797,21 +797,21 @@ Let's see how much you have taken away from your lecture so far! Take a look at 
 
 #### Task 2. What are the challenges when extracting event data? Tick the right boxes.
 
-[v] Finding the data
+[x] Finding the data
 
-[v] Extracting the data
+[x] Extracting the data
 
-[v] Understand the data
+[x] Understand the data
 
-[] Migrating data to a repository
+[ ] Migrating data to a repository
 
-[v] Quality problems
+[x] Quality problems
 
-[v] Scalability
+[x] Scalability
 
-[v] Data security and regulations
+[x] Data security and regulations
 
-[] Too good record keeping at companies
+[ ] Too good record keeping at companies
 
 #### Task 3. One of the goals of the IEEE Task Force on Process Mining is to promote the use of Process Mining techniques and tools. An important aspect of that is the existence of common and widely-accepted standards, one of it being the data format for event logs.  XES is an XML-based format, and its name is an acronym for ________ _________ _______.
 
@@ -890,15 +890,15 @@ Let's see how much you have taken away from your lecture so far! Take a look at 
 
 ![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/2f900193-d2ed-480c-8c32-8bb29bc8d522/4/scormcontent/assets/W1fHRngP_JiPAgsI_Ns_X5IRBltgER4yZ.png)
 
-[v] The validation of information takes less time for business customers.
+[x] The validation of information takes less time for business customers.
 
-[] The validation of informantion takes more time for business customers.
+[ ] The validation of informantion takes more time for business customers.
 
-[] In the majority of cases business customers set up a new account.
+[ ] In the majority of cases business customers set up a new account.
 
-[v] In the majority of cases private customers set up a new account.
+[x] In the majority of cases private customers set up a new account.
 
-[v] Private customers need to reinitiate the process more often than business customers.
+[x] Private customers need to reinitiate the process more often than business customers.
 
 ##### Task 2. With extended event data we can do different types of analyses to discover our process. Match the analysis type to the right question.
 
