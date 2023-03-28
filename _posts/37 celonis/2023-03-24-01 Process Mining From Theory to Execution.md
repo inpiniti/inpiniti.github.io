@@ -207,9 +207,7 @@ By now, you should have learned the definition, history, and importance of Proce
 
 #### Lecture 1: Celonis Hands-On
 
-```
-"There are a few important ingredients that provide function and methodology in the world of Process Mining".
-```
+> "There are a few important ingredients that provide function and methodology in the world of Process Mining".
 
 ##### Introduction
 
@@ -343,9 +341,7 @@ Just like all of the other lectures this lecture unit contains a theory lecture 
 
 ### Lecture 2: Process Discovery (1/2) - Learning Directly-Follows Graphs
 
-```
-"Directly-Follows Graphs are an extremely scalable way to showing process flows. If you have hundreds of millions of events these can be analyzed without a problem"
-```
+> "Directly-Follows Graphs are an extremely scalable way to showing process flows. If you have hundreds of millions of events these can be analyzed without a problem"
 
 #### Let's look at Directly-Follows Graphs!
 
@@ -369,9 +365,7 @@ Now, it is time to see how DFGs are realized in the Celonis software! Let's move
 
 ### Lecture 2: Celonis Hands-On
 
-```
-"By looking at all process variants we can see that processes quickly get complex. Filtering methods help to get a better overview of the relevant process variants."
-```
+> "By looking at all process variants we can see that processes quickly get complex. Filtering methods help to get a better overview of the relevant process variants."
 
 #### Directly-Follows Graphs in Celonis
 
@@ -475,22 +469,19 @@ Just like all of the other lectures this lecture unit contains a theory lecture 
 
 ### Lecture 3: Higher-Level Process Models
 
-```
-
-"If you are working 
-
-with Process Mining tools, 
-
-even if you don't see 
-
-Petri Nets, whenever you 
-
-look at a BPMN model 
-
-- in the background 
-
-the Petri Nets are there."
-```
+> "If you are working 
+> 
+> with Process Mining tools, 
+> 
+> even if you don't see 
+> 
+> Petri Nets, whenever you 
+> 
+> look at a BPMN model 
+> 
+> - in the background 
+> 
+> the Petri Nets are there."
 
 #### Sometimes DFGs are not Enough!
 
@@ -516,24 +507,21 @@ The third lecture has given you a deeper insight into Process Discovery and othe
 
 ### Lecture 3: Celonis Hands-On
 
-```
-
-"BPMN is the industry 
-
-standard for process 
-
-modelling. The unique 
-
-selling point behind 
-
-BPMN is the possibility 
-
-for gateways which 
-
-can reflect or or and relationships for choices 
-
-and concurrency respectively".
-```
+> "BPMN is the industry 
+>
+> standard for process 
+>
+> modelling. The unique 
+>
+> selling point behind 
+>
+> BPMN is the possibility 
+>
+> for gateways which 
+>
+> can reflect or or and relationships for choices 
+>
+> and concurrency respectively".
 
 #### Other Process Representations in Celonis
 
@@ -633,9 +621,7 @@ You are now half way through your Process Mining journey - congratulations! In t
 
 Just like all of the other lectures this lecture unit contains a theory lecture from Wil, hands-on illustrations in Celonis as well as a knowledge check quiz! Let's take our next step in the Process Mining Journey now!
 
-```
-"In conformance checking, we want to compare the model behavior with the observed behavior. This is highly relevant if an organisation wants to make sure that processes are executed as planned."
-```
+> "In conformance checking, we want to compare the model behavior with the observed behavior. This is highly relevant if an organisation wants to make sure that processes are executed as planned."
 
 ### Is the Process Executed as Planned?
 
@@ -660,9 +646,7 @@ By now you should be familiar with the drawbacks and advantages of all the metho
 
 ## Lecture 4: Celonis Hands-On
 
-```
-"Maybe you stood in the mirror and practiced the perfect delivery of the question “tell me about yourself” or mapped out the expected direction of the talk. After the interview happened, you might have thought back to your original ideas of the conversation and considered whether the actual outcome met your expectations."
-```
+> "Maybe you stood in the mirror and practiced the perfect delivery of the question “tell me about yourself” or mapped out the expected direction of the talk. After the interview happened, you might have thought back to your original ideas of the conversation and considered whether the actual outcome met your expectations."
 
 ### Conformance Checking in Celonis
 
@@ -747,20 +731,17 @@ The focus of this lecture is on understanding the data collection mechanism behi
 
 Just like all of the other lectures this lecture unit contains a theory lecture from Wil, hands-on illustrations in Celonis as well as a knowledge check quiz! Let's take our next step in the Process Mining Journey now!
 
-```
-
-"It is a big challenge to 
-
-extract data from the information systems, 
-
-and if you start Process 
-
-Mining from the very 
-
-beginning it might take 
-
-up to 80% of your time."
-```
+> "It is a big challenge to 
+>
+> extract data from the information systems, 
+>
+> and if you start Process 
+>
+> Mining from the very 
+>
+> beginning it might take 
+>
+> up to 80% of your time."
 
 ### Looking for Quality Data
 
