@@ -535,4 +535,38 @@ can reflect or or and relationships for choices
 and concurrency respectively".
 ```
 
+#### Other Process Representations in Celonis
+
+In reality, business processes are hardly ever straightforward. Think back to our opening question about how packages get to your door so quickly. If every step happened just one at a time, there is no way you would receive your package in two days. 
+
+That’s why process discovery is so important. We need to figure out how things are actually happening so we can see the big picture. In Wil’s lecture we added a new component to the mix to account for this- what happens if processes don’t happen in a sequential or specified order? And as we very well know, they often don’t. 
+
+Enter the term concurrency. We need to be a little careful when we describe concurrency in relation to process mining. The term stems from the word concurrent, meaning to happen at the same time; however, in this context, concurrency means that no matter in what order a process is executed, even simultaneously, the end result will still be the same. 
+
+Think of this like making a strawberry cake versus making a strawberry smoothie. When baking a cake, all the steps need to be carried out in a specific order to achieve the same result- like how we can represent models with our directly follows graphs. However, with a smoothie, it doesn’t matter how you add things to the blender, you will alway still have a smoothie- like our more complex representation with petri nets. In this session, we will dive even deeper into process discovery in Celonis.
+
+Before jumping into the practical part by Celonis, make sure that your Training environment is all set up:
+
+[Accessing your Celonis Training Team.pdf](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/1ef2e6f8-b7c9-4f5c-be9b-cc7b1e8b26fd/2/scormcontent/assets/Fs8zhWeUHs_K2I4X_OGyo0VBXaLPXg7_p-Accessing%20your%20Celonis%20Training%20Team.pdf)
+
+In this lecture, we will work with the following data sets. Download them before watching the video:
+
+[concurrency-matters.xlsx](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/1ef2e6f8-b7c9-4f5c-be9b-cc7b1e8b26fd/2/scormcontent/assets/u3MZdt9bV1DotReI_G0JKWZ0uEHHDtO-C-concurrency-matters.xlsx)
+
+[concurrency-matters-skips.xlsx](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/1ef2e6f8-b7c9-4f5c-be9b-cc7b1e8b26fd/2/scormcontent/assets/Wc5ilD8UTgOpGjCA_yNTR8iAuRPzHS1dg-concurrency-matters-skips.xlsx)
+
+{% include youtube.html id="-FmwcVT03t4"}
+
+In the third chapter you have gotten familiar with different approaches of data visualization. Moreover, you have learned what a petri net is and how it can cope with concurrencies, choices, and loops. To test your knowledge on this topic, continue to the Knowledge check part of this chapter!
+
+### Lecture 3: Knowledge Check
+
+#### Check your Knowledge!
+
+Let's see how much you have taken away from your lecture so far! Take a look at the questions below and try to figure out what the right answer might be. These questions are designed to be slight brainteaser so you can apply your theoretical knowledge in an applied setting and transfer your knowledge to other use cases. You need to have completed all Knowledge Check sections in order to obtain your certificate!
+
+##### Question 1: Which BPMN model was created using the inductive Process Mining algorithm?
+
+Take a look at the Concurrency Matters dataset in the Celonis software. As you've just learnt in the Celonis lecture, Variant explorer cannot capture concurrences in the processes. For this, we want to have a look at the BPMN model. Take a look at the following models:
+
 
