@@ -569,4 +569,62 @@ Let's see how much you have taken away from your lecture so far! Take a look at 
 
 Take a look at the Concurrency Matters dataset in the Celonis software. As you've just learnt in the Celonis lecture, Variant explorer cannot capture concurrences in the processes. For this, we want to have a look at the BPMN model. Take a look at the following models:
 
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/1ef2e6f8-b7c9-4f5c-be9b-cc7b1e8b26fd/2/scormcontent/assets/iEYvscCbqN1DYPeJ_3l_ls4YXSSmokduF.png)
+1
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/1ef2e6f8-b7c9-4f5c-be9b-cc7b1e8b26fd/2/scormcontent/assets/DmOKt7txcCsNHWLI_UOWMn-i9Cncx3pnI.png)
+2
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/1ef2e6f8-b7c9-4f5c-be9b-cc7b1e8b26fd/2/scormcontent/assets/pfdP7QsOhp7cMy44_LL5uT4t942Y1gp1H.png)
+3
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/1ef2e6f8-b7c9-4f5c-be9b-cc7b1e8b26fd/2/scormcontent/assets/W3ngIQaeYRFlp4y6_CRnho4hHZ0NyD-_L.png)
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/1ef2e6f8-b7c9-4f5c-be9b-cc7b1e8b26fd/2/scormcontent/assets/EImKstXHUOwppq-C_THx7_KJwIwEKUZIA.png)
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/1ef2e6f8-b7c9-4f5c-be9b-cc7b1e8b26fd/2/scormcontent/assets/U16wD0DgOaQkuAAu_nVNb2ABiu9oZhDXC.png)
+
+Which of the  BPMN models corresponds to the variant explorer of the Concurrency Matters dataset?
+
+[] 1
+
+[v] 2
+
+[] 3
+
+##### Question 2: Understanding Higher level process models
+
+Why are Directly Follows Graphs (DFGs) incapable of capturing the complexity of some real world processes?
+
+[v] DFGs get tangled up very soon
+ 
+[v] DFGs cannot capture parallel activities
+ 
+[] DFGs cannot measure timestamps correctly
+
+##### Question 3: Apply your skills in Celonis
+
+Upload the Concurrency Matters data set into your own training license. If you need help on how to do this you can revisit Lecture 2. Look at the process both in the BPMN model and variant explorer. How many connections can you count for each of them looking at whole process? 
+
+[v] 12 in Variant Explorer (DFG) and 8 in BPMN Model
+
+[] 15 in Variant Explorer (DFG) and 5 in BPMN Model
+
+[] 30 in Variant Explorer (DFG) and 10 in BPMN Model
+
+# 05. Experience the Power of Conformance Checking
+
+![](https://d3i9g4671ronu3.cloudfront.net/thoughtindustries-eu/image/upload/a_exif,c_fill,w_600/v1/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/0vgsaaagypfc-skill-area_Comparison_catalogue.jpg)
+
+REQUIREDConformance Checking
+
+Course | 1h 30min
+
+Evaluate the “to-be” and “as-is” worlds.
+
+- WHAT'S INCLUDED
+    - Self-paced learning. Take courses at your own speed.
+    - Learn when it suits you with round-the-clock access.
+    - Get enabled fast with laser-focused, goal-based training.
+
 
