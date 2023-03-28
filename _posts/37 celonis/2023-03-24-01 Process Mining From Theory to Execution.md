@@ -823,4 +823,100 @@ Task 5. A data-driven perspective on business process management problems has hu
 
 [problem paper link](https://academy.celonis.com/learn/course/getting-the-data-from-source-systems/getting-the-data-from-source-systems/course-outline?page=2)
 
+# 07. Chart Comparisons and Predictions
+
+![](https://d3i9g4671ronu3.cloudfront.net/thoughtindustries-eu/image/upload/a_exif,c_fill,w_600/v1/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/fgljjtlrjvvl-skill-area_Learning-Tips_Q2_catalogue.jpg)
+
+## Comparative and Predictive Process Mining
+
+Course | 1h 30min
+
+Spot patterns and predict the future with Process Mining.
+
+- WHAT'S INCLUDED
+    - Self-paced learning. Take courses at your own speed.
+    - Learn when it suits you with round-the-clock access.
+    - Get enabled fast with laser-focused, goal-based training.
+
+### Lecture 6: Comparative and Predictive Process Mining
+
+So far we have just looked at processes from a historical viewpoint, analyzing past data. However, Process Mining also has a huge application in analyzing real-time data and making predictions for the future! We can leverage the power of Machine Learning to create predictive models based on our process discovered. Closed cases from historical data become the base for real-time prediction and pattern recognition. In the sixth lecture you will learn more about comparative and predictive Process Mining.
+
+Just like all of the other lectures this lecture unit contains a theory lecture from Wil, hands-on illustrations in Celonis as well as a knowledge check quiz! Let's take our next step in the Process Mining Journey now!
+
+> "If we are able to build a model to compare, that is enriched with all these additional perspectives, we can use the very same model to make predictions."
+
+#### Let's See into the Future: Using Process Mining as a Crystal Ball 
+
+In the previous lectures we learned how to use event data to discover process models. But what if we could do even more with our discoveries? By extending process models with additional data, we can use them to make comparisons and predictions! This can be crucial in business: just imagine getting insights from the data about recurring patterns behind bottlenecks and the factors that cause them. 
+
+Imagine you can predict when e.g. order deliveries will be late or which vendors are likely to cause manual rework and hinder automation  For these kind of problems, the integration of Machine Learning techniques into Process Mining is a very powerful approach. In this lecture, Wil van der Aalst will focus on Comparative and Predictive Process Mining and their respective link to Machine Learning and other prediction mechanisms. 
+
+More specifically, you will learn:
+
+- the basic principles of both Comparative and Predictive Process Mining
+- how to extend process models with additional attributes 
+- how Neural Networks can help us make predictions
  
+Hint: We recommend taking notes and listening actively since there will be quiz questions testing your knowledge!
+
+{% include youtube.html id="FlXuzztnOtA" %}
+
+By now you are familiar with the basic principles of Comparative and Predictive Process Mining, their link to Machine Learning and Neural Networks and how they can help humans make decisions. 
+
+Now, it is time to dive deep into the comparative and predictive Process Mining in the Celonis software! Let's move on to the next Practical Lecture by Celonis!
+
+### Lecture 6: Celonis Hands-On
+
+> "In the past, Process Mining was only used to analyze historical data. However, real time data loads and being able to analyze process flows as they happen now opens up completely new horizons"
+
+#### Comparative and Predictive Process Mining in Celonis
+
+Wil’s lecture was a great representation of the importance of Machine Learning and AI in the future of Process Mining and Execution Management. We’re going to take a look at how Celonis facilitates predictive analytics so companies can take proactive steps to improve their processes. Predictive analytics is a little bit like becoming a detective. We can take a look at evidence, in our case historical and even real-time data, to find patterns in processes and furthermore make predictions about how these processes may act in the future. 
+
+If you’re Sherlock Holmes in this situation, then Celonis is akin to John Watson. Not only does Celonis help you automatically recognize patterns and regularities in process data but Celonis proactively brings issues to the forefront of your attention and even suggests fact-based recommendations for your next-best-actions to optimize your desired business outcome.
+
+{% include youtube.html id="f9SdMYiwEBU" %}
+
+In this sixth lecture you have learned more about future-oriented Process Minings. By now you also know how Machine Learning can be integrated in Celonis and how it can help businesses make smart decisions. Celonis even has its own ML algorithms specifically trained on process data which help you to create a predictive model. Are you ready to test your knowledge?
+
+### Lecture 6: Knowledge Check
+
+#### Check your Knowledge!
+
+Let's see how much you have taken away from your lecture so far! Take a look at the questions below and try to figure out what the right answer might be. These questions are designed to be slight brainteaser so you can apply your theoretical knowledge in an applied setting and transfer your knowledge to other use cases. You need to have completed all Knowledge Check sections in order to obtain your certificate!
+
+##### Task 1. Have a look below at the two Directly-Follows Graphs for the rental car process comparing two different customer groups. What differences can you spot in behavior and performance? Tick the correct statements.
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/2f900193-d2ed-480c-8c32-8bb29bc8d522/4/scormcontent/assets/W1fHRngP_JiPAgsI_Ns_X5IRBltgER4yZ.png)
+
+[v] The validation of information takes less time for business customers.
+
+[] The validation of informantion takes more time for business customers.
+
+[] In the majority of cases business customers set up a new account.
+
+[v] In the majority of cases private customers set up a new account.
+
+[v] Private customers need to reinitiate the process more often than business customers.
+
+##### Task 2. With extended event data we can do different types of analyses to discover our process. Match the analysis type to the right question.
+
+[problem paper link](https://academy.celonis.com/learn/course/comparative-and-predictive-process-mining/comparative-and-predictive-process-mining/course-outline?page=2)
+
+##### Task 3. What term are we looking for?
+
+Machine learning algorithms that use this generally do not need to be programmed.
+
+It translates input features into one or more target features.
+
+For a long time it was not very successful and classical techniques like decision trees and regressions were preferred.
+
+[problem paper link](https://academy.celonis.com/learn/course/comparative-and-predictive-process-mining/comparative-and-predictive-process-mining/course-outline?page=2)
+
+##### Task 4. 
+
+With the help of the results of the feature selection algorithm, we can select the features that we want to use for our model. We distinguish between two features types. ______ features do not change throughout a case and always remain the same. Examples could be Customer or Material Number. Dynamic features are features that change over time and need to be updated throughout a case. When building a training set they need to be treated differently since they should not have the last state of a case but the state at a given time in the process. Examples are counts of how often a certain activity already occurred in the process.
+
+[problem paper link](https://academy.celonis.com/learn/course/comparative-and-predictive-process-mining/comparative-and-predictive-process-mining/course-outline?page=2)
+
