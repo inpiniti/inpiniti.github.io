@@ -989,4 +989,24 @@ Task 1. What does the Pareto distribution tell us in relation to processes? Tick
 
 - [x] Infrequent variants often correspond to problems in the process. 
 
+Task 2. Match the different topics that we have covered in the course with the respective contents.
+
+[problem paper link](https://academy.celonis.com/learn/course/wrap-up-process-mining-from-theory-to-execution/wrap-up-process-mining-from-theory-to-execution/course-outline?client=public-panorama)
+
+Task 3. What is the basic idea of RPA (= Robotic Process Automation)?
+
+- [ ] Replacing the system in the back-end by an automated system
+
+- [x] Replacing the human in the front-end doing repetitive tasks by an automated system
+
+- [ ] Replacing the human in the back-end solving complex tasks by an automated system
+
+Task 4. In this course you have learnt a lot about the theory of Process Mining and the application within the Celonis Execution Management Systems (EMS). Which of the following statements should you take home with you?
+
+- [x] The Celonis EMS is based on Process Mining but provides a full cloud platform for Process Analysis and Execution.
+
+- [ ] The Celonis EMS gives us all the relevant information that we do not need to question.
+
+- [x] The theory of Process Mining helps us to understand what is going on behind the scenes of the system and better evaluate what the system presents us with.
+
 
