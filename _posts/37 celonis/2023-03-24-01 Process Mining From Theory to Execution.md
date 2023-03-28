@@ -1009,4 +1009,17 @@ Task 4. In this course you have learnt a lot about the theory of Process Mining 
 
 - [x] The theory of Process Mining helps us to understand what is going on behind the scenes of the system and better evaluate what the system presents us with.
 
+# 09. Your Feedback
 
+![](https://d3i9g4671ronu3.cloudfront.net/thoughtindustries-eu/image/upload/a_exif,c_fill,w_600/v1/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/5gzp6hli36e7-gj07cfcqpl7w-skill-area_Introduction_catalogue.jpg)
+
+ELECTIVEFeedback on the Process Mining: From Theory To Execution Track
+
+Course | 5min
+
+Tell us what you thought about this training track!
+
+- WHAT'S INCLUDED
+    - Self-paced learning. Take courses at your own speed.
+    - Learn when it suits you with round-the-clock access.
+    - Get enabled fast with laser-focused, goal-based training.
