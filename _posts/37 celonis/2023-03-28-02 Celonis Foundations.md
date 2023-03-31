@@ -6,6 +6,10 @@ category: 37 celonis
 layout: post
 ---
 
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="dc47834b-9c58-4dbc-8c5b-d4042d7269a9" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+위 벳지는 수강을 완료하고 받은 뱃지입니다.
+
 # 01 What is an Event Log?
 
 ![](https://d3i9g4671ronu3.cloudfront.net/thoughtindustries-eu/image/upload/a_exif,c_fill,w_750,h_361/v1/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/iyxeuk0wn61i-Artboard3800x385.png)
