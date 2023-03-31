@@ -6,6 +6,8 @@ category: 37 celonis
 layout: post
 ---
 
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="629f9d39-6195-4afa-a5ec-c5d3922cf93d" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
 ![](https://d3i9g4671ronu3.cloudfront.net/thoughtindustries-eu/image/upload/a_exif,c_fill,w_600,h_288/v1/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/jq12q60i69ez-course_Change_catalog800x385.png)
 
 Process Mining: From Theory to Execution
