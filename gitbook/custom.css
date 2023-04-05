@@ -533,3 +533,11 @@ table img {
     height: 150px;
     object-fit: cover;
 }
+
+.navigation {
+  display: none !important;
+}
+
+.pull-right.js-toolbar-action {
+  display: none !important;
+}
