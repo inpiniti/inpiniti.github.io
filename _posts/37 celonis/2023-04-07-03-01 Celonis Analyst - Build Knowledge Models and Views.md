@@ -789,8 +789,8 @@ We'll require about 50 minutes of your time to walk you through this course.
 
 One technical remark: If you would like to take a break during the training, remember to close the course using the "Exit Course" button in the top right of the window first before closing your browser window. Otherwise, your progress could get lost. 
 
-### CREATE A NEW KNOWLEDGE MODEL
-#### Refresher on the Definition of a Knowledge Model [2:00]
+### 04 01 CREATE A NEW KNOWLEDGE MODEL
+#### 04 01 01 Refresher on the Definition of a Knowledge Model [2:00]
 
 It is finally time for you to build a Knowledge Model! Maybe it's been a while since you've worked on the prerequisites of this course though, so let's quickly recap what a Knowledge Model actually is.
 
@@ -821,7 +821,7 @@ Before we create a Knowledge Model, we assume that a Data Model is already in pl
 
 Now that we remember what a Knowledge Model is, we're ready to create one in Celonis Studio. Let's go!
 
-#### Create a new Knowledge Model [4:00]
+#### 04 01 02 Create a new Knowledge Model [4:00]
 
 Given that we are inside of Celonis Studio, what do we (technically) need to create a new Knowledge Model?
 
@@ -906,7 +906,7 @@ What you see in your training team now should look like this:
 
 What is it that we see here? The Visual Editor of Knowledge Models, yes. But what else? Let's see in the next lesson. 
 
-#### Review your newly created Knowledge Model [4:30]
+#### 04 01 03 Review your newly created Knowledge Model [4:30]
 
 Congrats on setting up your first Knowledge Model! Let's review some basic navigation and give a name to what we see at the moment. 
 
@@ -948,8 +948,8 @@ The required fields of a KPI definition are id, pql and ___________
 
 Acceptable responses: displayName, Displayname, DisplayName, displayname, display name
 
-### USE THE VISUAL EDITOR TO ADD A KPI
-#### What is a KPI? [2:30]
+### 04 02 USE THE VISUAL EDITOR TO ADD A KPI
+#### 04 02 01 What is a KPI? [2:30]
 
 Now that we have set up a new Knowledge Model and taken the first steps in both the Visual Editor, as well as the YAML Editor, we're ready to add our first Knowledge Object! 
 
@@ -979,7 +979,7 @@ As we know, that's how far it gets in the View configuration. But how does the V
 
 Now that we know what we're aiming for:  
 
-#### Review KPI Parameters [2:00]
+#### 04 02 02 Review KPI Parameters [2:00]
 
 We'd like to add a `KPI` to our `Knowledge Model`. Can we… just do it? Yes, we can! 
 
@@ -1024,24 +1024,203 @@ Other Parameters
 
 There are some more parameters you can specify for your KPI which are not mandatory. Keep in mind that we're looking at our Days Payable Outstanding KPIs in Days and that we're interested in full days and not a fraction, like "2.4564 days"... And of course we assume that the lower our DPO value, the better. 
 
-#### Add "Days Payable Outstanding" to the Knowledge Model [10:30]
+#### 04 02 03 Add "Days Payable Outstanding" to the Knowledge Model [10:30]
 
 Now that we have a good understanding of our KPI, we're finally ready to add it to our Knowledge Model! Note that the step described in the previous lesson will usually require some time and multiple stakeholders to align on a definition. 
 
 Implementing the definition into the Knowledge Model is actually the easier part. Enough talking - let's go!
 
+![](../images/37 celonis/230407/20230407172621.png)
+
+![](../images/37 celonis/230407/20230407172641.png)
+
+![](../images/37 celonis/230407/20230407172710.png)
+
+![](../images/37 celonis/230407/20230407172720.png)
+
+![](../images/37 celonis/230407/20230407172727.png)
+
+You know what time it is, right?
+
+Exactly, practice time! [Go to your training team](https://articulateusercontent.com/rise/courses/VzbDXJDNgF3WvyTL0dIWUz3YCc9313gy/_k6yG-SAzeag-ois-Celonis%2520Academy_Training%2520Team%2520Access.pdf) and create the Days Payable Outstanding KPI in your Knowledge Model as shown in the video. Use the Visual Editor to do so. For your convenience, here are the parameters to use:
+
+- Display Name: Days Payable Outstanding
+
+- Description: Financial ratio indicating avg. time (in days) to pay bills and invoices
+
+- PQL: AVG(DAYS_BETWEEN(PU_FIRST("BSEG", "_CEL_AP_ACTIVITIES"."EVENTTIME",    "_CEL_AP_ACTIVITIES"."ACTIVITY_EN" = 'Record Invoice Receipt')   ,PU_FIRST("BSEG", "_CEL_AP_ACTIVITIES"."EVENTTIME",   "_CEL_AP_ACTIVITIES"."ACTIVITY_EN" = 'Clear Invoice')))
+
+- Format: ,.0f
+
+- Unit: Days
+
+- Desired Direction: Down Trend   
+
+Just copying and pasting what you saw in the video is a little easy, isn't it? So here's your challenge: Find the KPI that you have just created using the Visual Editor in the YAML configuration!
+
+Which parameters of your KPI do you see in the YAML that we haven't touched upon so far?
+
+- [x] Parameters
+
+- [ ] filterIds
+
+- [ ] eventLogsMetadata
+
+- [ ] displayName
+
+### 04 03 USE THE YAML EDITOR TO ADD A RECORD
+#### 04 03 01 What is a Record? [2:30]
+
+By now it's probably common sense to you that a KPI we built in the previous chapter is only one type of Knowledge Object that we can define in a Knowledge Model. 
+
+Another Knowledge Object - which we're going to add next - is a Record.
+But what is a Record?
+
+A Record is the definition of a core item that Celonis tracks in its 
+Process Mining analysis (e.g. invoice, sales order, purchase order, etc.). 
+
+It is important to understand that a Record does not store any specific information or data. It defines certain attributes that a particular instance of this Record will have. The idea is similar to object-oriented programming where you typically define classes, which is what Records can roughly be thought of. 
+
+You will often find that an Attribute is a simple PQL-statement that specifies information pulled directly from the Data Model. 
+
+Hence, in simple terms, you can consider the counterparts of Records and their Attributes as Tables and Columns of the Data Model respectively.
+
+You can learn more about Records in the [documentation](https://docs.celonis.com/en/km---records.html)!
+
+Example: Invoice
+
+Just as for the implementation of the Days Payable Outstanding KPI, we will again use an example from the area of Accounts Payable. What do you think is the core item that each member of an Accounts Payable team works with on a daily basis?
+
+Yes, it's an invoice! Our goal when creating records in Knowledge Models is to reflect business objects from the real world. What would it look like to work with an invoice in a View? Let's have a look:
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/16ad115c-ab0a-4728-a2a0-4a4a56d8c6c9/9/scormcontent/assets/a1z_ak-P2f7jEoCY_yRwSrpjT8t8Tb0WH.jpg)
+
+Click on the image to zoom in.
+
+---
+
+What we see above is a View displaying a number of Invoices along with information on when we need to pay the invoice, how much we need to pay, and whom to pay.
+
+In the background (i.e. in the YAML code of the View), the configuration of the table looks like this: 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/16ad115c-ab0a-4728-a2a0-4a4a56d8c6c9/9/scormcontent/assets/FBKePk9t_Z5rbyAK_olN7yPD4EGfjQXxZ.jpg)
+
+Hovering elements in YAML often provides you with a description of what you see. 
+
+---
+
+We see that the View references particular attributes of a Record called Invoice. As of now, we don't have such a Record in our Knowledge Model, so let's add it! 
+
+#### 04 03 02 Review Record Parameters [4:00]
+
+As you can imagine, a Record also has a few parameters that you will need to define once you configure it. 
+
+###### 1
+
+Let's start easy with the parameters we are already familiar with from our KPI implementation: 
+
+- ID
+
+- Display Name
+
+- Description
+
+##### 2
+
+We also saw more characteristics of an Invoice in the previous lesson, like the Vendor or the Invoice ID. To model these characteristics within a Record, we use the Record's attributes which you have learned about before. Let's not make this too complex and actually stick with these two invoice attributes for our implementation. In combination, our record configuration right now looks similar to this: 
+
+- Records:
+```
+- Id: INVOICE
+  displayName: Invoice
+  description: Information on Invoices
+  attributes:
+
+  - Id: Invoice_ID
+    displayName: Invoice ID
+
+  - Id: VENDOR
+    displayName: Vendor
+```
+Thinking about what we defined for the DPO KPI, can you already identify what is still missing?
+
+##### 3
+
+It's a PQL statement. Or more precisely, two. How would we know where to find the Invoice ID and the Invoice value otherwise? Therefore, let's extend the previous snippet accordingly. Take note that, you've been provided with a PQL query: 
+
+Records:
+```
+- Id: INVOICE
+  displayName: Invoice
+  description: Information on Invoices
+  attributes:
+
+  - Id: Invoice_ID
+    displayName: Invoice ID
+    pql: BKPF.BELNR
+
+  - Id: VENDOR
+    displayName: Vendor
+    pql: LFA1.NAME1
+```
+
+--- 
+
+Are we done now? Almost.
+
+Consider the following situation:
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/16ad115c-ab0a-4728-a2a0-4a4a56d8c6c9/9/scormcontent/assets/cSE4RpeuLFxvktaF_ZEWxCLw2sFKXboHM.png)
+
+You would agree that you work with a large number of different invoices and not just a single one. 
+
+That's one of the key differences of comparing a Record to a KPI: While you create a single entry for each KPI in your Knowledge Model, one Record actually describes a group of many instances - like invoices. In the end, we'll need to be able to distinguish each instance of an invoice from one another, right? 
+
+We know that this is quite abstract and might be hard to understand. We'd like to encourage you to go through this a couple of times until you're sure you really understand the idea. 
+
+##### 4
+
+To distinguish one Record from another, we need a unique [identifier](https://docs.celonis.com/en/identifier.html) for each instance. In practical terms, we add a column called "Identifier" to our record configuration. Let's add it first and then describe what we're looking at.
+
+Records:
+
+```
+- Id: INVOICE
+  displayName: Invoice
+  description: Information on Invoices
+  Identifier:
+  id: INVOICE_IDENTIFIER
+  displayName: Invoice Identifier
+  description: The invoice identifier uniquely identifies a specific invoice
+    pql: BKPF.MANDT || BKPF.BUKRS || BKPF.GJAHR || BKPF.BELNR
+  attributes:
+
+  - id: Invoice_ID
+    displayName: Invoice ID
+    pql: BKPF.BELNR
+    
+  - id: VENDOR
+    displayName: Vendor
+    pql: LFA1.NAME1
+```
+
+What does the Identifier we just added comprise of? Most objects in YAML requires an ID which is why even the identifier needs an ID. The parameters “displayName” and “description” ease the interpretation of what we look at later on. Last but not least, the PQL query is a unique STRING (of characters), specified by a combination of Invoice attributes in this instance.
+
+Good news!
+
+You will find it very easy to implement the Record configuration once you understand what it is that is required and why - and that was the goal of this lesson. Given that you have now reached the end of this lesson: Congrats! And happy implementation. 
+
+#### 04 03 03 Add "Invoice" to the Knowledge Model [12:00]
+
+Let's jump right in. This time using the YAML Editor. 
 
 
-### USE THE YAML EDITOR TO ADD A RECORD
-#### What is a Record? [2:30]
-#### Review Record Parameters [4:00]
-#### Add "Invoice" to the Knowledge Model [12:00]
 
-TIPS AND TRICKS
-Make use of the PQL Editor [2:30]
-CTRL + Space [1:00]
-Deep Dive into your Data Model [0:40]
-Congrats! [0:20]
+### 04 04 TIPS AND TRICKS
+#### 04 04 01 Make use of the PQL Editor [2:30]
+#### 04 04 02 CTRL + Space [1:00]
+#### 04 04 03 Deep Dive into your Data Model [0:40]
+#### 04 04 04 Congrats! [0:20]
 
 ## 05. Build a View : REQUIRED
 
