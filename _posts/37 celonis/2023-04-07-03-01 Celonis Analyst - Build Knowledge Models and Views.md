@@ -428,8 +428,69 @@ In the Variables tab, you see the Data Model Variable we created while setting u
 ##### Now you check it out!
 Go to the Package Settings and take a look at the tabs.
 
+##### Question for you...
+      
+If you're not already in Package Settings, do access it to answer the question below.
+
+What is the definition of a Package dependency? 
+
+- [ ] Dependencies show data models and variables that the Package is associated with.
+
+- [ ] Dependencies are other Packages that are required for this Package to operate. 
+
+- [ ] By adding a Package as a dependency, its Views and Knowledge Models can be reused using this extension mechanism.
+
+> Check out the Dependencies tab in Package Settings to see for yourself.
 
 #### 01 03 03 Publish a Package and Work with Versions [3:00]
+
+Did you note the little number in the "Publish Package" button on the top right when you added your first asset?
+
+Any changes you make within Studio will be automatically saved as a draft. Changes include:
+
+- Adding an Asset
+
+- Deleting an Asset
+
+- Modifying an Asset
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/69933a3c-a5f0-47d7-992c-71b649590282/9/scormcontent/assets/vXbgw_Pj2Wrtu6Ep_yQDKWIkh0lbPfWO5.png)
+
+However, business users will not see these changes (in Apps) until you publish them to the team. Some modifications in Studio might only be possible or have an effect after you've published the package. 
+
+##### Your turn!
+
+Go to your training team and give it a try: Publish your package by clicking the respective button. 
+
+Since this is very likely the first time you publish the package, you can keep the suggested version number (1.0.0).
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/69933a3c-a5f0-47d7-992c-71b649590282/9/scormcontent/assets/qTDJABllbTXSNxJ__0fJjDy5umpNI2UaN.jpg)
+
+##### Best Practice for Versioning
+
+Did you wonder how to specify the version number? As the pop-up window indicated, it should be assigned in the format of "Major.Minor.Patch." Click through the categories below to find out about best practices.
+
+##### Major
+
+> A complete update or shift in the current asset. Changes would greatly affect Business Users if no communication were properly given in advance.
+
+##### Minor
+
+> Tweaks in the apps that won’t necessarily require communication or messaging to Business Users. Examples include tweaking a KPI, making color changes, or changing chart types in a View asset.
+
+##### Patch
+
+> Very small changes that may go unnoticed to a Business User. Examples include an update to the calculation of a KPI, or changes in titles.
+
+The Studio saves all published versions so you can always switch back to a previously published version. You can see this in the Package's Settings, the General tab. 
+
+You probably know the concept from Dropbox, Google Drive, or similar applications. It's super handy and there will be situations in which you will be very glad that this functionality exists ;-)
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/69933a3c-a5f0-47d7-992c-71b649590282/9/scormcontent/assets/f8SsL27FEj4ude8P__hGIrqhed_t27uOK.png)
+
+You're now able to explain the basics of Celonis Studio, and know how to add Spaces, Packages, and Assets. Congrats!
+
+Don't forget to use the "Exit Course" button! 
 
 ## 02. YAML Basics : ELECTIVE
 
@@ -437,12 +498,171 @@ Go to the Package Settings and take a look at the tabs.
 
 - Learn the basics of the data serialization language YAML.
 
+Hey there! Welcome to YAML Basics! If you plan to build Knowledge Models and Views, and you don't know anything about YAML yet, then this module is for you. You'll be in a good position to take this training if you can roughly explain what JSON, XML, or HTTP is. 
+
+One technical remark: If you would like to take a break during the training, remember to close the course using the "Exit Course" button in the top right of the window first before closing your browser window. Otherwise, your progress could get lost. 
+
+The course will require about 18 minutes of your time and the breakdown for each section can be found beside the lesson title.
+
+### 02 01 When to use YAML [3:00]
+
+The course description already said it: If you want to build a Knowledge Model or a View, what you'll need to be able to read, understand, adjust, and write is YAML - a generic data serialization language.
+
+With YAML, you can define how your View should look and how the Knowledge Model is constructed.
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/a3a92418-5ce5-4004-863d-4699415856f8/3/scormcontent/assets/Y8Laa2PvGMCXdBtB_L77fCnAb3aupP3C-.png)
+
+Although both assets can also be built using the Visual Editor, bear in mind that there's still a lot of development going on. This means that not all components are ready to be built solely by using the Visual Editor.
+
+Maybe you're not that much of a Visual Editor person. Maybe you would even prefer to write YAML scripts instead - which a lot of people still do.
+
+##### Can you utilize the YAML Editor in Studio?
+
+If you have already created a Knowledge Model or a View in the Celonis Studio, go ahead and open the YAML Editor. The YAML editor is where you'll script your YAML configurations.
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/a3a92418-5ce5-4004-863d-4699415856f8/3/scormcontent/assets/X5PUtsZeYAh3wFof_n7WAykK5FBt95mJp.gif)
+
+### 02 02 The general structure of YAML [05:00]
+
+![](../images/37 celonis/230407/20230407152038.png)
+
+![](../images/37 celonis/230407/20230407152210.png)
+
+![](../images/37 celonis/230407/20230407152216.png)
+
+![](../images/37 celonis/230407/20230407152222.png)
+
+![](../images/37 celonis/230407/20230407152240.png)
+
+![](../images/37 celonis/230407/20230407152247.png)
+
+![](../images/37 celonis/230407/20230407152253.png)
+
+![](../images/37 celonis/230407/20230407152304.png)
+
+Here are some additional resources you can leverage to learn about YAML: 
+
+- [The Official YAML Website](https://yaml.org/)
+
+- [Wikipedia](https://en.wikipedia.org/wiki/YAML)
+
+- [YouTube](https://youtu.be/cdLNKUoMc6c)
+
+- [StackOverflow](https://stackoverflow.com/search?q=yaml&s=3b1278f8-3e4a-45e6-b724-4cad4025a70d)
+
+### 02 03 Test your YAML knowledge [10:00]
+
+Did you take some time to understand and recap what's been going on in the video in the last lesson? Remember that the video's intention is for you to press pause and repeat it as often as you need it!
+
+Check out the code snippet below which is a piece of a View and then answer some questions about it.
+
+```
+metadata:
+  key: steering-view
+  template: false
+  name: Steering View
+  knowledgeModelKey: knowledge-model-views-training
+  profileView: false
+variables:
+  - name: currentKpi
+    defaultValue: DPO_KPI
+    type: STRING
+  - name: currentKpiName
+    defaultValue: Process Cycle Time Days
+    type: STRING
+```
+
+How many different objects can you identify? 
+
+- [x] 2
+
+- [ ] 4
+
+> The metadata, the variables and each item in the list counts as one object. 
+
+The YAML Editor in Studio does a pretty good job to validate everything you type on the go...
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/a3a92418-5ce5-4004-863d-4699415856f8/3/scormcontent/assets/qMK5vABPoSxN-OSW_7oCQxgKJHOdcPNLa.jpg)
+
+Check out the error above - can you name what is causing the error? How would you try to resolve it?
+
+- [ ] The indentation of the key 'defaultValue' is wrong. Deleting the space in front will resolve the error. 
+
+- [ ] The value of the parameter 'name' is wrong. It should be changed to 'Process Cycle Time Days'.
+
+Well done! You've already reached the end of this course. Don't be scared when you see a fully mature Knowledge Model or View YAML configuration for the first time. It will look a little complex but if you understood the concept covered in this module you will find it easy to figure everything out.
+
+Thanks for taking this course! We hope you enjoyed it.
+
+Your Celonis Academy
+
 ## 03.The Interdependence of Knowledge Models and Views : REQUIRED
 
 - The Interdependence of Knowledge Models and Views
 
 - Understand how Knowledge Models &amp; Views co-exist with each other.
 
+Welcome!
+
+Hey there! Welcome to this module! Make sure you've taken the course ["Navigate the Celonis Studio"](https://academy.celonis.com/learn/course/navigate-the-celonis-studio) or at least have a good idea of what an "Asset" is in Celonis Studio before starting this one. 
+
+We'll require about 12 minutes of your time for this module. 
+
+One technical remark: If you want to take a break, remember to close the course using the "Exit Course" button in the top right of the window first before closing your browser window. Otherwise, your progress could be lost.
+
+### 03 01 ANALYZE THE RELATIONSHIP BETWEEN KNOWLEDGE MODELS AND VIEWS
+#### 03 01 01 Knowledge Model? View? [2:00]
+
+"A Knowledge Model is like the brain of a View"
+
+-Someone at Celonis, probably
+
+If this quote makes 99.9% sense to you by the end of this module, then we did our job right!
+
+##### But let's start from the top.
+What does a View look like? And what about a Knowledge Model? Browse through the following examples to get a better idea.
+
+`Example 1`
+
+##### Hey there! I'm a View!
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/3a10defb-2d93-4825-b5f6-d3b4cf5f6149/3/scormcontent/assets/Xkdvx8FX-yoOfQoo_jmT0nqOhgMJ2p3jo.png)
+
+My name in this example is "Steering View".
+
+`Example 2`
+
+##### Hi :) I'm a View, too!
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/3a10defb-2d93-4825-b5f6-d3b4cf5f6149/3/scormcontent/assets/ygvYlCjYufndbpBW_ocpqs08sffpT1Hy-.jpg)
+
+My purpose is different from the Steering View. So I look different and also have another name, "Action View". Technically speaking I'm still a View though. 
+
+`Example 3`
+
+##### Greetings! I'm a Knowledge Model.
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/3a10defb-2d93-4825-b5f6-d3b4cf5f6149/3/scormcontent/assets/NIuC_WCYx0IYsFUj_TD7ONjBwr-l2mjoC.png)
+
+Both the Views you've seen before would literally be nothing without me. Without me, they wouldn't know which numbers to display or where to get the information about open invoices from. 
+
+##### No View without a Knowledge Model and vice versa.
+  Using the View asset, you define the components that the end-user will work with; components like, charts, tables, lists, and dropdowns. 
+  
+  Those are all visual presentation components though. You define the content that these components display by defining Knowledge Objects in the Knowledge Model; objects such as KPIs, benchmarks, variables, and filters.
+  
+  So you see, View and Knowledge Model can't live without each other. A View without a Knowledge Model cannot display meaningful content and a Knowledge Model cannot show itself to end-users, because it's really a collection of formulas and definitions. Only together, can View and Knowledge Model create contextual business interfaces like a Steering View or Action View.
+
+#### 03 01 02 An Abstract Example of the Knowledge Model-View Relations...
+
+The interactions between the Knowledge Model and the View can be a little complex to understand when you're just getting started. This is why we'd like to provide a little analogy to you. Maybe it helps you. 
+
+
+
+### 03 02 Distinguishing between the Visual and YAML Editors [2:30]
+#### 03 02 01 BRINGING IT ALL TOGETHER
+#### 03 02 02 Knowledge Models and Views in the Big Picture [3:00]
+#### 03 02 03 Congrats! [1:00]
 
 ## 04. Build a Knowledge Model : REQUIRED
 
