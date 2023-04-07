@@ -1,5 +1,5 @@
 ---
-title: 02 Celonis Foundations - What is an Event Log
+title: 02 Celonis Foundations - Celonis Kickstarter
 author: JUNG YoungKyun
 date: 2023-03-28
 category: 37 celonis
