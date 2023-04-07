@@ -737,13 +737,196 @@ Looking at the screenshots above, select all statements that appear to be true a
 
 #### 03 02 01 BRINGING IT ALL TOGETHER
 #### 03 02 02 Knowledge Models and Views in the Big Picture [3:00]
+
+The main objective of this course is for you to truly understand the system dynamics that emerge from the relationship between Knowledge Models and Views. 
+
+A View doesn't make sense without a Knowledge Model and vice versa. 
+
+Once you start building a Knowledge Model and a View yourself, always keep that in mind. 
+
+Where does the data come from?
+
+You might have noticed that we only talked about displaying (in Views) and calculating (in Knowledge Model) values of Knowledge Objects so far. Please make sure that you understand the following: 
+
+A Knowledge Model does not house data. But it knows where the data resides within the
+Data Model.
+
+To communicate with the Data Model, the Knowledge Model 'speaks' Process Query Language (PQL). This is why most of the Knowledge Objects you're going to implement in your future Knowledge Models will require you to specify a PQL formula.
+
+Let's bring it all together
+
+We just sneaked in a couple of additional terms, so let's put all of them in context: 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/3a10defb-2d93-4825-b5f6-d3b4cf5f6149/3/scormcontent/assets/dac-Iyvq9DSvcEQ__vsrAHClPwPNsegyR.png)
+
+You will see the graphic again in the next courses on building Knowledge Models and Views. Hopefully it helps you to understand where you are on your journey.
+
 #### 03 02 03 Congrats! [1:00]
+
+You have now reached the end of this course. We hope it was helpful for you to understand the relationships discussed here before you go in and build Knowledge Models and Views yourself. 
+
+If you have also already completed the course ["Navigate the Celonis Studio"](https://academy.celonis.com/learn/course/navigate-the-celonis-studio), you are now ready to embark on the two courses ["Build a Knowledge Model"](https://academy.celonis.com/courses/build-a-knowledge-model) and ["Build a View"](https://academy.celonis.com/courses/build-a-view).
+
+We hope you've enjoyed this course. We're looking forward to welcoming you back to the Academy platform soon!
+
+Your Celonis Academy
 
 ## 04. Build a Knowledge Model : REQUIRED
 
 - Build a Knowledge Model
 
 - Set up a Knowledge Model and add a KPI and a Record to it.
+
+Hey there! Do you want to learn the mechanics of how to build a Knowledge Model in Celonis Studio? Then this course is for you! There is one question we'd like to ask you right away: 
+
+Would you build a Knowledge Model with no View and vice versa? 
+
+If you don't know how to answer this question or if you respond with "Yes", then please take the course ["The Interdependence of Knowledge Models and Views](https://academy.celonis.com/courses/understand-the-interdependence-of-knowledge-models-and-views)" first. Otherwise, you're good.  
+
+Additionally, we assume that you are familiar with Celonis Studio and can [access your Training Team](https://dam.celonis.com/download/en/3fxjBOrZkDrlGbDRxIOrom) to create Spaces and Packages on your own there. Otherwise, please embark on the course ["Navigate the Celonis Studio](https://academy.celonis.com/learn/course/navigate-the-celonis-studio)" first. Last but not least, YAML should be something that you feel comfortable reading and writing. Otherwise, our course "[YAML Basics](https://academy.celonis.com/courses/yaml-basics)" could help you out. 
+
+We'll require about 50 minutes of your time to walk you through this course. 
+
+One technical remark: If you would like to take a break during the training, remember to close the course using the "Exit Course" button in the top right of the window first before closing your browser window. Otherwise, your progress could get lost. 
+
+### CREATE A NEW KNOWLEDGE MODEL
+#### Refresher on the Definition of a Knowledge Model [2:00]
+
+It is finally time for you to build a Knowledge Model! Maybe it's been a while since you've worked on the prerequisites of this course though, so let's quickly recap what a Knowledge Model actually is.
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/16ad115c-ab0a-4728-a2a0-4a4a56d8c6c9/9/scormcontent/assets/41pyLUgcCMJszP1W_JUM70DnB5FCHT4Mk.png)
+
+A Knowledge Model is like a glossary or a collection of formulas and definitions. It captures the business context of processes and stores definitions of KPIs, Records, Variables, Filters, and many more Knowledge Objects.  
+
+Why do we need Knowledge Models?
+
+One of the main advantages of Knowledge Models is the reusability of their Knowledge Objects' definitions. 
+
+Imagine you build three Views that are tailored to different personas. Each View displays the same KPI but at different positions. Wouldn't it be tedious to add the KPIs' calculation scheme to each View although it remains the same across the Views? Now imagine something changes in the KPI definition and you have to access each View that uses the KPI and adjust it accordingly… Lucky for us, we have a Knowledge Model which we only need to access once. Changes in the Knowledge Model become effective immediately for each asset that references it. 
+
+The concept is similar to object-oriented programming where you define classes and methods, and reuse those throughout your app. 
+
+In a nutshell, these are the key benefits and reasons for Knowledge Models:
+
+- Reusability
+
+- Scalability
+
+- Consistency
+
+What does a Knowledge Model need? 
+
+Before we create a Knowledge Model, we assume that a Data Model is already in place to link to our Knowledge Model. A Data Model is typically provided by a Data Engineer. If you are required to create a Data Model yourself, we recommend our training track "[Get Data into the EMS](https://academy.celonis.com/learning-paths/get-data-into-the-ems-1)". 
+
+
+Now that we remember what a Knowledge Model is, we're ready to create one in Celonis Studio. Let's go!
+
+#### Create a new Knowledge Model [4:00]
+
+Given that we are inside of Celonis Studio, what do we (technically) need to create a new Knowledge Model?
+
+- [x] a Space
+
+- [x] a Package
+
+- [ ] a Folder
+
+- [ ] a View
+
+Let's review how to create a new Knowledge Model.
+
+`Space`
+
+We've created a Space that the `Knowledge Model` is located in. `The Space` is called. `Training`.
+
+![](../images/37 celonis/230407/20230407163218.png)
+
+`Package`
+
+We can't add a `Knowledge Model` to a `Space`; we need a `Package` to house the `Knowledge Model` in. In this case, the package is called `Knowledge Model Training.`
+
+![](../images/37 celonis/230407/20230407163238.png)
+
+![](../images/37 celonis/230407/20230407163247.png)
+
+`Base & Extension`
+
+When creating a new `Knowledge Model`, you can choose whether you'd like to build a base on `from scratch` or whether you'd rather
+`extend` an existing `Knowledge Model`. When you're just getting started, is's more likely that you'll start from a `Base Knowledge Model`.
+You will understand when to extend an existing `Knowledge Model` later on.
+
+![](../images/37 celonis/230407/20230407163251.png)
+
+`Knowledge Model Name`
+
+Each `Knowledge Model` requires a name. These are basically display names you use to easily identify the `Knowledge Models` you
+have created. Note that you can have multiple `Knowledge Models` in a `Package`.
+
+![](../images/37 celonis/230407/20230407163257.png)
+
+`Knowledge Model Key`
+
+The key is the unique identifier of your `Knowledge Model`. While `Knowledge Models` can have the same name, their respective keys have to be unique for each `knowledge Model`. The key is filled in
+automatically based on the name you enter. As best practice, you should
+avoid changing a `Knowledge Model` key once it is created.
+
+![](../images/37 celonis/230407/20230407163257.png)
+
+`Data Model Variable`
+
+Do you remember that a `Knowledge Model` references a `Data Model`? This is exactly the place where you define this reference. If you have previously added `Data Model Variables` to the `Package`, you'll be able to select those here using the dropdown menu.
+Otherwise, you can directly create a new `Data Model Variable` (that is a reference to a `Data Model` which you can access in your `Celonis Team`) in the `Knowledge Model` configuration panel, which is also accessible via the dropdown menu.
+
+![](../images/37 celonis/230407/20230407163306.png)
+
+`Studio`
+
+You build and modify `Knowledge Models` in `Studio`. This means they are not visible to business users and not shown in the tab `Business Views`.
+
+![](../images/37 celonis/230407/20230407163312.png)
+
+##### Your Turn!
+
+[Go to your training team](https://dam.celonis.com/download/en/3fxjBOrZkDrlGbDRxIOrom) and create a new Knowledge Model called "My training Knowledge Model". Here's a checklist on what to do - make sure you can tick each box before you continue with the course: 
+
+- [ ] Create a new Space or reuse an existing one. Call it "Training"
+
+- [ ] Create a new Package or reuse an existing one. Call it
+"Knowledge Model Training"
+
+- [ ] Add a Knowledge Model to the Package. Choose the Base type and call it
+"My training Knowledge Model"
+
+- [ ] Add a Data Model variable and select the Data Model
+"ap-celonis-studio-app-creator-training"
+
+What you see in your training team now should look like this:
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/16ad115c-ab0a-4728-a2a0-4a4a56d8c6c9/9/scormcontent/assets/CfWwqHxylL1xqYgf_65uOKxEx4AOVUU98.png)
+
+What is it that we see here? The Visual Editor of Knowledge Models, yes. But what else? Let's see in the next lesson. 
+
+#### Review your newly created Knowledge Model [4:30]
+
+Congrats on setting up your first Knowledge Model! Let's review some basic navigation and give a name to what we see at the moment. 
+
+
+
+### USE THE VISUAL EDITOR TO ADD A KPI
+#### What is a KPI? [2:30]
+#### Review KPI Parameters [2:00]
+#### Add "Days Payable Outstanding" to the Knowledge Model [10:30]
+
+### USE THE YAML EDITOR TO ADD A RECORD
+#### What is a Record? [2:30]
+#### Review Record Parameters [4:00]
+#### Add "Invoice" to the Knowledge Model [12:00]
+
+TIPS AND TRICKS
+Make use of the PQL Editor [2:30]
+CTRL + Space [1:00]
+Deep Dive into your Data Model [0:40]
+Congrats! [0:20]
 
 ## 05. Build a View : REQUIRED
 
