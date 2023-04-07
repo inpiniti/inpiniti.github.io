@@ -910,12 +910,127 @@ What is it that we see here? The Visual Editor of Knowledge Models, yes. But wha
 
 Congrats on setting up your first Knowledge Model! Let's review some basic navigation and give a name to what we see at the moment. 
 
+![](../images/37 celonis/230407/20230407165023.png)
 
+![](../images/37 celonis/230407/20230407165054.png)
+
+![](../images/37 celonis/230407/20230407165101.png)
+
+![](../images/37 celonis/230407/20230407165132.png)
+
+![](../images/37 celonis/230407/20230407165141.png)
+
+![](../images/37 celonis/230407/20230407165151.png)
+
+![](../images/37 celonis/230407/20230407165157.png)
+
+![](../images/37 celonis/230407/20230407165208.png)
+
+![](../images/37 celonis/230407/20230407165218.png)
+
+![](../images/37 celonis/230407/20230407165229.png)
+
+![](../images/37 celonis/230407/20230407165238.png)
+
+![](../images/37 celonis/230407/20230407165248.png)
+
+![](../images/37 celonis/230407/20230407165316.png)
+
+![](../images/37 celonis/230407/20230407165326.png)
+
+![](../images/37 celonis/230407/20230407165335.png)
+
+Time for an exercise!
+
+Return back to the Knowledge Model you have created before. Access the YAML Editor (Edit mode), open the documentation and fill in the blank: 
+
+The required fields of a KPI definition are id, pql and ___________
+
+Acceptable responses: displayName, Displayname, DisplayName, displayname, display name
 
 ### USE THE VISUAL EDITOR TO ADD A KPI
 #### What is a KPI? [2:30]
+
+Now that we have set up a new Knowledge Model and taken the first steps in both the Visual Editor, as well as the YAML Editor, we're ready to add our first Knowledge Object! 
+
+As you know, one category of Knowledge Objects is a KPI - a Key Performance Indicator. KPIs measure performance and indicate whether business objectives are met by an organization, a business unit, or a team. They can be either straightforward and easily calculated, or complex - requiring alignment from various stakeholders.  
+
+Example: Days Payable Outstanding (DPO)
+
+Days Payable Outstanding is a financial ratio that indicates the average time (in days) that a company takes to pay its invoices to its creditors, which may include suppliers, vendors, or financiers. It's a KPI that is commonly measured and monitored in Accounts Payable teams. 
+
+---
+
+Let's pretend we plan to build a View that looks similar to the one below. As you can see, one of the components it displays is a KPI List with "Days Payable Outstanding" being the first of the three KPIs listed. 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/16ad115c-ab0a-4728-a2a0-4a4a56d8c6c9/9/scormcontent/assets/tcUVZNktACL63YJ5_hwg6KhSGS-P70K9E.jpg)
+
+Days Payable Outstanding is one of three KPIs listed in this KPI List
+
+---
+
+The corresponding YAML configuration of this View's KPI list looks like this: 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/16ad115c-ab0a-4728-a2a0-4a4a56d8c6c9/9/scormcontent/assets/DhizY8iWX5x8A5ql_ErvSGMNN9DtwN7Dl.png)
+
+This is `YAML` code from the `View`, not the `Knowledge Model`!
+
+As we know, that's how far it gets in the View configuration. But how does the View know that the value of the `KPI Days Payable Outstanding` is 19 days? It knows it - or will know it - because of us and our special skill of defining the calculation scheme in the `Knowledge Model`! 
+
+Now that we know what we're aiming for:  
+
 #### Review KPI Parameters [2:00]
+
+We'd like to add a `KPI` to our `Knowledge Model`. Can we… just do it? Yes, we can! 
+
+What do you think we'll need to create a new `KPI` in a `Knowledge Model`? (Feel free to peek at the [documentation](https://docs.celonis.com/en/kpi-list.html)!) 
+
+- [x] ID
+
+- [x] Display Name
+
+- [x] PQL formula to calculate the value
+
+- [ ] Reference where the KPI is used
+
+> The reference is only added in a View asset but not in the Knowledge Model.
+
+"`Id`", "`displayName`" and "`pql`" are the three mandatory parameters that we need to specify when configuring a `KPI` in our `Knowledge Model—whether` we use the `YAML` or the `Visual Editor`.
+
+The `ID` and the name that should be displayed are straightforward. We remember that the name can be anything while the `ID` needs to be unique. So what we could define in our `Knowledge Model` is:
+
+- `Display Name`: Days Payable Outstanding
+
+- `Id`: days_payable_outstanding
+
+What about the PQL statement though? 
+
+In this course, we provide you with the correct PQL formula, which you'll just need to copy and paste into the editor. 
+
+Note that in reality, it might take quite some time to figure out the correct syntax, and a really good understanding of how the Data Model is configured. We do have a course called "[Basic Coding with PQL](https://academy.celonis.com/courses/basic-coding-with-pql)" if you need some enablement. Alternatively, we recommend you find a good friend who's fluent in PQL ;-) 
+
+Here's the PQL statement that we'll add to the KPI configuration: 
+
+```
+AVG(DAYS_BETWEEN(PU_FIRST("BSEG", "_CEL_AP_ACTIVITIES"."EVENTTIME",
+      "_CEL_AP_ACTIVITIES"."ACTIVITY_EN" = 'Record Invoice Receipt')
+      ,PU_FIRST("BSEG", "_CEL_AP_ACTIVITIES"."EVENTTIME",
+          "_CEL_AP_ACTIVITIES"."ACTIVITY_EN" = 'Clear Invoice')))
+```
+
+Remember, that the purpose of the PQL parameter is to calculate the KPI’s value. We'll not go into depth about how exactly the PQL statement above is constructed. On a high level, for each case, it calculates the days that passed by after an invoice has been recorded until the invoice has been cleared. It then takes the average of all the cases. 
+
+Other Parameters
+
+There are some more parameters you can specify for your KPI which are not mandatory. Keep in mind that we're looking at our Days Payable Outstanding KPIs in Days and that we're interested in full days and not a fraction, like "2.4564 days"... And of course we assume that the lower our DPO value, the better. 
+
 #### Add "Days Payable Outstanding" to the Knowledge Model [10:30]
+
+Now that we have a good understanding of our KPI, we're finally ready to add it to our Knowledge Model! Note that the step described in the previous lesson will usually require some time and multiple stakeholders to align on a definition. 
+
+Implementing the definition into the Knowledge Model is actually the easier part. Enough talking - let's go!
+
+
 
 ### USE THE YAML EDITOR TO ADD A RECORD
 #### What is a Record? [2:30]
