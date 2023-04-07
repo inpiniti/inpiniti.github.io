@@ -657,9 +657,84 @@ Both the Views you've seen before would literally be nothing without me. Without
 
 The interactions between the Knowledge Model and the View can be a little complex to understand when you're just getting started. This is why we'd like to provide a little analogy to you. Maybe it helps you. 
 
+![](../images/37 celonis/230407/20230407153206.png)
 
+![](../images/37 celonis/230407/20230407153229.png)
+
+![](../images/37 celonis/230407/20230407153244.png)
+
+![](../images/37 celonis/230407/20230407153317.png)
+
+![](../images/37 celonis/230407/20230407153350.png)
+
+But… how does this help us to better understand the relationship between Knowledge Models and Views? Well, there are actually quite some connections we can draw. 
+
+View
+
+Adding an element
+
+We knew we wanted to add a dog to the canvas which is a pre-configured element in Paint. Pre-configured elements are also available in Views. Here, we call those elements 'components'. You've seen a couple of those before, like a table, a chart or a KPI list.
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/3a10defb-2d93-4825-b5f6-d3b4cf5f6149/3/scormcontent/assets/5sxtWOFKC4MTOX-s_BrckbbnGg7YQbULs.png)
+
+Knowledge Model
+
+Selecting an available colour
+
+Our dog is supposed to be blue. So we checked the colour palette. That's similar to adding a KPI to a View: Imagine we'd like to add the KPI "Average Days Lost". We'd need to specify such a KPI in our Knowledge Model so we can add it to the View. 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/3a10defb-2d93-4825-b5f6-d3b4cf5f6149/3/scormcontent/assets/MpYmeIxUvUS1gJUu_DsRtMmOJrfOIq6D5.png)
+
+Knowledge Model
+
+Adding a new colour
+
+Do you remember how we didn't find the correct blue shade and defined a new one using the HEX code?  Remember we'd like to add the KPI "Average Days Lost" to our View. Everything that the Knowledge Model provides though is "Average Weeks Lost". So we add "Average Days Lost" to the Knowledge Model accordingly. 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/3a10defb-2d93-4825-b5f6-d3b4cf5f6149/3/scormcontent/assets/fxU3OIQZUPF04NEE_1o_Dk1UovHX8fduI.png)
+
+View
+
+Applying the new colour
+
+Similar to when we applied the specific blue shade to the dog, we can now also reference the newly created KPI "Average Days Lost" in our View. 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/3a10defb-2d93-4825-b5f6-d3b4cf5f6149/3/scormcontent/assets/AVoMXqkPGpXOw31a__DZ-FaqdfYOlxwHx.png)
+
+Hopefully this example gives you a better idea of when to make changes in a View and when to adjust a Knowledge Model. With your analogy in mind, try to match the activities below correctly, as in whether you would access the Knowledge Model or rather the View to perform them. 
+
+[link](https://academy.celonis.com/learn/course/understand-the-interdependence-of-knowledge-models-and-views/the-interdependence-of-knowledge-models-and-views/course-outline?client=public-panorama&page=2)
 
 ### 03 02 Distinguishing between the Visual and YAML Editors [2:30]
+
+Knowledge Models and Views are the only assets in Celonis Studio that - in their core - are configured using YAML, a generic data serialization language. You are familiar with YAML, right? If this is not the case yet, please make sure to invest some time in [YAML Basics](https://academy.celonis.com/courses/yaml-basics). 
+
+You can configure Knowledge Models and Views using either the YAML Editor or the Visual Editor. But some components (in Views) and Knowledge Objects (in Knowledge Models) can only be configured using the YAML Editor. Note that we are continually working to improve the Visual Editor, so keep an eye on updates!
+
+What is the difference between the Visual and the YAML Editor?
+
+You might be able to answer this question yourself when you compare the screenshots below. 
+
+KNOWLEDGE MODEL
+
+The left picture shows the Visual Editor, the right one the YAML Editor. Both show the same Knowledge Model but a different interface to interact with. 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/3a10defb-2d93-4825-b5f6-d3b4cf5f6149/3/scormcontent/assets/cqQx-2rab_tITg60_W5XsbNs2ngarWtKA.png)
+
+VIEW
+
+Again, the left picture depicts the Visual Editor while the right one shows the YAML Editor. Same View but different ways to edit it. 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/3a10defb-2d93-4825-b5f6-d3b4cf5f6149/3/scormcontent/assets/e-DAhnnxQjSzbR60_taPOe7flHffzGhjQ.png)
+
+Looking at the screenshots above, select all statements that appear to be true about the Visual and YAML Editors for Knowledge Models and Views:
+
+- [x] The Visual Editors work according to a "What you see is what you get" principle
+
+- [x] You can easily switch back and forth between the Visual Editor and the YAML Editor at any time
+
+- [ ] Using the Visual Editor is easier than using the YAML Editor
+
 #### 03 02 01 BRINGING IT ALL TOGETHER
 #### 03 02 02 Knowledge Models and Views in the Big Picture [3:00]
 #### 03 02 03 Congrats! [1:00]
