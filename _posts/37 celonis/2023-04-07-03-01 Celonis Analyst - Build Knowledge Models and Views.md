@@ -67,21 +67,21 @@ We assume that you already have a little coding experience so you will know that
 
 Similarly, our UX designers did a great job in guiding you towards your very first step in Studio: Creating a Space. 
 
-![](.\rsc\20230407142428.png)
+![](../images/37 celonis/230407/20230407142428.png)
 
-![](.\rsc\20230407142508.png)
+![](../images/37 celonis/230407/20230407142508.png)
 
-![](.\rsc\20230407142525.png)
+![](../images/37 celonis/230407/20230407142525.png)
 
-![](.\rsc\20230407142546.png)
+![](../images/37 celonis/230407/20230407142546.png)
 
 If you already have a Space in Studio and want to create a new or additional one, then follow the steps shown in the video below.
 
-![](.\rsc\20230407142848.png)
+![](../images/37 celonis/230407/20230407142848.png)
 
-![](.\rsc\20230407142930.png)
+![](../images/37 celonis/230407/20230407142930.png)
 
-![](.\rsc\20230407142949.png)
+![](../images/37 celonis/230407/20230407142949.png)
 
 Great! First step done! We're getting closer to the heart of where we will build our Apps!
 
@@ -119,11 +119,11 @@ There are actually two ways to do so: either click the button on the left or the
 
 Watch the video below to see how to create a package called "My first package."
 
-![](.\rsc\20230407143210.png)
+![](../images/37 celonis/230407/20230407143210.png)
 
-![](.\rsc\20230407143230.png)
+![](../images/37 celonis/230407/20230407143230.png)
 
-![](.\rsc\20230407143246.png)
+![](../images/37 celonis/230407/20230407143246.png)
 
 Did you note how the package's "key" automatically got populated? If not, play the video again. 
 
@@ -263,19 +263,19 @@ Creating a Base Knowledge Model means you create one from scratch while an Exten
 
 In the video below, you'll see that we choose the Base-type Knowledge Model. We specify the Knowledge Model Name and then choose a Data Model Variable. The Data Model variable is the link between the Knowledge Model and Data Model. The exact purpose of the data model VARIABLE will become clearer soon.
 
-![](.\rsc\20230407144243.png)
+![](../images/37 celonis/230407/20230407144243.png)
 
-![](.\rsc\20230407144301.png)
+![](../images/37 celonis/230407/20230407144301.png)
 
-![](.\rsc\20230407144320.png)
+![](../images/37 celonis/230407/20230407144320.png)
 
-![](.\rsc\20230407144343.png)
+![](../images/37 celonis/230407/20230407144343.png)
 
-![](.\rsc\20230407144401.png)
+![](../images/37 celonis/230407/20230407144401.png)
 
-![](.\rsc\20230407144416.png)
+![](../images/37 celonis/230407/20230407144416.png)
 
-![](.\rsc\20230407144448.png)
+![](../images/37 celonis/230407/20230407144448.png)
 
 And there it is! Our first very small Knowledge Model!
 
@@ -320,9 +320,9 @@ You can assign and adjust permissions in Studio at different levels; in other wo
 
 Let's look at Spaces first. To review and assign Space permissions, just click the three dots and select the appropriate option. The options are quite self-explanatory and ticking the box lets the permission take effect. If you'd like to review details on the different permission options, please refer to the [documentation](https://docs.celonis.com/en/studio.html#UUID-54a37cea-24d8-8459-8668-a517455a4e19_id_Studio-Permissions).
 
-![](.\rsc\20230407144859.png)
+![](../images/37 celonis/230407/20230407144859.png)
 
-![](.\rsc\20230407144913.png)
+![](../images/37 celonis/230407/20230407144913.png)
 
 If you have multiple spaces, you might want to apply different sets of permissions. Just click the dropdown arrow next to the Space name to switch to other Spaces first.
 
@@ -354,9 +354,81 @@ If you want to give a business user Package permission to only use the Package (
 
 > Not quite. If you hover at the icons beside the "Use Package" and "Edit Package" column headers, you should see the type of role the permissions encompass. Analysts generally require permissions to make changes to the Packages (and Assets), as opposed to Viewers (which include business users), who would only need to be able to interact with the Assets in Apps.
 
+##### Asset Permissions
 
+You can also assign permissions at Asset-level. But why would you? Let's say you have organized your assets into Packages by processes. You have an Accounts Payable Package, and within it, you have a Knowledge Model, an Analysis for executives, an Analysis for improvement specialists, and a View for clerks. If you want to give a user access to just one of the Assets (one of the two Analyses or the View), then you'll want to do so at Asset-level.
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/69933a3c-a5f0-47d7-992c-71b649590282/9/scormcontent/assets/1t5tbS9A0Vh2Z9n2_U7rzPArTU1vjchJq.png)
+
+What if you want to give a user permission for all the Assets in the Package? How would you do it? 
+
+In this case, giving the user the permission at Package-level is more efficient. You see there are quite some options available. As always, it depends on your use case and your end-users' needs which combination to choose. 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/69933a3c-a5f0-47d7-992c-71b649590282/9/scormcontent/assets/yDNQPn5Je7ZkCKZy_mLworXo-8ulehw59.png)
+
+##### Template
+
+Did you notice that as you assign permissions, you also have the option of using the predefined templates?
+
+User permissions are generally for business users or users who only need to access Celonis Apps.
+
+Editor permissions are generally for Analysts or App Developers who need to access the Space/Package/Asset in Studio to make changes.
+
+Have a look at the permission settings of your Package. What type of permission do you have?
 
 #### 01 03 02 Review Package Settings [4:00]
+
+Remember how we briefly talked about Data Model Variables when we created a Knowledge Model? You might have wondered why the term "variable." 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/69933a3c-a5f0-47d7-992c-71b649590282/9/scormcontent/assets/RibH9l0dFMcR6duH_w-Kh_iXMRFktEjDj.png)
+
+When we created a Knowledge Model, we did so by linking it to a single Data Model. This is important to remember. We can associate only one Data Model with each Knowledge Model. In addition, a View can be linked to a Knowledge Model. 
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/69933a3c-a5f0-47d7-992c-71b649590282/9/scormcontent/assets/dh5jdGtkaGGUsK-v_us2y2jOYMMqTjG00.png)
+
+What about a Package? How many Knowledge Models and Data Models can it be associated with? Since a package can hold multiple assets, and therefore multiple Knowledge Models, we can conclude that a Package can reference multiple Data Models.
+
+Now hopefully the word "variable" in the term "Data Model Variable" starts to make more sense. Imagine we have one Package which holds multiple Knowledge Models (which are referenced by different Views). There might be multiple Knowledge Models that reference the same Data Model. What if you had to change that Data Model? Would you have to go into each single Knowledge Model and adjust it? No, luckily not! That's exactly what the Data Model Variables are for; you only change it at one place and it automatically applies to every asset that is referencing this data model variable. Cool, right?
+
+##### Data Model Variables
+
+Let's take a look at where we can see all the Data Model Variables associated with a Package.
+
+Data Model Variables
+Let's take a look at where we can see all the Data Model Variables associated with a Package.
+
+`Step 1`
+
+##### Package Settings
+
+![](../images/37 celonis/230407/20230407145559.png)
+
+![](../images/37 celonis/230407/20230407145612.png)
+
+All Data Model variables of a package are listed in the package settings. You can access those by clicking the three dots and then selecting "Settings". 
+
+`Step 2`
+
+##### General tab
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/69933a3c-a5f0-47d7-992c-71b649590282/9/scormcontent/assets/FyznOmwgwkJCoekx_edKdnOIpvmPOQfem.png)
+
+There are a few tabs in the Package settings, such as General, Variables, and Dependencies.
+
+What you can see in the General tab is what you already saw before: The Package name and its key. Here’s where you would change the Package name, but keep in mind, the key will remain the same as the one when you created the package in the first place. Below the name and key, you see Published Versions. We'll touch soon on what is meant by the Published Versions. 
+
+`Step 3`
+
+##### Variables tab
+
+![](https://scorm.eu.thoughtindustries.com/content/1cc62825-20df-4077-8216-a9df1132a5ad/69933a3c-a5f0-47d7-992c-71b649590282/9/scormcontent/assets/tLbBITvRQQ075Lrp_W9ON0AZ8uTuSuX9U.jpg)
+
+In the Variables tab, you see the Data Model Variable we created while setting up the Knowledge Model. You can create as many Data Model Variables here as you like. Especially when you download an Execution App from the EMS store, your first step will most likely be to assign a Data Model Variable.
+
+##### Now you check it out!
+Go to the Package Settings and take a look at the tabs.
+
+
 #### 01 03 03 Publish a Package and Work with Versions [3:00]
 
 ## 02. YAML Basics : ELECTIVE
