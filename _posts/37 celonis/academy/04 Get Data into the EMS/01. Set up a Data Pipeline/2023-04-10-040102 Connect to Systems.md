@@ -297,12 +297,155 @@ Process Connectors: 데이터 풀을 생성할 때 Process Connector 템플릿�
 
 #### 나만의 추출기 만들기
 
+![](../images/37 celonis/230410/040102/20230410104755.png)
+
+![](../images/37 celonis/230410/040102/20230410104816.png)
+
+![](../images/37 celonis/230410/040102/20230410104826.png)
+
+![](../images/37 celonis/230410/040102/20230410104835.png)
+
+![](../images/37 celonis/230410/040102/20230410104857.png)
+
+![](../images/37 celonis/230410/040102/20230410104913.png)
+
+![](../images/37 celonis/230410/040102/20230410104933.png)
+
+![](../images/37 celonis/230410/040102/20230410104944.png)
+
+![](../images/37 celonis/230410/040102/20230410104955.png)
+
+![](../images/37 celonis/230410/040102/20230410105016.png)
+
+![](../images/37 celonis/230410/040102/20230410105030.png)
+
+![](../images/37 celonis/230410/040102/20230410105049.png)
+
+![](../images/37 celonis/230410/040102/20230410105105.png)
+
+![](../images/37 celonis/230410/040102/20230410105112.png)
+
+![](../images/37 celonis/230410/040102/20230410105130.png)
+
+![](../images/37 celonis/230410/040102/20230410105137.png)
+
+![](../images/37 celonis/230410/040102/20230410105144.png)
+
+![](../images/37 celonis/230410/040102/20230410105157.png)
+
+![](../images/37 celonis/230410/040102/20230410105210.png)
+
+![](../images/37 celonis/230410/040102/20230410105220.png)
+
 #### 사용해 보세요(선택 사항) - 추출기 구축
+
+많은 공급업체가 COVID19의 영향을 많이 받습니다. 이는 공급망 위험을 초래하므로 COVID 사례 데이터를 데이터 파이프라인에 추가해야 합니다. 이렇게 하려면 추출기 빌더를 사용하여 추출기를 만듭니다. 귀하의 목표는 `세계 및 국가 수준에서 사례 번호를 추출하는 것`입니다.
+
+[이 API](https://documenter.getpostman.com/view/10808728/SzS8rjbc#00030720-fae3-4c72-8aea-ad01ba17adf8) 의 요약 `엔드포인트를 사용`합니다 . 기술에 자신이 있다면 기본 지침을 따르십시오. 약간의 지원이 필요한 경우 단계 섹션을 사용하십시오.
+
+다음 자격 증명을 사용하여 추출기 빌더에서 [이 API](https://documenter.getpostman.com/view/10808728/SzS8rjbc#00030720-fae3-4c72-8aea-ad01ba17adf8) 의 요약 엔드포인트를 빌드합니다 .
+
+사용자 이름: go-corona-admin
+
+PW: 5577YvzU4bK63a1WIQ3Z043H
+
+도움이 필요하면 아래 단계를 따르십시오.
+
+1. 데이터 풀로 이동하여 데이터 연결을 추가하고 데이터 원본에 연결 -> 사용자 정의 -> 사용자 정의 연결 빌드 -> 새 추출기 빌드를 클릭합니다.
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/htzrlkwx4uda-image.png)
+    
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/fd5lkm3zyczq-image.png)
+    
+2. 추출기에 적절한 이름을 지정하고 저장 및 계속을 클릭합니다.
+
+3. URL 매개변수를 편집하고 " https://api.covid19api.com/ "을 기본값으로 입력합니다. URL 뒤에 추가 공백이 없는지 확인하세요!
+저장을 클릭하고 다시 저장하고 계속하기를 클릭합니다.
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/8vpup404xmlj-image.png)
+    
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/d9d7170tf5qi-image.png)
+    
+4. 기본 인증을 선택하고 저장 및 계속을 클릭합니다.
+5. 새 엔드포인트 추가
+6. 그것을 요약이라고 부르십시오
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/n2y2nsag1mla-image.png)
+    
+7. Configure Request -> URL 아래에 "{Connection.API_URL}summary"를 입력합니다
+. 참고: 슬래시가 연결 URL 내에 있는지 아니면 끝점에 있는지는 사용자가 결정합니다. 여기서도 공백을 피하십시오.
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/out4y9g7v9yj-image.png)
+    
+8. 응답 구성에서 대상 테이블 이름으로 "CovidSummary"를 입력합니다. 이것은 단순히 테이블이 추출된 후에 갖게 될 이름입니다.
+9. "샘플을 사용하여 응답 구성..."을 클릭합니다.
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/zkxrkpdhpm16-image.png)
+    
+10. "새 데이터 소스 만들기"를 선택하고 "새 데이터 소스 만들기"를 클릭합니다 (Extractor Builder 외부의 데이터 연결로 이동하지 마십시오) .
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/b0sp2wf2ry3j-image.png)
+    
+11. 팝업에서 다음 사용자 및 PW를 입력하고 저장을 클릭합니다.
+
+    - 이름: Sample Connection(또는 원하는 항목)
+    - 사용자 이름: go-corona-admin
+    - pw: 5577YvzU4bK63a1WIQ3Z043H
+    
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/6eznjyaso12z-image.png)
+    
+12. 연결이 작동하지 않는 경우 일반적으로 API URL(4단계) 또는 엔드포인트에 추가 공백이나 슬래시가 있기 때문입니다. 제거하면 연결이 작동합니다.
+13. 연결이 설정되면 "응답 작성"을 클릭할 수 있어야 합니다.
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/sgy0nyvliwba-image.png)
+    
+14. 다른 이유로 샘플 연결이 작동하지 않는 경우 API 문서 에서 샘플 응답을 복사하여 응답 상자에 직접 붙여넣을 수 있습니다.
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/wf08t7ld6zgg-image.png)
+    
+15. 샘플 응답이 나타나면 특정 국가에 대한 데이터만 원하는 경우 응답 루트를 국가로 조정할 수 있습니다.
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/q7ie91yhv5ui-image.png)
+    
+16. 완료를 두 번 클릭하면 완료됩니다!
+
+생성한 추출기와 "데이터 원본"이 이제 데이터 연결 아래에 옵션으로 나타납니다.
+
+![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/12o345zt4ngl-image.png)
+
+추출기는 새 연결을 클릭할 때도 나타나며 이를 사용하여 데이터 파이프라인을 구축할 수 있습니다. 
+
+![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/hfqru78ns4eq-image.png)
+
+물론 API와 Extractor Builder는 더 복잡합니다. 여기서 작업의 기초는 REST API가 작동하는 방식과 소스 시스템의 API 문서에 대한 확실한 이해입니다. REST API에 익숙하지 않은 경우 몇 분 동안 웹에서 "REST API 사용 방법" 또는 "REST API 이해"를 검색하면 지식을 매우 빠르게 향상시킬 수 있습니다. 
 
 #### 자세히 알아보고 싶으신가요?
 
-
 ### 25 파일 업로드
+
+#### 파일 업로드
+
+새 데이터 원본에 연결할 때 파일 업로드를 사용하여 데이터를 EMS에 직접 업로드할 수 있습니다. 파일은 다음 형식 중 하나여야 합니다.
+
+![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/h01xotu4prpl-image.png)
+
+언제 파일 업로드를 사용하시겠습니까?
+다음은 몇 가지 샘플 사용 사례입니다.
+
+- 추가 정적 데이터
+- 번역 용어 목록
+- 소스 시스템 외부의 권한 목록
+- 절대 변경되지 않는 과거 데이터의 경우
+- 일회성 업로드
+
+가능하면 정기적으로 새로 고쳐야 하는 동적 데이터에 파일 업로드를 사용하지 마십시오. 이를 위해 즉시 사용 가능한 추출기 또는 Data Push API를 대신 고려해야 합니다.
+
+SAP ABAP 보고서 생성을 위해 SAP ABAP Generator를 사용 하고 나중에 파일 업로드에서 ABAP 파일을 업로드할 수도 있습니다. 자세한 내용은 [이 Microlearning](https://academy.celonis.com/learn/video/one-time-sap-upload-with-abap-generator-uploader) 및 [도움말 설명서](https://docs.celonis.com/en/one-time-extraction-from-sap-ecc-and-s-4.html)를 참조하십시오 .
+
+#### 파일 업로드하다
+
+#### 사용해 보세요(선택 사항) - 파일 업로드
+
 
 ### 26 데이터 푸시 API
 
