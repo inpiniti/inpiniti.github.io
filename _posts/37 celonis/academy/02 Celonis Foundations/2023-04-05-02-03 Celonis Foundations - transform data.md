@@ -490,11 +490,230 @@ Marketplace에서 다운로드하는 모든 Process Connector와 함께 제공�
 
 ### 34 사례 테이블 및 기타 테이블 추가 및 확장
 
+지금까지 우리는 점점 더 많은 활동을 프로세스에 통합했습니다. P2P 프로세스 흐름의 전체 프로세스 그림을 만들기 위해 계속 그렇게 할 수 있습니다.
+
+그러나 지금은 추가 트랜잭션 및 마스터 데이터 정보로 데이터를 확장하려고 합니다. 즉, "EKPO", "EKKO" 및 "LFA1"과 같은 테이블을 데이터 모델에 추가해 보겠습니다.
+
+
+원시 데이터 테이블을 직접 추가하지 않는 이유는 무엇입니까?
+
+물론 추출한 원시 데이터 테이블을 데이터 모델에 직접 추가할 수 있습니다. 즉, `Celonis는 데이터 모델에 추가하는 모든 추가 테이블에 대해 새 변환을 생성할 것을 권장`합니다. 새 테이블을 생성하여 다음을 수행할 수 있습니다.
+
+1. 필요한 경우 `원시 데이터 테이블에 추가 열(예: Case Key 열)을 추가`하고
+2. `관련 데이터만 데이터 모델에 로드하도록 원시 데이터 테이블을 필터링`합니다 .
+
+테이블을 추가하는 것은 활동 테이블에 활동을 추가하는 것과 비슷합니다.
+
+스크립트 단계(설명, 따를 필요 없음)
+
+1. CREATE TABLE
+
+    "EKPO" 테이블부터 시작하겠습니다. CREATE TABLE 문과 새 테이블의 이름을 사용하여 EKPO에 대한 새 테이블을 생성해 보겠습니다.
+    
+    ```CREATE TABLE "P2P_EKPO" AS ()```
+
+2. SELECT
+
+    테이블 생성의 다음 단계는 관련 정보를 선택하는 것입니다. 우리의 경우 원시 데이터 테이블 "EKPO"에서 모든 항목을 선택하기만 하면 됩니다. 이를 위해 '별표'를 사용하여 모든 열을 나타낼 수 있습니다. 또한 활동 테이블과 관계를 가질 수 있도록 케이스 키 열을 제공합니다.
+    
+    ```
+    CREATE TABLE "P2P_EKPO" AS (
+    
+    SELECT
+    "EKPO".*,
+    "EKPO". "MANDT" || "EKPO"."EBELN" || "EKPO"."EBELP" AS "_CASE_KEY"
+    
+    )
+    ```
+
+3. FROM / JOIN / WHERE
+
+    다음으로 FROM / JOIN 문과 WHERE 문(필요한 경우)을 사용하여 가져올 테이블, 관계(조인) 및 필터를 지정합니다 . 항목을 문서 유형 F로 제한하려면 EKKO에 가입해야 합니다.
+    
+    ```
+    CREATE TABLE "P2P_EKPO" AS (
+    
+    SELECT
+    "EKPO".*,
+    "EKPO". "MANDT" || "EKPO"."EBELN" || "EKPO"."EBELP" AS "_CASE_KEY"
+    
+    FROM EKPO
+    JOIN EKKO ON 1=1
+    AND EKPO.MANDT = EKKO.MANDT
+    AND EKPO.EBELN = EKKO.EBELN
+    AND EKKO.BSTYP = 'F'
+    
+    );
+    ```
+
+4. DROP TABLE IF EXISTS
+
+    활동 테이블과 마찬가지로 앞에 DROP TABLE IF EXISTS 문을 추가하는 것이 가장 좋습니다. 이를 통해 변환을 반복적으로 실행할 수 있습니다. 항상 그렇듯이 각 문은 세미콜론으로 끝납니다.
+    
+    ```
+    DROP TABLE IF EXISTS P2P_EKPO;
+    
+    CREATE TABLE "P2P_EKPO" AS (
+    
+    SELECT
+    "EKPO".*,
+    "EKPO". "MANDT" || "EKPO"."EBELN" || "EKPO"."EBELP" AS "_CASE_KEY"
+    
+    FROM EKPO
+    JOIN EKKO ON 1=1
+    AND EKPO.MANDT = EKKO.MANDT
+    AND EKPO.EBELN = EKKO.EBELN
+    AND EKKO.BSTYP = 'F'
+    
+    );
+    ```
+
+이것이 테이블을 구성하는 방법입니다.
+
+1. DROP TABLE IF EXISTS - 상단에 drop table 문을 사용하여 스크립트를 반복 가능하게 만듭니다.
+2. CREATE TABLE - 테이블 이름 지정
+3. SELECT - 필요한 데이터를 선택합니다.
+4. FROM / JOIN / WHERE - 조인 및 필터가 있는 기본 테이블을 나타냅니다.
+`전체 변환 스크립트를 사용하여 새 변환을 만들고 그에 따라 이름을 지정`합니다.
+
+그리고 방금 도출한 명령문을 삽입합니다.
+
+![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/8ycn8sbkxgre-image.png)
+
+변환을 실행한 후 스키마를 새로 고치고 `테이블이 올바르게 추가되었는지 확인`합니다.
+
+![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/z2fzo61fxsvg-image.png)
+
+#### 341 사용해 보기 - 사례 테이블 및 기타 테이블 추가
+
+새 "테이블 만들기" 변환을 만들어야 합니다.
+
+- 단계
+
+1. 여기서 템플릿을 계속 사용하겠습니다. EKPO의 경우 새 변환 작업을 생성하고 "테이블 생성: P2P_EKPO" 템플릿을 선택합니다 .
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/nrr5dqr01w6z-image.png)
+
+2. 쿼리를 실행하고 스키마를 다시 로드하여 테이블이 생성되었는지 확인합니다.
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/sgqsics2zxd9-image.png)
+
+3. 이제 행 수가 정확한지 확인해 보겠습니다. SELECT COUNT(*) FROM P2P_EKPO 문을 사용하여 카운트가 27937인지 확인합니다.
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/xzsy7idhkuhq-image.png)
+
+4. 쿼리에서 SELECT COUNT 문을 지우고 돌아가십시오. 템플릿을 변경한 경우 이러한 변경 사항을 저장할지 묻는 메시지가 표시됩니다. 템플릿을 그대로 유지하려면 "삭제하고 그대로 두기"를 선택할 수 있습니다.
+
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/9f0jx418a66g-image.png)
+
+5. 적절한 템플릿을 사용하여 EKKO 테이블 과 LFA1 테이블에 대해 1~4단계를 반복 합니다.
+매번 SELECT COUNT(*)를 사용하여 계산하여 확인하십시오.
+   
+   도움이 되는 몇 가지 추가 힌트:
+    a. 변환을 만들 때 템플릿을 선택할 수 있습니다.
+    
+    ![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/c14lixbnknq4-image.png)
+
+    b. 이러한 작업 템플릿은 "시스템에 연결" 과정에서 다운로드한 Process Connector에서 가져왔습니다.
+    c. 템플릿이 없습니까? 스크립트는 다음과 같습니다.
+    
+    - P2P_엑코
+            
+        ```
+        DROP TABLE IF EXISTS P2P_EKKO;
+        CREATE TABLE P2P_EKKO AS (
+        SELECT EKKO.*
+        FROM EKKO
+        WHERE EKKO.BSTYP = 'F'
+        AND EXISTS (
+                SELECT * FROM EKPO
+                WHERE 1=1
+                    AND EKPO.MANDT = EKKO.MANDT
+                    AND EKPO.EBELN = EKKO.EBELN
+        ));
+        ```
+        
+    - P2P_LFA1
+        ```
+        DROP TABLE IF EXISTS P2P_LFA1;
+        CREATE TABLE P2P_LFA1 AS (
+        SELECT LFA1.*
+        FROM LFA1
+        WHERE EXISTS (
+            SELECT * FROM EKKO
+            WHERE 1=1
+            AND EKKO.BSTYP = 'F'
+            AND EKKO.MANDT = LFA1.MANDT
+            AND EKKO.LIFNR = LFA1.LIFNR 
+            AND EXISTS (
+                SELECT * FROM EKPO
+                    WHERE 1=1
+                    AND EKPO.MANDT = EKKO.MANDT
+                    AND EKPO.EBELN = EKKO.EBELN
+        )));
+        ```
+
+결과
+
+다음은 데이터 작업 및 작업의 모습입니다.
+
+![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/rfj9uhrylsut-image.png)
+
+당신이 본 SQL 스크립트는 압도적일 수 있지만 기본 사항은 항상 동일하게 유지되므로 걱정하지 마십시오.
+
+1. DROP TABLE IF EXISTS - 상단에 drop table 문을 사용하여 스크립트를 반복 가능하게 만듭니다.
+2. CREATE TABLE - 테이블 이름 지정
+3. SELECT - 필요한 데이터를 선택합니다.
+4. FROM / JOIN / WHERE - 조인 및 필터가 있는 기본 테이블을 나타냅니다.
+
+요약하자면 지금까지:
+
+1. 추출된 P2P 원시 데이터
+2. 활동 테이블 생성
+3. 활동 표에 추가된 활동
+4. 케이스 테이블(EKPO) 및 기타 마스터 데이터 테이블 추가
+
+이러한 기본 단계를 통해 이제 데이터 모델의 기반이 마련되었습니다. "데이터 모델 로드" 과정에서는 이 데이터를 선택하여 데이터 모델에 로드합니다.
+
 ### 35 변환 문제 해결
+
+새 변환을 생성할 때 항상 수동으로 실행하여 제대로 작동하는지 확인해야 합니다. 이렇게 하면 구문 오류가 있거나 결과에 문제가 있는지 미리 알 수 있습니다. 추출과 마찬가지로 SQL을 스크립팅한 직후에 테스트하면 나중에 전체 데이터 작업을 실행할 때 오류를 방지하는 데 도움이 됩니다. 다음은 주의해야 할 몇 가지 간단한 일반적인 오류입니다.
+
+- 세미콜론이 추가되었습니까? : DROP TABLE 또는 독립 쿼리 뒤에 세미콜론이 없으면 스크립트가 실행되지 않습니다.
+- 올바른 따옴표를 사용하고 있습니까? : 때때로 언어나 키보드에서 "A" 곧은 문자 대신 "A" 또는 «A»와 같은 다른 유형의 인용 부호를 입력할 수 있습니다. 이로 인해 오류가 발생합니다.
+- 밑줄 누락 또는 추가?: 특히 템플릿 없이 스크립팅할 때 활동 테이블 열 중 하나에 밑줄을 추가하는 것을 잊을 수 있습니다.
+- 여분의 라인(반환) 공간?: 믿거나 말거나, 여분의 빈 라인으로 인해 실행 시 오류가 발생할 수 있습니다. 오류가 명확하지 않거나 단순히 빈 따옴표 ""를 나타내는 경우 어딘가에 빈 줄이 있을 수 있습니다.
+- 테이블/열의 철자가 틀렸습니까?: 스크립트가 실행 중이 아닐 때 포착하기 어려운 경우가 있습니다. 즉, 로그의 오류 또는 스크립트를 수동으로 실행할 때 일반적으로 오류가 발생한 행이나 테이블 또는 열이 존재하지 않음을 알려줍니다.
+
+![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/zcxxtdikwxv2-image.png)
 
 ### 36 고성능 변환 쓰기
 
+간단히 말해 스크립트를 `작성하는 방식이 성능에 영향을 미칩`니다. 변환 작업의 성능 향상은 EMS SQL 변환 향상 과정에서 다루는 중요하고 큰 주제입니다. 지금은 다음 기본 사항을 고려하십시오.
+
+- 가능한 경우 SELECT *를 피하고 시스템 부하를 줄이는 데 `필요한 열만 선택`합니다.
+- SELECT DISTINCT는 과세 문이므로 가능하면 피하십시오. DISTINCT가 필요하다는 것은 일반적으로 쿼리 또는 소스 시스템 `데이터에서 중복이 발생하고 있음을 의미`합니다. 대안에 대한 자세한 내용은 SQL 모범 사례 과정에서 확인하세요.
+- 가능한 경우 `조건을 추출로 이동`합니다 . 예를 들어 간단한 사용 사례에서 EKKO.BSTYP = "F"는 EKKO 테이블 추출로 이동할 수 있습니다.
+- WHERE 조건을 `JOINS로 직접 이동`합니다. 이것은 EKKO.BSTYP = 'F'로 한 것입니다. 스크립트 끝에 WHERE 문을 사용하여 적용할 수 있었지만 JOIN에 직접 추가했습니다.
+
+![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/xuk0166yo4ew-image.png)
+
+- 가능한 경우 JOIN 대신 `WHERE EXISTS를 사용`하십시오 . 다른 테이블에서만 필터링해야 하는 경우에는 JOIN을 사용하지 마십시오. 이것은 P2P_EKPO 테이블을 생성할 때 하지 않은 것입니다. 결과는 동일하지만 WHERE EXISTS가 더 효율적입니다. 다음은 측면 비교입니다.
+
+![](https://d3i9g4671ronu3.cloudfront.net/course-uploads/1cc62825-20df-4077-8216-a9df1132a5ad/8804vowfgv7u-image.png)
+
+이러한 사항 중 일부가 혼란스러워 보이더라도 걱정하지 마십시오. [EMS SQL 변환 향상 과정](https://academy.celonis.com/courses/sql-best-practices) 에서 이 주제에 대해 자세히 알아볼 수 있습니다 . 시간이 지남에 따라 변환을 읽고 올바른 선택을 할 수 있습니다.
+
 ### 37 데이터 작업 변환 요약
+
+Marketplace에서 Process Connectors로 작업을 시작하면 변환에서 테이블과 보기를 모두 보게 됩니다. 차이점을 살펴보겠습니다.
+
+||||
+|---|---|---|
+| |	테이블|	견해|
+|정의|	Vertica에서 테이블은 관련 데이터 항목의 모음 이며 열과 행으로 구성됩니다.|	뷰는 하나 이상의 SELECT 문을 캡슐화하는 저장된 쿼리입니다. 뷰는 실행 시 데이터베이스의 데이터에 동적으로 액세스하고 데이터를 계산합니다.|
+|사용 사례|	생성한 항목 에 변환에서 액세스해야 하는 경우 테이블을 사용하는 것이 더 빠릅니다. 테이블을 사용하면 계산이 한 번 완료되고 나중에 테이블에 액세스할 수 있기 때문입니다.|	보기를 사용하는 경우 액세스하려고 할 때마다 결과를 새로 계산합니다 . 변환에서 액세스할 수 없는 항목을 생성하려는 경우 참조일 뿐이므로 보기를 사용하는 것이 더 빠릅니다.|
+|예|	P2P 예에서는 모든 활동 추가 변환에서 EKPO 및 EKKO 테이블을 조인합니다. 이 조인을 테이블로 저장하면 시스템에서 반복적인 계산을 많이 줄일 수 있습니다 . 대부분의 경우 이러한 종류의 재사용 테이블은 임시 테이블로 표시됩니다(예: CREATE TABLE TMP_P2P_EKPO_EKKO).|	P2P 예에서 P2P_EKPO, P2P_EKKO 및 P2P_LFA1 테이블은 다른 변환에서 사용되지 않고 데이터 모델에만 필요하므로 보기가 될 수 있습니다.|
 
 ## 4 REPLICATION COCKPIT - 변환 설정
 
