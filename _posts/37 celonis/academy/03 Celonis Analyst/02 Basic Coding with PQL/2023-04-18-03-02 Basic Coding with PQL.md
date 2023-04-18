@@ -262,8 +262,39 @@ INDEX_ACTIVITY_LOOP("ACTIVITIES"."ACTIVITY")
 ![](../images/37 celonis/230418/20230418163725.png)
 
 
+가격 변경 활동이 없을 때 벤더 평균 처리 시간
+
+아래 쿼리 나머지는 다 맞추고 빈값 2개가 틀렸었음 (아직 완벽하게 이해는 하지 못한 듯) 
+
+![](../images/37 celonis/230418/20230418165517.png)
+
+만약에 '가격 변경 활동이 포함된 사례의 처리 시간'을 계산하려면
+
+NOT 을 빼면 될것 같음
 
 
+각 공급업체의 '수량 변경'과 관련하여 재작업 비율을 표시하는 열을 위의 표에 추가하고 싶습니다 .
 
+![](../images/37 celonis/230418/20230418170005.png)
 
+아래는 실제 답인데, 풀기 어려운거 봐서 다시 봐야 될듯
 
+![](../images/37 celonis/230418/20230418170135.png)
+
+아래 두개 차이를 조금 확실하게 집고 넘어갈 필요가 있음
+
+- INDEX_ACTIVITY_TYPE
+
+- INDEX_ACTIVITY_ORDER
+
+![](../images/37 celonis/230418/20230418170252.png)
+
+조그마한 팁
+
+![](../images/37 celonis/230418/20230418170957.png)
+
+![](../images/37 celonis/230418/20230418171007.png)
+
+![](../images/37 celonis/230418/20230418171019.png)
+
+[PQL(Process Query Language) 설명서](https://docs.celonis.com/)
