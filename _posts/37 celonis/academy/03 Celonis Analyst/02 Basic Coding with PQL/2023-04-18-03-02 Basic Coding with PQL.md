@@ -229,6 +229,40 @@ AVG (CASE WHEN CALC_REWORK ("ACTIVITIES"."ACTIVITY" =
 'Change Quantity') > 1 THEN 1 ELSE 0 END) 
 ```
 
+아래 내용은 정확히 이해는 못함.
+
+![](../images/37 celonis/230418/20230418160950.png)
+
+색인 (index)
+
+![](../images/37 celonis/230418/20230418161856.png)
+
+![](../images/37 celonis/230418/20230418161927.png)
+
+![](../images/37 celonis/230418/20230418161953.png)
+
+![](../images/37 celonis/230418/20230418162013.png)
+
+Case 1은 3단계 후에 종료되고 Case 2는 2단계 후에 이미 종료됩니다.
+
+사례 1은 사례 2보다 한 단계 더 긴 프로세스입니다.
+
+분석 또는 계산을 위해 때때로 INDEX_ACTIVITY_ORDER 결과의 역순이 필요할 수 있습니다.
+
+사례 1의 경우 여러 개의 부분 송장이 도착할 것으로 예상됩니다.
+
+이벤트 시간을 보면 송장이 사례 1에 대해 스캔한 두 번째 송장임을 쉽게 알 수 있습니다.
+
+```
+INDEX_ACTIVITY_TYPE("ACTIVITIES"."ACTIVITY")
+and
+INDEX_ACTIVITY_LOOP("ACTIVITIES"."ACTIVITY")
+```
+
+![](../images/37 celonis/230418/20230418163725.png)
+
+
+
 
 
 
