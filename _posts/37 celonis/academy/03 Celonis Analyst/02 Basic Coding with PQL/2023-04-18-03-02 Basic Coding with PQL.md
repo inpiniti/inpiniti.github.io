@@ -222,7 +222,12 @@ THEN 'Rework' ELSE 'No Rework' END
 
 ![](../images/37 celonis/230418/20230418155416.png)
 
+재작업 비율도 계산할수 있는데,
 
+```
+AVG (CASE WHEN CALC_REWORK ("ACTIVITIES"."ACTIVITY" = 
+'Change Quantity') > 1 THEN 1 ELSE 0 END) 
+```
 
 
 
