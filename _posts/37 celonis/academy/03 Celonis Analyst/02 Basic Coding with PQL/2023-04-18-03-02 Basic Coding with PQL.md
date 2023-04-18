@@ -50,4 +50,31 @@ FILTER "EKPO"."TXZ01" IN_LIKE ('Apple%', 'NacBook Pro');
 
 ![](../images/37 celonis/230418/20230418120219.png)
 
+![](../images/37 celonis/230418/20230418130849.png)
+
+![](../images/37 celonis/230418/20230418130924.png)
+
+LOWER | UPPER | REVERSE
+
+소문자로 | 대문자로 | 거꿀로
+
+![](../images/37 celonis/230418/20230418131341.png)
+
+![](../images/37 celonis/230418/20230418131353.png)
+
+trim 공백 자르기임
+
+![](../images/37 celonis/230418/20230418131514.png)
+
+![](../images/37 celonis/230418/20230418131819.png)
+
+![](../images/37 celonis/230418/20230418131905.png)
+
+![](../images/37 celonis/230418/20230418131955.png)
+
+![](../images/37 celonis/230418/20230418132042.png)
+
+![](../images/37 celonis/230418/20230418132059.png)
+
+![](../images/37 celonis/230418/20230418132306.png)
 
