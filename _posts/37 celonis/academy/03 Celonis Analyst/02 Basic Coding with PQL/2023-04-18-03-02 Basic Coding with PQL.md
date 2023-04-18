@@ -205,13 +205,22 @@ PQL 구문은
 
 ![](../images/37 celonis/230418/20230418153518.png)
 
+![](../images/37 celonis/230418/20230418154418.png)
 
+아래 그림에서 수량변경이 두 번일어나고 있는데,
 
+![](../images/37 celonis/230418/20230418155204.png)
 
+![](../images/37 celonis/230418/20230418155255.png)
 
+재작업 여부도 알수 있는데,
 
+```
+CASE WHEN CALC_REWORK ("ACTIVITIES"."ACTIVITY" = 'Change Quantity') > 1
+THEN 'Rework' ELSE 'No Rework' END
+```
 
-
+![](../images/37 celonis/230418/20230418155416.png)
 
 
 
