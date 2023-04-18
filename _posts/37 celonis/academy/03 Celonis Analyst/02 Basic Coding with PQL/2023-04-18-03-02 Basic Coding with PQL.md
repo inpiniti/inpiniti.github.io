@@ -34,7 +34,6 @@ null 값 치환 용인것 같습니다.
 
 ![](../images/37 celonis/230418/20230418111456.png)
 
-
 ![](../images/37 celonis/230418/20230418111737.png)
 
 ![](../images/37 celonis/230418/20230418111757.png)
@@ -44,5 +43,11 @@ null 값 치환 용인것 같습니다.
 ![](../images/37 celonis/230418/20230418112119.png)
 
 ![](../images/37 celonis/230418/20230418112216.png)
+
+FILTER "EKPO"."TXZ01" LIKE 'Apple%';
+
+FILTER "EKPO"."TXZ01" IN_LIKE ('Apple%', 'NacBook Pro');
+
+![](../images/37 celonis/230418/20230418120219.png)
 
 
