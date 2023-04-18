@@ -328,7 +328,13 @@
     padding: 10px;
     margin: 10px;
 }
+.aside {
+  display: none;
+}
 @media (min-width: 110em) {
+    .aside {
+      display: block;
+    }
     .toc {
         width: 300px;
         display: block;
