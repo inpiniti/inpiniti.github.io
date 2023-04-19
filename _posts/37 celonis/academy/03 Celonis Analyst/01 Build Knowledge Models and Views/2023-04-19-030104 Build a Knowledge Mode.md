@@ -109,8 +109,36 @@ AVG(DAYS_BETWEEN(PU_FIRST("BSEG", "_CEL_AP_ACTIVITIES"."EVENTTIME",
 ## 32 레코드 매개변수 검토[4:00]
 ## 33 Knowledge Models에 "송장" 추가 [12:00]
 
+아래 그림은 YAML으로 레코드 편집 한 것 입니다. 
+
+![](../images/37 celonis/230419/20230419151424.png)
+
+Preview 에 아무 것도 안보이긴 한데, Attributes 에 3개가 추가 되어 있는것을 확인 할 수 있고,
+
+![](../images/37 celonis/230419/20230419151603.png)
+
+Attributes 를 열람해보면 Preview 가 나오는 것을 확인 가능합니다.
+
+![](../images/37 celonis/230419/20230419151716.png)
+
+Record Preview에 아무것도 표시 되지 않는 것은,
+예제의 Records 에는 pql 이 안들어가 있어서 그럴수도 있을것 같습니다.
+
 # 4 팁과 요령
 ## 41 PQL 편집기 사용 [2:30]
+
+YAML 에서는 pql 구문에서 우클릭을 하면 되고,
+비쥬얼 모드에서는 PQL 옆의 연필모양 아이콘을 클릭하면 됩니다.
+
 ## 42 CTRL + 스페이스바 [1:00]
+
+일반 에디터와 마찬가지로 ctrl + 스페이스 바로 도움 같은걸 받을수 있습니다.
+
 ## 43 데이터 모델 자세히 알아보기 [0:40]
-## 44 축하해요! [0:20]
+
+지식 모델의 기반인 실제 데이터를 데이터 모델에서 조금 더 자세히 볼수 있는데,  
+오른쪽 상단의 버튼을 클릭하면 Data Model을 미리 볼 수 있습니다.
+
+또한 데이터 탐색기로 조금 더 심층 분석이 가능한데,
+
+[데이터 탐색기 소개](https://academy.celonis.com/learn/course/introduction-to-data-explorer) 에서 자세히 확인 할 수 있습니다.
