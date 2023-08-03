@@ -1,8 +1,8 @@
 ---
-title: npm
+title: icon
 author: JUNG YoungKyun
-date: 2023-05-26
-category: 41 npm
+date: 2023-08-03
+category: 43 icon
 layout: post
 ---
 
